@@ -1,0 +1,12 @@
+# After how many the multi-block edit mode of the wand should stop.
+# This has no effect on performance, but you might want to limit it anyways.
+# Default: 262144
+# Default: 262144
+# Range: > 0
+max_block_edits = 262144
+# The maximum number of blocks that can be modified in a single tick by multi-block edit.
+# If you're experiencing performance issues you might want to lower this number.
+# Default: 256
+# Default: 256
+# Range: > 0
+max_block_edits_per_tick = 256

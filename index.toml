@@ -370,7 +370,7 @@ hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "94681a614eb9d3393c4980b261a8309fb336f3fc282d3bec235366a763504129"
+hash = "638cea0ba7d005764a27fcb88989de58d5ba45289257640d19ad9c492b3b4f00"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -403,6 +403,14 @@ hash = "de7b2c20171712fb50a7cce9481430d68a847bf669566ac8ac8957d32010e003"
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
+
+[[files]]
+file = "config/crystalix/crystalix-client.toml"
+hash = "95748e7f51987ed8cb18f7e2a67a86750cea7920a96a86e1476a4049a031f408"
+
+[[files]]
+file = "config/crystalix/crystalix-common.toml"
+hash = "5c6d0bc96029fbba8f1fd8d4a06662334172a72bd83608b0b1142ea91c2e324d"
 
 [[files]]
 file = "config/curios-client.toml"
@@ -526,7 +534,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/euphoria_patcher/data.json"
-hash = "d731568590aeda5efba01be11a4a8bf3fa90e9f8f2ca131d941d87fd96f0ea92"
+hash = "533f28cb54b20e62e9d81cb69a24d3a69e30b0b75bda1d7377bbf2c2f82d19e5"
 
 [[files]]
 file = "config/euphoria_patcher/settings.toml"
@@ -590,7 +598,7 @@ hash = "273aa1c70694dbd1b9c6f03b2644ffdda8ceba5afe2b4125e35a3294abeaeb41"
 
 [[files]]
 file = "config/fancymenu/customization/craftoria.txt"
-hash = "1e731e2ddb49a44bb8e191f3f79a2604f8a2fee86b264a903f9b3c33fbcb051e"
+hash = "1e95ceea567e83103b1b4256ee8e5134dfad0bf36caea48b4f4beff8a02b34af"
 
 [[files]]
 file = "config/fancymenu/customization/create_world_screen_layout.txt"
@@ -838,19 +846,19 @@ hash = "085ae084a98180d4659ef60f9cf91281152a6e7b74a5a76c53f86e4f8f0d17f9"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "95011dc5abbd9fbd500213d829fc3c5aaf105fa2147b95ad85a22a89ec936718"
+hash = "13f6814832fe818e7127953a9a9cf60720d7199f0596b290a6cef2b852dd1193"
 
 [[files]]
 file = "config/jade/profiles/1/jade.json"
-hash = "0a9494cd9366c0c5f19ca5170845666bb8b7bacd1cb24d0246edcbed9187f41a"
+hash = "48877ea6de8a32fa3d5800bcf0afbe5fe56f84ae2f217fa0afdf251c3a8e49cf"
 
 [[files]]
 file = "config/jade/profiles/2/jade.json"
-hash = "508621b62a7e440e4d532a3ca92c83286367ee18fc66bee6625b84cf089b7025"
+hash = "3c128ce5872e160c9cb4401ce6f697ad07eb3c46fd79bb5875d248cd6b929cc4"
 
 [[files]]
 file = "config/jade/profiles/3/jade.json"
-hash = "a8d603f85f4417f686280fb66f2b0ba41f4f616e9fbcbfa13c236f53d28e29b9"
+hash = "36412efbac5c382360f98987d11aaee9ec2ac9ff83ebadd547a90545f8864745"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -858,7 +866,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "a256542901508c266c7de0bb934145655bf8e25a852e9d66373d01807b55f709"
+hash = "26950b48a3ee187494d0ebd22703ad6e557bb1e84b43833976fdba4542324f74"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -870,7 +878,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "302c7cf801aab5db69fe8d197679a4b4e559f410d06f720fbb8d2dbfb1e43708"
+hash = "aaf1ce515037792fcec9deced722fbe902a50722c775ebe461b67d42ab8c0d61"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -894,7 +902,7 @@ hash = "a03d4ae7af9dd6b7fede411e1922a01daa120a3f7c5c5fe99e7b6ca6d0f7071c"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "8e771849b9521ff9a4d86343b98517543ffaefa81978f821e32af380c611a776"
+hash = "fe9a848f30b7802be6a494ee0edb1be4ba53ee3f02d062b5aa360b859da3fbfb"
 
 [[files]]
 file = "config/jei/world/local/Development/lookupHistory.json"
@@ -1271,6 +1279,11 @@ hash = "27d54fc0141dbea25f392bd1a387be7747cdf3b140d655633d96c658bd6f7c61"
 metafile = true
 
 [[files]]
+file = "mods/ae2-import-export-card.pw.toml"
+hash = "ce80058e93a3f2fe050dda68387881b20dc029aff50cea4024e56e2681fa2c05"
+metafile = true
+
+[[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "539ddd8c776ebd5bdecd8022827a2ef81099c5a9ab843e64900a91c2e5ba01a9"
 metafile = true
@@ -1411,13 +1424,13 @@ hash = "ca87519742fe5d70839f1e6fa19bf41a1a765ce6eeb21fd0e2c232cddbb8dd46"
 metafile = true
 
 [[files]]
-file = "mods/curios.pw.toml"
-hash = "67a5070c86f930c53411b3486de72b8ef40c15098d14a90827790a4f822be350"
+file = "mods/crystalix.pw.toml"
+hash = "e150c63dd9eac858d67b08846be9e52a8eab840a815053c96372543d453adaec"
 metafile = true
 
 [[files]]
-file = "mods/deepnull-reforged.pw.toml"
-hash = "ec802c1b3c336d02775a3265ade665ec631f9aef20f45e01112f0c75e72e5050"
+file = "mods/curios.pw.toml"
+hash = "67a5070c86f930c53411b3486de72b8ef40c15098d14a90827790a4f822be350"
 metafile = true
 
 [[files]]
@@ -1517,7 +1530,7 @@ metafile = true
 
 [[files]]
 file = "mods/fwa.pw.toml"
-hash = "e8ee6e5b15ceb25da03f40652c6520c279cab6a0a32b260c2a92cdd4b78d706b"
+hash = "7f10703621f1883aa0c69e3f0d4700543e2d37328d77703fdceeb5fcd05b1047"
 metafile = true
 
 [[files]]
@@ -1623,6 +1636,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "0150ba84019b95fb1b0cdb50343e4a4a23c8e5dc7ea5506b579a793224b5fb7e"
+metafile = true
+
+[[files]]
+file = "mods/luminax.pw.toml"
+hash = "0719b7c1a7a9f3faa5c61ad0cc9d0479de447c25ffbde2dc7166530b6a3de1e5"
 metafile = true
 
 [[files]]
@@ -1947,4 +1965,4 @@ metafile = true
 
 [[files]]
 file = "version_info.json"
-hash = "30b75913092bf7e6d64606640faf397201b41e620dc57805b82718d5c8433d8b"
+hash = "3841ab062dcc891827f622bacd14359760a8c41373feb0c21e917cee737a7c80"

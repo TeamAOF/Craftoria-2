@@ -1,0 +1,6 @@
+# Decides when Jade should be displayed
+# Default: WAND
+# ALWAYS: Only show Jade while holding a wand
+# WAND: Only show Jade while holding a wand
+# NEVER: Only show Jade while holding a wand
+jade_mode = "WAND"

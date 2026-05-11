@@ -21,6 +21,14 @@
     "curseForgeHash": 1706730532,
     "modrinthHash": "fc70530b8eaae6d4f1db9eebd9627b6d298662a3"
   },
+  "ae2importexportcard-26.1.2-2.0.0.jar": {
+    "jarName": "ae2importexportcard-26.1.2-2.0.0.jar",
+    "modId": "ae2importexportcard",
+    "name": "AE2 Import Export Card",
+    "version": "26.1.2-2.0.0",
+    "curseForgeHash": 854049533,
+    "modrinthHash": "304160aaa3e3f0eaa0d98eb383eb4cc0af5cd2e6"
+  },
   "AI-Improvements-26.1.1-0.5.4.jar": {
     "jarName": "AI-Improvements-26.1.1-0.5.4.jar",
     "modId": "aiimprovements",
@@ -245,6 +253,14 @@
     "curseForgeHash": 4071986289,
     "modrinthHash": "ded94403b8a2b62d79517c5fc46c727a83f6a6b1"
   },
+  "crystalix-4.0.0+26.1.2.jar": {
+    "jarName": "crystalix-4.0.0+26.1.2.jar",
+    "modId": "crystalix",
+    "name": "Crystalix",
+    "version": "4.0.0",
+    "curseForgeHash": 1725603932,
+    "modrinthHash": "bf2c894b0339ecdf268cbe4dbbf11e7705d5ebde"
+  },
   "curios-neoforge-15.0.0-beta.2+26.1.2.jar": {
     "jarName": "curios-neoforge-15.0.0-beta.2+26.1.2.jar",
     "modId": "curios",
@@ -252,14 +268,6 @@
     "version": "15.0.0-beta.2+26.1.2",
     "curseForgeHash": 3526547796,
     "modrinthHash": "231161937c73eadc0313bff7abaa3486e0a89853"
-  },
-  "deepnull-reforged-4.2.0-beta.jar": {
-    "jarName": "deepnull-reforged-4.2.0-beta.jar",
-    "modId": "deepnullreforged",
-    "name": "DeepNull Reforged",
-    "version": "4.2.0-beta",
-    "curseForgeHash": 596189080,
-    "modrinthHash": "f926f5a3908c30483ed85b8d07c3d95f93f5ade1"
   },
   "defaultoptions-neoforge-26.1-26.1.0.1.jar": {
     "jarName": "defaultoptions-neoforge-26.1-26.1.0.1.jar",
@@ -421,13 +429,13 @@
     "curseForgeHash": 373824598,
     "modrinthHash": "ddfcc9532fb3004e4cebdbab8eaf48e6869e9b31"
   },
-  "fwa+26.1.2-neoforge-1.2.19.jar": {
-    "jarName": "fwa+26.1.2-neoforge-1.2.19.jar",
+  "fwa+26.1.2-neoforge-1.2.20.jar": {
+    "jarName": "fwa+26.1.2-neoforge-1.2.20.jar",
     "modId": "fwa",
     "name": "Fancy World Animations",
-    "version": "1.2.19",
-    "curseForgeHash": 1207879266,
-    "modrinthHash": "7adf6a1888be1fe5f2b5983126623bfbcd78216f"
+    "version": "1.2.20",
+    "curseForgeHash": 6423083,
+    "modrinthHash": "7e8ffc7eafe37f261bd4fa1cb0ca8ae9aeb30a85"
   },
   "fzzy_config-0.7.6+26.1+neoforge.jar": {
     "jarName": "fzzy_config-0.7.6+26.1+neoforge.jar",
@@ -585,6 +593,14 @@
     "version": "1.22.36.109",
     "curseForgeHash": 2385445304,
     "modrinthHash": "8128645b8cf4d34440869cff9b3e59d915e41610"
+  },
+  "luminax-2.0.0+26.1.2.jar": {
+    "jarName": "luminax-2.0.0+26.1.2.jar",
+    "modId": "luminax",
+    "name": "Luminax",
+    "version": "2.0.0",
+    "curseForgeHash": 5438206,
+    "modrinthHash": "745802e05bc386a3a200a3ebb241beffc413b6f3"
   },
   "mcw-bridges-3.1.2-mc26.1neoforge.jar": {
     "jarName": "mcw-bridges-3.1.2-mc26.1neoforge.jar",

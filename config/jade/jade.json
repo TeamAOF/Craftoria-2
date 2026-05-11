@@ -49,6 +49,14 @@
       "framed_item_frame": true,
       "framed_block_generic": true
     },
+    "eclipticseasons": {
+      "greenhouse_core": true,
+      "animal": true,
+      "cauldron": true,
+      "crop": true,
+      "snowy_status": true,
+      "crop.shift_hint": true
+    },
     "minecraft": {
       "item_storage.show_name_amount": 5,
       "furnace": true,
@@ -105,14 +113,6 @@
       "item_storage.sort": false,
       "painting": true
     },
-    "eclipticseasons": {
-      "greenhouse_core": true,
-      "animal": true,
-      "cauldron": true,
-      "crop": true,
-      "snowy_status": true,
-      "crop.shift_hint": true
-    },
     "theurgy": {
       "mercury_flux": true
     },
@@ -123,6 +123,9 @@
       "block": true,
       "entity": true,
       "entity_variant": true
+    },
+    "crystalix": {
+      "crystalix": true
     },
     "jade": {
       "coordinates.rel": false,
@@ -169,7 +172,8 @@
     "themesHash": -825076755,
     "usersHash": [
       -106987458,
-      18335576
+      18335576,
+      -362419943
     ]
   }
 }

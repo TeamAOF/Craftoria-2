@@ -1,3 +1,21 @@
+# Craftoria | v0.3.0
+
+_Neoforge_ 26.1.2.43-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.3.0.md)_
+
+### Added Mods ✅
+
+* [AE2 Import Export Card](https://www.curseforge.com/minecraft/mc-mods/ae2-import-export-card)
+* [Crystalix](https://www.curseforge.com/minecraft/mc-mods/crystalix)
+* [Luminax](https://www.curseforge.com/minecraft/mc-mods/luminax)
+
+### Removed Mods ❌
+
+* [DeepNull Reforged (Dank Null) \[NeoForge/Fabric\]](https://curseforge.com/projects/1483277)
+
+### Bug Fixes 🪲
+
+* Item pickup delay bug `AK`
+---
 # Craftoria | v0.2.0
 
 _Neoforge_ 26.1.2.43-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.2.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.2.0.md)_
