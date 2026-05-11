@@ -1,0 +1,13 @@
+name = "Catalogue"
+filename = "catalogue-neoforge-26.1.2-1.12.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c3295e3ef2500a64c62851cface13971c7b4e54d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7943161
+project-id = 459701

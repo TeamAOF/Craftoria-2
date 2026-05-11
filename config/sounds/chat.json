@@ -1,0 +1,22 @@
+{
+	"messageSoundEffect": {
+		"id": "message",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.8
+	},
+	"mentionSoundEffect": {
+		"id": "mention",
+		"soundEvent": "minecraft:block.note_block.chime",
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.9
+	},
+	"mentionKeywords": [
+		"@HeyAmAK"
+	],
+	"ignoreSystemChats": false,
+	"enableChatSoundCooldown": false,
+	"chatSoundCooldown": 0.5
+}

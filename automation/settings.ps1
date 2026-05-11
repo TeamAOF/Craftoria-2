@@ -20,13 +20,13 @@ $CURSEFORGE_PROJECT_ID = 1535822
 # =====================================================================//
 
 # This is the modpack name as seen in its CurseForge url: https://www.curseforge.com/minecraft/modpacks/[craftoria]
-$MODPACK_NAME = "Craftoria-2"
+$MODPACK_NAME = "craftoria-2"
 
 # Name of the Modpack in the ZIP File
 $CLIENT_NAME = "Craftoria 2"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "0.1.0"
+$MODPACK_VERSION = "0.2.0"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
@@ -38,7 +38,7 @@ $LAST_MODPACK_VERSION = "0.1.0"
 $MODLOADER = "NeoForge"
 
 # Version of the modloader
-$MODLOADER_VERSION = "26.1.2.42"
+$MODLOADER_VERSION = "26.1.2.43-beta"
 
 # Minecraft Version (for display purposes)
 $MINECRAFT_VERSION = "26.1.2"
@@ -53,7 +53,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 # Changelog
 # Must be a single string.
-$CLIENT_CHANGELOG = "[![](https://i.imgur.com/Wkjf3LR.png)](https://github.com/TeamAOF/Craftoria/blob/main/changelogs/CHANGELOG.md)"
+$CLIENT_CHANGELOG = "[![](https://i.imgur.com/Wkjf3LR.png)](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/CHANGELOG.md)"
 
 # =====================================================================//
 #  CURSEFORGE PROJECT SETTINGS
@@ -64,7 +64,7 @@ $CLIENT_CHANGELOG = "[![](https://i.imgur.com/Wkjf3LR.png)](https://github.com/T
 # @(7722) - is Minecraft 1.15.2
 # @(8134) - is Minecraft 1.16.4
 # More can be found by running GetGameVersions
-$GAME_VERSIONS = @(16085)
+$GAME_VERSIONS = @(16082)
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "release"

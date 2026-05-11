@@ -1,0 +1,13 @@
+name = "BisectHosting Server Integration Menu [NEOFORGE]"
+filename = "BHMenu-NeoForge-26.1-2.4.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b27285c0ef7178dbbca845c4a69de56160ee392"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8021692
+project-id = 1084468

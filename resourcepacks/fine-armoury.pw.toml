@@ -1,0 +1,13 @@
+name = "(Bee's) Fine Armory"
+filename = "Fine Armoury Snap 1.8-a.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f24c43c62cd7b739124a0aa1d343588175a415de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8038878
+project-id = 983707

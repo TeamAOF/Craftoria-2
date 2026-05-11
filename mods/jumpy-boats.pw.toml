@@ -1,0 +1,13 @@
+name = "Jumpy Boats"
+filename = "jumpboat-26.1.2-1.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb7e7f0d9042ee4536e800451859f6a081aad147"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7931619
+project-id = 542110

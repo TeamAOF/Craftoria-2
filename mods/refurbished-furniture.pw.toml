@@ -1,0 +1,13 @@
+name = "MrCrayfish's Furniture Mod: Refurbished"
+filename = "refurbished_furniture-neoforge-26.1.2-1.0.23.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e9f650e87006401714b2e027d547d93647d0d51f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7943178
+project-id = 897116

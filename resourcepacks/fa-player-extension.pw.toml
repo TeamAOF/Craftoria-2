@@ -1,0 +1,13 @@
+name = "Fresh Animations: Player Extension"
+filename = "FA+Player-v1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff722654d6bc9e1a2d2cb1b811b7ea9281198c1e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7420591
+project-id = 1281029

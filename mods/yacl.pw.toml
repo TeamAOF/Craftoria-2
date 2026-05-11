@@ -1,0 +1,13 @@
+name = "YetAnotherConfigLib"
+filename = "yet_another_config_lib_v3-3.9.3+26.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "21fc36b702f16a4587a9dbdced82840da819c321"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7904437
+project-id = 667299

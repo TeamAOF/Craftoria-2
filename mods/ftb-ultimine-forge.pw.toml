@@ -1,0 +1,13 @@
+name = "FTB Ultimine (NeoForge)"
+filename = "ftb-ultimine-neoforge-26.1.2.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ddfcc9532fb3004e4cebdbab8eaf48e6869e9b31"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7965974
+project-id = 386134

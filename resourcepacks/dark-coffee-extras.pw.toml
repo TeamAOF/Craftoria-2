@@ -1,0 +1,13 @@
+name = "Dark Coffee Extras"
+filename = "CoffeeGUI_JustTheHotbar_v03.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d9ce17b049837c22a7a67e42a5007ec903f43122"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7947547
+project-id = 1393337

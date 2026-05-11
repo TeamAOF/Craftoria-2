@@ -1,0 +1,17 @@
+# Time in minutes between an automatic backup of all players. 0 to disable.
+# Default: 10
+# Default: 10
+# Range: > 0
+backup_interval = 10
+# Maximum number of backups to keep.
+# Backups are taken automatically every X minutes.
+# Default: 10
+# Default: 10
+# Range: > 1
+max_backups = 10
+# Maximum number of old deaths to keep.
+# Old deaths are from graves which have already been claimed.
+# Default: 5
+# Default: 5
+# Range: > 1
+max_old_deaths = 5

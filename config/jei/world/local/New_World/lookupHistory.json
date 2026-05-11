@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mcwpaths:cobbled_deepslate_basket_weave_paving"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

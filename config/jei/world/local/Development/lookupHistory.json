@@ -1,0 +1,19 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"minecraft:oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:acacia_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_acacia_wood"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:electromagnet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:energized_gear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:prescient_powder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"enderio:powdered_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_5"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_4"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_panel_5"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_6"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:deep_null_0"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:upgrade_core"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"deepnullreforged:energy_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

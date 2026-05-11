@@ -1,0 +1,93 @@
+{
+	"hotbarScrollSoundEffect": {
+		"id": "hotbarScroll",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.2,
+		"enabledDynamic": true
+	},
+	"hotbarPickSoundEffect": {
+		"id": "hotbarPick",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.2,
+		"enabledDynamic": true
+	},
+	"inventoryOpenSoundEffect": {
+		"id": "inventoryOpen",
+		"soundEvent": "minecraft:ui.toast.in",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.5,
+		"enabledDynamic": true
+	},
+	"inventoryCloseSoundEffect": {
+		"id": "inventoryClose",
+		"soundEvent": "minecraft:ui.toast.out",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.5,
+		"enabledDynamic": false
+	},
+	"inventoryScrollSoundEffect": {
+		"id": "inventoryScroll",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 1.8,
+		"volume": 0.2
+	},
+	"typingSoundEffect": {
+		"id": "typing",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 1.6,
+		"volume": 0.4
+	},
+	"ignoreEmptyInventorySlots": false,
+	"itemDropSoundEffect": {
+		"id": "itemDrop",
+		"soundEvent": "minecraft:block.dispenser.launch",
+		"shouldPlay": true,
+		"pitch": 1.5,
+		"volume": 0.4,
+		"enabledDynamic": true
+	},
+	"itemCopySoundEffect": {
+		"id": "itemCopy",
+		"soundEvent": "minecraft:block.fire.extinguish",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.2,
+		"enabledDynamic": true
+	},
+	"itemDeleteSoundEffect": {
+		"id": "itemDelete",
+		"soundEvent": "minecraft:block.fire.extinguish",
+		"shouldPlay": true,
+		"pitch": 1.6,
+		"volume": 0.2,
+		"enabledDynamic": true
+	},
+	"itemDragSoundEffect": {
+		"id": "itemDrag",
+		"soundEvent": "minecraft:block.stone.hit",
+		"shouldPlay": true,
+		"pitch": 1.6,
+		"volume": 0.4,
+		"enabledDynamic": true
+	},
+	"itemClickSoundEffect": {
+		"id": "itemPick",
+		"soundEvent": "minecraft:block.stone.hit",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.4,
+		"enabledDynamic": true
+	},
+	"ignoreEmptyHotbarSlots": false,
+	"itemSoundCooldown": 0.05,
+	"enableItemSoundCooldown": true,
+	"enableDynamicItemSounds": true
+}

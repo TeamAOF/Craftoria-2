@@ -1,0 +1,13 @@
+name = "Sound​s"
+filename = "sounds-2.4.25+lts+26.1.2-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b7962b89e61c4e2168983920784d572f8ecd61c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8033658
+project-id = 925889

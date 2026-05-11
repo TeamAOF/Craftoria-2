@@ -1,0 +1,3 @@
+#Determines which worlds prompt for a backup when loaded with a newer Minecraft version.
+#Allowed Values: ALL, FAVORITED, NONE
+backupWorldType = "ALL"

@@ -1,0 +1,13 @@
+name = "Accelerated Decay"
+filename = "accelerated-decay-neoforge-26.1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8da9574d793517aab9a1aa404dfdfab9bd451502"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8004861
+project-id = 699872

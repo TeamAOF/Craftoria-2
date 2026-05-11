@@ -1,0 +1,13 @@
+name = "EpheroLib"
+filename = "epherolib-neoforge-26.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ad08ab39e5ecb5da862bdeedb75ffd5049119d91"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7937982
+project-id = 885449

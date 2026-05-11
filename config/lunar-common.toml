@@ -1,0 +1,78 @@
+#General settings
+[General]
+	#Chance of a Lunar Event happening when night falls [Default: 0.4]
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	lunarEventChance = 0.4
+
+#Event settings
+[Events]
+	#Weight of the Blood Moon Event [Default: 60]
+	# Default: 60
+	# Range: 0 ~ 100
+	bloodMoonWeight = 60
+	#Weight of the Crimson Moon Event [Default: 20]
+	# Default: 20
+	# Range: 0 ~ 100
+	crimsonMoonWeight = 20
+	#Weight of the Miner Moon Event [Default: 40]
+	# Default: 40
+	# Range: 0 ~ 100
+	minerMoonWeight = 40
+	#Weight of the White Moon Event [Default: 10]
+	# Default: 10
+	# Range: 0 ~ 100
+	whiteMoonWeight = 10
+	#Weight of the Tiny Moon Event [Default: 10]
+	# Default: 10
+	# Range: 0 ~ 100
+	tinyMoonWeight = 10
+	#Weight of the Big Moon Event [Default: 10]
+	# Default: 10
+	# Range: 0 ~ 100
+	bigMoonWeight = 10
+	#Weight of the Big Moon Event [Default: 5]
+	# Default: 5
+	# Range: 0 ~ 100
+	badOmenMoonWeight = 5
+	#Weight of the Hero Moon Event [Default: 5]
+	# Default: 5
+	# Range: 0 ~ 100
+	heroMoonWeight = 5
+	#Weight of the Eclipse Moon Event [Default: 2]
+	# Default: 2
+	# Range: 0 ~ 100
+	eclipseMoonWeight = 2
+
+#Crimson Replacement settings
+[Crimson]
+	#List of entities to replace during the Crimson Moon Event [Example: "minecraft:zombie,minecraft:zombified_piglin"]
+	crimsonReplacements = ["minecraft:zombie,minecraft:zombified_piglin", "minecraft:husk,minecraft:zombified_piglin", "minecraft:drowned,minecraft:zombified_piglin", "minecraft:skeleton,minecraft:wither_skeleton", "minecraft:creeper,minecraft:ghast", "minecraft:slime,minecraft:magma_cube", "minecraft:spider,minecraft:zoglin"]
+
+#Bad Omen settings
+[BadOmen]
+	#The max level of Bad Omen effect applied during the Bad Omen Moon Event (It will apply a level between 1 and this max) [Default: 3]
+	# Default: 3
+	# Range: 1 ~ 5
+	maxBadOmen = 3
+
+#Sleep settings
+[Sleep]
+	#Allow sleeping during the Blood Moon Event [Default: true]
+	bloodMoonSleeping = true
+	#Allow sleeping during the Crimson Moon Event [Default: true]
+	crimsonMoonSleeping = true
+	#Allow sleeping during the Miner Moon Event [Default: true]
+	minerMoonSleeping = true
+	#Allow sleeping during the White Moon Event [Default: true]
+	whiteMoonSleeping = true
+	#Allow sleeping during the Tiny Moon Event [Default: true]
+	tinyMoonSleeping = true
+	#Allow sleeping during the Big Moon Event [Default: true]
+	bigMoonSleeping = true
+	#Allow sleeping during the Bad Omen Moon Event [Default: true]
+	badOmenMoonSleeping = true
+	#Allow sleeping during the Hero Moon Event [Default: true]
+	heroMoonSleeping = true
+	#Allow sleeping during the Eclipse Moon Event [Default: true]
+	eclipseMoonSleeping = true

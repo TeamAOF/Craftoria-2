@@ -1,0 +1,137 @@
+[general]
+	#Whether ghost blocks are shown when you are holding a framed block
+	showGhostBlocks = true
+	#If true, an alternate renderer will be used for the placement preview. May solve issues with certain shaders
+	altGhostRenderer = false
+	#Set the opacity of the placement preview. 30 is almost completely transparent, 255 is fully opaque
+	# Default: 170
+	# Range: 30 ~ 255
+	ghostRenderOpacity = 170
+	#Whether certain framed blocks should show fancy hitboxes
+	fancyHitboxes = true
+	#If false only full block faces of framed blocks will be culled, if true all outer faces of framed blocks can be culled
+	detailedCulling = true
+	#Configures how detailed connected textures are supported.
+	#- If NONE, all connected textures support is disabled
+	#- If FULL_FACE, connected textures are supported on full faces
+	#- If FULL_EDGE, connected textures are supported as above and on faces whose connecting edge covers the full block width
+	#- If DETAILED, connected textures are supported as above and on most faces when interacting with other framed blocks
+	#Allowed Values: NONE, FULL_FACE, FULL_EDGE, DETAILED
+	conTexMode = "DETAILED"
+	#Configures the verbosity of messages displayed when a block cannot be used as a camo
+	#- If NONE, no message will be shown
+	#- If DEFAULT, a message will be shown when the block has a BlockEntity and isn't explicitly allowed or the block is explicitly disallowed
+	#- If DETAILED, a message will be shown as above or when a block is non-solid and not explicitly allowed
+	#Allowed Values: NONE, DEFAULT, DETAILED
+	camoMessageVerbosity = "DEFAULT"
+	#If true, ambient occlusion is applied to framed blocks which glow from applied glowstone dust.
+	#If false, the vanilla behavior of disabling AO for light-emitting blocks is used.
+	forceAoOnGlowingBlocks = true
+	#If true, item models will be rendered with their camo, if present.
+	#If false, item models will always be rendered without camo.
+	renderItemModelsWithCamo = true
+	#If true, all possible recipes of the Framing Saw will be added to EMI, else only the permutations using the Framed Cube will be added.
+	#This setting only has an effect when EMI is installed.
+	showAllRecipePermutationsInEmi = true
+	#Configures in which cases a framed block without a camo gets a solid model
+	#- If NEVER, the default frame texture will always be used
+	#- If DEFAULT, certain blocks will use the default frame texture with a solid background texture
+	#- If ALWAYS, all blocks will use the default frame texture with a solid background texture
+	#Allowed Values: NEVER, DEFAULT, ALWAYS
+	solidFrameMode = "DEFAULT"
+	#If enabled, non-wooden buttons and pressure plates will show a material overlay when a camo is applied.
+	#Requires resource reload to take effect.
+	showButtonPlateTypeOverlay = true
+	#If enabled, special cube blocks will show a type overlay when a camo is applied.
+	#Requires resource reload to take effect.
+	showSpecialCubeTypeOverlay = true
+	#If true, framed blocks will be rendered with their camo in Jade, otherwise they will be rendered blank.
+	renderCamoInJade = true
+	#If true, camo application recipes will be shown in JEI
+	showCamoCraftingInJei = true
+
+[overlay]
+	#Controls the maximum visibility of all overlays
+	#- If set to HIDDEN, the overlays will be completely hidden.
+	#- If set to ICON, the overlays will only show an icon.
+	#- If set to DETAILED_TOGGLE, the overlays show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the overlays always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	maxOverlayMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the State Lock overlay
+	#- If set to HIDDEN, the State Lock overlay will be completely hidden.
+	#- If set to ICON, the State Lock overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the State Lock overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the State Lock overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	stateLockMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Toggle Waterloggable overlay
+	#- If set to HIDDEN, the Toggle Waterloggable overlay will be completely hidden.
+	#- If set to ICON, the Toggle Waterloggable overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Toggle Waterloggable overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Toggle Waterloggable overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	toggleWaterlogMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Toggle Slope Face overlay
+	#- If set to HIDDEN, the Toggle Slope Face overlay will be completely hidden.
+	#- If set to ICON, the Toggle Slope Face overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Toggle Slope Face overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Toggle Slope Face overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	toggleAltSlopeMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Reinforcement overlay
+	#- If set to HIDDEN, the Reinforcement overlay will be completely hidden.
+	#- If set to ICON, the Reinforcement overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Reinforcement overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Reinforcement overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	reinforcedMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Prism Offset overlay
+	#- If set to HIDDEN, the Prism Offset overlay will be completely hidden.
+	#- If set to ICON, the Prism Offset overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Prism Offset overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Prism Offset overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	prismOffsetMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Collapsible Block Split Line overlay
+	#- If set to HIDDEN, the Collapsible Block Split Line overlay will be completely hidden.
+	#- If set to ICON, the Collapsible Block Split Line overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Collapsible Block Split Line overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Collapsible Block Split Line overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	splitLineMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the One-Way Window overlay
+	#- If set to HIDDEN, the One-Way Window overlay will be completely hidden.
+	#- If set to ICON, the One-Way Window overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the One-Way Window overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the One-Way Window overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	oneWayWindowMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Item Frame Background overlay
+	#- If set to HIDDEN, the Item Frame Background overlay will be completely hidden.
+	#- If set to ICON, the Item Frame Background overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Item Frame Background overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Item Frame Background overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	itemFrameBackgroundMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Camo Rotation overlay
+	#- If set to HIDDEN, the Camo Rotation overlay will be completely hidden.
+	#- If set to ICON, the Camo Rotation overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Camo Rotation overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Camo Rotation overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	camoRotationMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Trapdoor Texture Rotation overlay
+	#- If set to HIDDEN, the Trapdoor Texture Rotation overlay will be completely hidden.
+	#- If set to ICON, the Trapdoor Texture Rotation overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Trapdoor Texture Rotation overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Trapdoor Texture Rotation overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	trapdoorTextureRotationMode = "DETAILED_ALWAYS"
+	#Controls the visibility of the Copycat Style overlay
+	#- If set to HIDDEN, the Copycat Style overlay will be completely hidden.
+	#- If set to ICON, the Copycat Style overlay will only show an icon.
+	#- If set to DETAILED_TOGGLE, the Copycat Style overlay will show detailed info while crouching.
+	#- If set to DETAILED_ALWAYS, the Copycat Style overlay will always show detailed info.
+	#Allowed Values: HIDDEN, ICON, DETAILED_TOGGLE, DETAILED_ALWAYS
+	copycatStyleMode = "DETAILED_ALWAYS"

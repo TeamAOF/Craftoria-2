@@ -1,0 +1,5 @@
+# Decides which time-date formatter to use for the grave tooltips
+# Default: SYSTEM
+# ISO8601: Display Grave Tooltips adjusted to the System Settings.
+# SYSTEM: Display Grave Tooltips adjusted to the System Settings.
+tooltip_formatter = "SYSTEM"

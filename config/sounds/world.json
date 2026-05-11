@@ -1,0 +1,77 @@
+{
+	"repeaterUseSoundEffect": {
+		"id": "repeaterUse",
+		"soundEvent": "minecraft:block.stone_button.click_on",
+		"shouldPlay": true,
+		"pitch": 0.95,
+		"volume": 0.3,
+		"enabledDynamic": true
+	},
+	"jukeboxUseSoundEffect": {
+		"id": "jukeboxUse",
+		"soundEvent": "minecraft:block.note_block.basedrum",
+		"shouldPlay": true,
+		"pitch": 0.8,
+		"volume": 0.75
+	},
+	"daylightDetectorUseSoundEffect": {
+		"id": "daylightDetectorUse",
+		"soundEvent": "minecraft:block.note_block.hat",
+		"shouldPlay": true,
+		"pitch": 0.8,
+		"volume": 0.45
+	},
+	"furnaceMinecartFuelSoundEffect": {
+		"id": "furnaceMinecartFuel",
+		"soundEvent": "minecraft:entity.creeper.hurt",
+		"shouldPlay": true,
+		"pitch": 1.9,
+		"volume": 0.2
+	},
+	"swordSwooshSoundEffect": {
+		"id": "swordSwoosh",
+		"soundEvent": "sounds:item.sword.swoosh",
+		"shouldPlay": true,
+		"pitch": 1.3,
+		"volume": 0.3
+	},
+	"frostWalkerSoundEffect": {
+		"id": "frostWalker",
+		"soundEvent": "minecraft:block.powder_snow.fall",
+		"shouldPlay": true,
+		"pitch": 2.0,
+		"volume": 0.5
+	},
+	"leadSnappingSoundEffect": {
+		"id": "leadSnapping",
+		"soundEvent": "minecraft:item.lead.break",
+		"shouldPlay": true,
+		"pitch": 1.0,
+		"volume": 0.5
+	},
+	"bowPullSoundEffect": {
+		"id": "bowPull",
+		"soundEvent": "minecraft:item.crossbow.loading_middle",
+		"shouldPlay": true,
+		"pitch": 1.0,
+		"volume": 0.25
+	},
+	"plantPotFillSoundEffect": {
+		"id": "plantPotFill",
+		"soundEvent": "minecraft:block.grass.place",
+		"shouldPlay": true,
+		"pitch": 1.1,
+		"volume": 0.4,
+		"enabledDynamic": true
+	},
+	"cakeEatSoundEffect": {
+		"id": "cakeEat",
+		"soundEvent": "minecraft:entity.generic.eat",
+		"shouldPlay": true,
+		"pitch": 1.2,
+		"volume": 0.7
+	},
+	"enableEnderpearlVariety": true,
+	"disableBlocksEntirely": false,
+	"ignoredBlocks": []
+}

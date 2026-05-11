@@ -1,0 +1,13 @@
+name = "Tool Stats"
+filename = "ToolStats-neoforge-MC26.1.2-26.1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c5dbd8b765cd7d6454f4ea45ffe1ee3170726666"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7954102
+project-id = 377109

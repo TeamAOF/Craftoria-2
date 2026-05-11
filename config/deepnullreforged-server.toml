@@ -1,0 +1,59 @@
+[tagMatching]
+	#Disable DeepNull tag-matching mode entirely.
+	disableTagMatching = false
+	#Dictionary-style item tags that will not be allowed for tag matching unless explicitly whitelisted. Example: c:storage_blocks/coal
+	tagBlacklist = []
+	#If non-empty, only these dictionary-style item tags will be allowed for tag matching. Example: c:ingots/copper
+	tagWhitelist = []
+
+[features]
+	#Enable automatic pickup into matching DeepNulls.
+	enableAutoPickup = true
+	#Enable Auto-Feeding Upgrade behavior.
+	enableAutoFeeding = true
+	#Enable Auto-Smelting Upgrade behavior.
+	enableAutoSmelting = true
+	#Enable Basic and Advanced Compression Upgrade behavior.
+	enableCompression = true
+	#Enable Stoneworks Upgrade behavior.
+	enableStoneworks = true
+	#Enable DampNull Stone Generator behavior.
+	enableStoneGenerator = true
+	#Enable DampNull Obsidian Generator behavior.
+	enableObsidianGenerator = true
+	#Enable DampNull Sponge Upgrade behavior.
+	enableSpongeUpgrade = true
+	#When auto-pickup hits an item that is already stored in a matching DeepNull slot and that matching storage is full, still absorb and void the overflow instead of rejecting it.
+	voidFullItemsOnPickup = true
+	#When the Sponge Upgrade hits a matching tank that is already full, still absorb and void those matching source blocks.
+	voidFullFluidsOnSponge = true
+	#Enable Mekanism chemical storage and transfer when Mekanism is installed.
+	enableChemicalStorage = true
+	#Hidden dock generator buffer size used by DampNull generators.
+	# Default: 64
+	# Range: 1 ~ 64
+	dockGeneratorBufferSize = 64
+
+[tiers]
+	#Per-slot item capacity by tier: Redstone, Lapis, Iron, Gold, Diamond, Emerald, Creative.
+	itemCapacityByTier = [128, 512, 1152, 2048, 3200, 2147483647, 2147483647]
+	#Per-tank fluid capacity in mB by tier.
+	fluidCapacityByTier = [16000, 32000, 64000, 128000, 256000, 512000, 2147483647]
+	#Base Energy Upgrade FE capacity by tier.
+	energyCapacityByTier = [0, 0, 0, 0, 100000, 1000000, 2147483647]
+	#Deep Energy Upgrade FE capacity by tier.
+	deepEnergyCapacityByTier = [0, 0, 0, 0, 100000, 25000000, 2147483647]
+	#Base Energy Upgrade FE transfer rate by tier.
+	energyTransferByTier = [0, 0, 0, 0, 2000, 20000, 2147483647]
+	#Deep Energy Upgrade FE transfer rate by tier.
+	deepEnergyTransferByTier = [0, 0, 0, 0, 2000, 100000, 2147483647]
+	#DampNull tank count by tier.
+	dampNullTankCountByTier = [9, 9, 9, 18, 18, 18, 18]
+	#Stone Generator output rate per second by tier.
+	stoneGenerationRateByTier = [1, 2, 3, 4, 5, 10, 10]
+	#Legacy Sponge Upgrade absorb limit setting retained for compatibility. Sponge now absorbs all visible source blocks in range.
+	spongeAbsorbLimitByTier = [8, 10, 12, 16, 32, 32, 32]
+	#Horizontal sponge scan size by tier.
+	spongeRangeWidthByTier = [6, 8, 8, 10, 12, 16, 16]
+	#Vertical sponge scan size by tier.
+	spongeRangeHeightByTier = [4, 6, 6, 8, 10, 12, 12]

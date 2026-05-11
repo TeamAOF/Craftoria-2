@@ -1,0 +1,13 @@
+name = "Dynamic Difficulty (Neoforge/Fabric)"
+filename = "dynamic_difficulty-neoforge-1.3.0+26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5c4abc49e32cbc4358c211b66cee216f674fcdb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050131
+project-id = 1272655

@@ -425,7 +425,7 @@ function Update-VersionFiles {
         $fancyMenuContent = Get-Content $fancyMenuPath -Raw
         $displayModloader = $MODLOADER
         # Update the version text in the FancyMenu layout
-        $newVersionText = "$MODPACK_NAME - $MODPACK_VERSION%n%Minecraft $MINECRAFT_VERSION/$displayModloader"
+        $newVersionText = "Craftoria 2 - $MODPACK_VERSION%n%Minecraft $MINECRAFT_VERSION/$displayModloader"
         $fancyMenuContent = $fancyMenuContent -replace '(?m)^(\s*)source\s*=\s*.*%n%.*', "`$1source = $newVersionText"
         [System.IO.File]::WriteAllText($fancyMenuPath, $fancyMenuContent)
         Write-Host "Updated craftoria.txt: source = `"$newVersionText`"" -ForegroundColor Green

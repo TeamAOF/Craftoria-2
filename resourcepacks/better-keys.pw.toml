@@ -1,0 +1,13 @@
+name = "🔑 Better Keys 🗝"
+filename = "BetterKeys.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7eefb7644e4ed1f9c6fbb7df6b2a3e5f0408f8bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050616
+project-id = 1535952

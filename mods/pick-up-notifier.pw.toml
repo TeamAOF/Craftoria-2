@@ -1,0 +1,13 @@
+name = "Pick Up Notifier"
+filename = "PickUpNotifier-v26.1.1-mc26.1.x-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ccfc30fb125afd10cb3d30815010d560c179c94b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8004596
+project-id = 351441

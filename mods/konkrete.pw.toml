@@ -1,0 +1,13 @@
+name = "Konkrete"
+filename = "konkrete_neoforge_1.10.1_MC_26.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9d7c67fbb015296236dcc56816ae604815721379"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7891762
+project-id = 410295

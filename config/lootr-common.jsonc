@@ -1,0 +1,166 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    "Conversion": {
+        // Prevents any conversion from taking place. [default: false]
+        "disable": false,
+        /*
+         * Determines how aggressively Lootr generates data files. When specified to 'SMART', Lootr will check for Exaroton and other hosts and, if detected, use 'WHEN_OPENED', otherwise 'ALWAYS'. [default: SMART]
+         * Valid Values: ALWAYS, SMART, WHEN_OPENED
+         */
+        "save_mode": "SMART",
+        // When true, generates a new seed for each player when generating Loot, instead of using the seed encoded in the container. If a container doesn't provide a seed, a random one will be generated regardless of this setting. [default: true]
+        "randomise_seed": true,
+        // If true, the Elytra item frame found in the End City ship will be converted to a Lootr chest container. [default: false]
+        "convert_elytras_to_chests": false,
+        // If true, the Eltytra item frame found in the End city ship will be converted to a Lootr item frame. [default: true]
+        "convert_elytras_to_item_frames": true,
+        // If true, item frames found in structures will be converted to Lootr item frames. [default: true]
+        "convert_structure_item_frames": true,
+        // If true, containers that exist outside of the world border will be ignored and not considered for conversion. [default: true]
+        "check_world_border": true,
+        // If true, features that check structures, such as refresh or decay structure tags, will check each piece of a structure to determine if the container is located in that structure. [default: true]
+        "perform_piecewise_check": true
+    },
+    "Restrictions": {
+        /*
+         * List of dimensions in which Lootr containers will be converted.
+         * List Type: String
+         */
+        "dimension_whitelist": [],
+        /*
+         * List of dimensions in which Lootr containers will not be converted.
+         * List Type: String
+         */
+        "dimension_blacklist": [],
+        /*
+         * List of dimension paths in which Lootr containers will be converted. [For example, the dimension `twilightforest:twilight_forest` has the 'path' `twilightforest`; the dimension `minecraft:the_nether` has the 'path' `minecraft`.]
+         * List Type: String
+         */
+        "modid_dimension_whitelist": [],
+        /*
+         * List of dimension paths in which Lootr containers will not be converted. [For example, the dimension `twilightforest:twilight_forest` has the 'path' `twilightforest`; the dimension `minecraft:the_nether` has the 'path' `minecraft`.]
+         * List Type: String
+         */
+        "modid_dimension_blacklist": [],
+        /*
+         * List of loot tables that, if matching that of a container, will prevent that container from being converted into a Lootr container.
+         * List Type: String
+         */
+        "loot_table_blacklist": [],
+        /*
+         * List of loot table paths that, if matching that of a container, will prevent that container from being converted into a Lootr container. [For example, the loot table `minecraft:chests/simple_dungeon` has the 'path' `minecraft`.]
+         * List Type: String
+         */
+        "loot_table_modid_blacklist": [],
+        /*
+         * List of 'problematic' loot tables which are automatically added to the Loot Table Blacklist. This shouldn't be edited by users.
+         * List Type: String
+         */
+        "problematic_loot_tables": [
+            "",
+            ""
+        ]
+    },
+    "Breaking": {
+        /*
+         * Determines how containers react to being 'broken'. 'DEFAULT' will display the usual message and prevent breaking if the player is not sneaking. 'NEVER' prevents containers from being broken, while 'ALWAYS' allows containers to be broken regardless of sneaking. [default: DEFAULT]
+         * Valid Values: DEFAULT, NEVER, ALWAYS
+         */
+        "break_mode": "DEFAULT",
+        // Fake players (such as turtles, miners, etc) will be able to break containers if this is true, regardless of the chosen break mode. [default: false]
+        "enable_fake_player_break": false,
+        /*
+         * Determines how Lootr containers react to explosions. 'NONE' uses the default blast resistance. 'RESISTANT' makes containers blast resistant, while 'IMMUNE' makes them blast immune. [default: DEFAULT]
+         * Valid Values: NONE, RESISTANT, IMMUNE
+         */
+        "blast_resistance": "NONE",
+        // If true, Lootr's brushable blocks do not act as 'falling' blocks and instead stay stationary when their supporting block is broken. [default: false]
+        "brushables_self_support": false,
+        // If true, Lootr's item frames do not break when their supporting blocks are broken. [default: false]
+        "item_frames_self_support": false,
+        // If true, when a container is broken by a player, the contents of that player's inventory (if not generated, it will be generated) for the container will also be dropped on the ground. [default: false]
+        "should_drop_player_loot": false
+    },
+    "Redstone": {
+        // If true, comparators will emit a redstone signal. [default: true]
+        "power_comparators": true,
+        // If true, containers that are 'custom' will emit a redstone signal when opened, as if they were a trapped chest. [default: false]
+        "custom_trapped": false
+    },
+    "Notifications": {
+        // If true, when opening a container with an unresolved loot tables (loot tables that resolve to empty), a message will be sent to the player opening to indicate the issue. [default: true]
+        "report_unresolved_tables": true,
+        // If true, notifications related to ticking (such as decay or refresh) will not be sent to players. [default: false]
+        "disable_notifications": false,
+        /*
+         * If the remaining duration of a ticking container (such as one refreshing or decaying) in ticks is more than this value, notifications will not be sent to the player. [default: 30 * 20 (30 seconds), -1 disables the limit and will always send notifications.]
+         * Range: -1 - 2147483647
+         */
+        "maximum_notification_delay": 600,
+        // If true, the style and formatting of messages related to ticking (such as decay or refresh) will be removed. [default: false]
+        "disable_message_styles": false
+    },
+    "Interaction": {
+        // If true, Lootr containers that are within the spawn protection area of a world will still be interactable if the player interacting with it does not have permission. [default: true]
+        "bypass_spawn_protection": true
+    },
+    "Decay": {
+        /*
+         * The length of time in ticks (20 per second) that it takes for a container marked to decay to actually decay. [default: 5 * 60 * 20 (5 minutes)]
+         * Range: 0 - 2147483647
+         */
+        "decay_value": 6000,
+        /*
+         * List of loot tables that, if matching that of a container, will cause that container to decay after being opened.
+         * List Type: String
+         */
+        "decay_loot_tables": [],
+        /*
+         * List of loot table paths that, if matching that of a container, will cause that container to decay after being opened. [For example, the loot table `minecraft:chests/simple_dungeon` has the 'path' `minecraft`.]
+         * List Type: String
+         */
+        "decay_loot_table_modids": [],
+        /*
+         * List of dimensions in which containers will decay after being opened.
+         * List Type: String
+         */
+        "decay_dimensions": [],
+        // If true, when a container is fully decayed, it will be replaced with the equivalent Vanilla container. [default: false]
+        "replace_when_decayed": false,
+        // If true, decay occurs during the world tick, meaning that containers will break if they are loaded. If false, containers will only be checked for decay when they are next opened. [default: true]
+        "perform_decay_while_ticking": true,
+        // If true, containers that are eligible to decay and have previously been opened by another player, will start decaying during the world tick. [default: false]
+        "start_decay_while_ticking": false,
+        // If true, all containers will decay after being opened. [default: false]
+        "decay_all": false
+    },
+    "Refresh": {
+        /*
+         * The length of time in ticks (20 per second) that it takes for a container marked to refresh to actually refresh. [default: 5 * 60 * 20 (5 minutes)]
+         * Range: 0 - 2147483647
+         */
+        "refresh_value": 6000,
+        /*
+         * List of loot tables that, if matching that of a container, will cause that container to refresh after being opened.
+         * List Type: String
+         */
+        "refresh_loot_tables": [],
+        /*
+         * List of loot table paths that, if matching that of a container, will cause that container to refresh after being opened. [For example, the loot table `minecraft:chests/simple_dungeon` has the 'path' `minecraft`.]
+         * List Type: String
+         */
+        "refresh_loot_table_modids": [],
+        /*
+         * List of dimensions in which containers will refresh after being opened.
+         * List Type: String
+         */
+        "refresh_dimensions": [],
+        // If true, refreshing occurs during the world tick, meaning that containers will refresh if they are loaded. If false, containers will only be checked for refreshing when they are next opened. [default: true]
+        "perform_refresh_while_ticking": true,
+        // If true, containers that are eligible to refresh and have previously been opened by another player, will start refreshing during the world tick. [default: true]
+        "start_refresh_while_ticking": false,
+        // If true, all containers will refresh after being opened for the first time. [default: false]
+        "refresh_all": false
+    }
+}

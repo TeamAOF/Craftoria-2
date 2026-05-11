@@ -1,0 +1,13 @@
+name = "Animal Pens"
+filename = "animal_pen-neoforge-26.1-2.3.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42fdad1f86751410f0f1a0ebc89460b4ea0ee8db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8052762
+project-id = 1206722

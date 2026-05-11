@@ -1,0 +1,27 @@
+{
+  "showEnchantability": {
+    "//": "Should enchantability be displayed in tooltips?",
+    "//default": true,
+    "value": true
+  },
+  "showRepairCost": {
+    "//": "Should repair cost be shown in tooltips?",
+    "//default": true,
+    "value": true
+  },
+  "showEfficiency": {
+    "//": "Should mining efficiency be shown in tooltips?",
+    "//default": true,
+    "value": true
+  },
+  "showDurability": {
+    "//": "Should durability be displayed in tooltips?",
+    "//default": true,
+    "value": true
+  },
+  "alwaysShowDurability": {
+    "//": "Should durability be displayed in tooltips when the item is fully repaired?",
+    "//default": false,
+    "value": false
+  }
+}

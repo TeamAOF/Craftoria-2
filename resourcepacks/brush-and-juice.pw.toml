@@ -1,0 +1,13 @@
+name = "Brush & Juice"
+filename = "Brush+Juice-5.1.0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "405cdf455eb6b5e6c6c842ec3709fac32a3f95fb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7970472
+project-id = 1061342

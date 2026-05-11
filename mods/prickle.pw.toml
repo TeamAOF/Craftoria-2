@@ -1,0 +1,13 @@
+name = "Prickle"
+filename = "PrickleMC-neoforge-MC26.1.2-26.1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5640fd4e7e0dfb275a0bb41746f1d0315c03db1e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7947999
+project-id = 1023259

@@ -1,0 +1,13 @@
+name = "NetherPortalFix"
+filename = "netherportalfix-neoforge-26.1-26.1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d544163ed3bafe207a8b5cdf03e9d5bc0d30f5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7812877
+project-id = 241160

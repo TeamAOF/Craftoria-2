@@ -1,0 +1,13 @@
+name = "DeepNull Reforged (Dank Null) [NeoForge/Fabric]"
+filename = "deepnull-reforged-4.2.0-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f926f5a3908c30483ed85b8d07c3d95f93f5ade1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7998115
+project-id = 1483277

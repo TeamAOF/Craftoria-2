@@ -1,0 +1,19 @@
+#Rendering Settings
+[rendering]
+	#True to show the icon of the source item on top of the sulfur jar icon, false to hide it (source item will still be shown on hover in item name).
+	#Disabling this setting may improve performance in inventories with lots of sulfur item stacks.
+	renderSulfurSourceItem = true
+	#True to enable the item HUD, false to disable it.
+	enableItemHUD = true
+	#True to enable the in-world HUD when looking at supported machine blocks, false to disable it.
+	#Disable this if you use another overlay mod such as Jade and want it to provide the in-world block information instead.
+	enableInWorldHUD = true
+	#True to enable held-stack fit outlines on supported apparatuses, false to disable them.
+	enableHeldStackFitOutline = true
+	#Controls whether held-stack fit outlines show only green for accepted items or also red for non-accepted items.
+	#Allowed Values: GREEN_ONLY, GREEN_AND_RED
+	heldStackFitOutlineRenderMode = "GREEN_ONLY"
+	#The scale of the Item HUD text (e.g. for the mercurial wand).
+	# Default: 0.7
+	# Range: 0.25 ~ 3.0
+	hudScale = 0.7

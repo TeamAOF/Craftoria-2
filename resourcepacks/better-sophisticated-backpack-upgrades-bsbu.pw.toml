@@ -1,0 +1,13 @@
+name = "Better Sophisticated Backpack Upgrades (BSBU)"
+filename = "Better SB Upgrades-V1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2dd4ebcb9d2834d81d3de65270873a70c5046926"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7933510
+project-id = 1138140

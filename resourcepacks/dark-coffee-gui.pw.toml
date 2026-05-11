@@ -1,0 +1,13 @@
+name = "Dark Coffee GUI"
+filename = "CoffeeGUI_1.20.2-26.1_release_v2.1.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06942f5863b98a3cedc8cf6de6eafe81f1ff8167"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7947176
+project-id = 1366146

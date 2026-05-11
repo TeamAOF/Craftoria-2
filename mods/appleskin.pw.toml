@@ -1,0 +1,13 @@
+name = "AppleSkin"
+filename = "appleskin-neoforge-mc26.1-3.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9837dd537524a4b6a78ec17be41f5af1fc59f92"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7854456
+project-id = 248787

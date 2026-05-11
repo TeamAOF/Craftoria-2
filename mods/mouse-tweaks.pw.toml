@@ -1,0 +1,13 @@
+name = "Mouse Tweaks"
+filename = "MouseTweaks-neoforge-mc26.1-2.31.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e171c7b91ab9ab3b0f7b63aa5b0337f578588b5c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7840778
+project-id = 60089

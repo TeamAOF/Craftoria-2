@@ -1,0 +1,13 @@
+name = "Epitaphs"
+filename = "epitaphs-2.0.2+26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eab842ff30ca710269dc7a6d63a7fca21cb8bb1b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8040100
+project-id = 1325482

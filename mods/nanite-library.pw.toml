@@ -1,0 +1,13 @@
+name = "Nanite Library"
+filename = "nanite-library-neoforge-26.1.2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d5827ad5c7db6156475aafacb2313d534f6594f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7986696
+project-id = 1171906

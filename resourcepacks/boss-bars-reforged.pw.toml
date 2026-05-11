@@ -1,0 +1,13 @@
+name = "Boss Bars Reforged"
+filename = "Boss Bars Reforged v1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14d67c9823c6e78062c2178f20cb004b64e3c192"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7965669
+project-id = 1356330

@@ -1,0 +1,4 @@
+#Unlock Settings
+[unlock]
+	#If true, advancement-based unlock conditions will always return true, effectively disabling advancement-gated progression in all books. Other unlock conditions (e.g. entry read, mod loaded) are not affected.
+	disableAdvancementLocking = false
