@@ -1,0 +1,13 @@
+name = "Default Options"
+filename = "defaultoptions-neoforge-26.1-26.1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7a7734f387f46930f125c34f94b9e92301b899d5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7806669
+project-id = 232131

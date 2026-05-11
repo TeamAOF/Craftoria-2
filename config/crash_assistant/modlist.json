@@ -1,9 +1,9 @@
 {
-  "neoforge-26.1.2.42-beta (modloader)": {
-    "jarName": "neoforge-26.1.2.42-beta (modloader)",
+  "neoforge-26.1.2.43-beta (modloader)": {
+    "jarName": "neoforge-26.1.2.43-beta (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-26.1.2.42-beta"
+    "version": "neoforge-26.1.2.43-beta"
   },
   "accelerated-decay-neoforge-26.1.2.4.jar": {
     "jarName": "accelerated-decay-neoforge-26.1.2.4.jar",
@@ -261,6 +261,14 @@
     "curseForgeHash": 596189080,
     "modrinthHash": "f926f5a3908c30483ed85b8d07c3d95f93f5ade1"
   },
+  "defaultoptions-neoforge-26.1-26.1.0.1.jar": {
+    "jarName": "defaultoptions-neoforge-26.1-26.1.0.1.jar",
+    "modId": "defaultoptions",
+    "name": "Default Options",
+    "version": "26.1.0.1",
+    "curseForgeHash": 211016870,
+    "modrinthHash": "7a7734f387f46930f125c34f94b9e92301b899d5"
+  },
   "dynamic_difficulty-neoforge-1.3.0+26.1.2.jar": {
     "jarName": "dynamic_difficulty-neoforge-1.3.0+26.1.2.jar",
     "modId": "dynamic_difficulty",
@@ -397,13 +405,13 @@
     "curseForgeHash": 3237645575,
     "modrinthHash": "5381c49be78488623c5ab995984365ee1283ece5"
   },
-  "ftb-library-neoforge-26.1.2.2.jar": {
-    "jarName": "ftb-library-neoforge-26.1.2.2.jar",
+  "ftb-library-neoforge-26.1.2.3.jar": {
+    "jarName": "ftb-library-neoforge-26.1.2.3.jar",
     "modId": "ftblibrary",
     "name": "FTB Library",
-    "version": "26.1.2.2",
-    "curseForgeHash": 3818706939,
-    "modrinthHash": "642c3bb4a8f993788ba8677077f3b34822eef65c"
+    "version": "26.1.2.3",
+    "curseForgeHash": 1810950872,
+    "modrinthHash": "f2bc23315801a04ffbe09d0173165e87f0967aa4"
   },
   "ftb-ultimine-neoforge-26.1.2.3.jar": {
     "jarName": "ftb-ultimine-neoforge-26.1.2.3.jar",
@@ -714,13 +722,13 @@
     "curseForgeHash": 1940425608,
     "modrinthHash": "2d544163ed3bafe207a8b5cdf03e9d5bc0d30f5f"
   },
-  "occultism-26.1.2-neoforge-1.225.0.jar": {
-    "jarName": "occultism-26.1.2-neoforge-1.225.0.jar",
+  "occultism-26.1.2-neoforge-1.227.0.jar": {
+    "jarName": "occultism-26.1.2-neoforge-1.227.0.jar",
     "modId": "occultism",
     "name": "Occultism",
-    "version": "1.225.0",
-    "curseForgeHash": 2550795762,
-    "modrinthHash": "21dd299dfd8c19b882c4c0a204ea50b3b071bc37"
+    "version": "1.227.0",
+    "curseForgeHash": 2754968166,
+    "modrinthHash": "8d2031dc058d71434b712b10b058fc08518ca378"
   },
   "open-parties-and-claims-neoforge-26.1.2-0.26.2.jar": {
     "jarName": "open-parties-and-claims-neoforge-26.1.2-0.26.2.jar",
@@ -857,14 +865,6 @@
     "version": "1.10.172",
     "curseForgeHash": 3386967765,
     "modrinthHash": "feb3df772a27006adc8dd0f99a225973323f5528"
-  },
-  "starcatcher-2.3.1-ALPHA-NEOFORGE-26.1.2.jar": {
-    "jarName": "starcatcher-2.3.1-ALPHA-NEOFORGE-26.1.2.jar",
-    "modId": "starcatcher",
-    "name": "Starcatcher",
-    "version": "2.3.1-ALPHA-NEOFORGE-26.1.2",
-    "curseForgeHash": 3217806186,
-    "modrinthHash": "a00709393e77074931dfd69998ec68ea06e6805a"
   },
   "starcatcher-2.3.9-NEOFORGE-26.1.2.jar": {
     "jarName": "starcatcher-2.3.9-NEOFORGE-26.1.2.jar",

@@ -344,7 +344,7 @@ layout_action_executable_blocks {
 
 element {
   interactable = true
-  source = Craftoria 2 - 0.1.0%n%Minecraft 26.1.2/NeoForge
+  source = Craftoria 2 - 0.2.0%n%Minecraft 26.1.2/NeoForge
   source_mode = direct
   shadow = true
   enable_scrolling = true

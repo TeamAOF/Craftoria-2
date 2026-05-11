@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"dynamic_difficulty:potion_of_growth"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:oak_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:spruce_door"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:acacia_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"},
