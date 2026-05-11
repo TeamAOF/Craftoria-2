@@ -33,7 +33,9 @@ export async function getLatestBumpCommitHash(branchName = "HEAD") {
     await $`git log --tags --simplify-by-decoration --pretty="%h|%D" -1`.text()
   ).split("|");
 
-  const tagVersion = tagRefs.replace(/^tag: v?/, "").trim();
+  const tagMatch = tagRefs.match(/tag:\s*v?(\d+\.\d+\.\d+)/);
+  const tagVersion = tagMatch?.[1];
+
   const versionBumpRegex = /version bump (\d+\.\d+(?:\.\d+)?)$/;
 
   for await (const line of $`git log ${branchName} --oneline --pretty="%h|%s"`.lines()) {
