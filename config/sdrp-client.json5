@@ -5,7 +5,7 @@
   enableUpdateDimensionPresence: true,
   // Your Discord App ID
 
-  clientId: 608012526537408579,
+  clientId: 1503611015684816936,
   /*
    * Set custom buttons for the Discord Rich Presences. You can only have 2 buttons, each button has a label and a URL.
    * 
