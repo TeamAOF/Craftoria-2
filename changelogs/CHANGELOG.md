@@ -1,3 +1,33 @@
+# Craftoria | v0.4.0
+
+_Neoforge_ 26.1.2.48-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.4.0.md)_
+
+### Changes/Improvements ⭐
+
+* Lowered mob damage & armor per level, cap max level at 100 `AK`
+* Lowered levels per distance from 0.01 > 0.005 `AK`
+* Ae2 is now blacked out `AK`
+* Updated croptopia seed textures `AK`
+* Added new logo for main menu `AK`
+* Add official server `AK`
+* Add game time & biome info to minimap `AK`
+* Add discord rich presence `AK`
+
+### Added Mods ✅
+
+* [AgriTech](https://curseforge.com/projects/1485550)
+* [AgriTech: Evolved](https://curseforge.com/projects/1287394)
+* [Chisel Modern](https://curseforge.com/projects/1392308)
+* [Logistics Network](https://curseforge.com/projects/1448257)
+* [Only Flax](https://curseforge.com/projects/1290912)
+* [Paginated Advancements & Custom Frames](https://curseforge.com/projects/618770)
+* [PingHUD](https://curseforge.com/projects/664124)
+
+### Bug Fixes 🪲
+
+* Overlapping keybinds on M `AK`
+---
+
 # Craftoria | v0.3.0
 
 _Neoforge_ 26.1.2.43-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.3.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.3.0.md)_

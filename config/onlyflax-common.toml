@@ -1,0 +1,5 @@
+#Starting in Minecraft 1.19.3, Only Flax uses JSON files to control the generation of wild flax.
+#To customize world generation, please use a data pack to override the default behavior.
+[worldgen]
+	#Should wild flax generate naturally?
+	genWildFlax = true

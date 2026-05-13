@@ -1,0 +1,10 @@
+#Maximum number of nodes rendered when holding a wrench. Nearest nodes are prioritized.
+# Default: 200
+# Range: > 1
+maxRenderedNodes = 200
+#Maximum number of visible node models rendered. Nearest nodes are prioritized. 0 = unlimited.
+# Default: 500
+# Range: > 0
+maxVisibleNodes = 500
+#GUI theme for logistics node screens: light, dark, redstone, nebula, glass, terminal, pastel, brutalist
+theme = "dark"

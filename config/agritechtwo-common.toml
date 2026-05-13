@@ -1,0 +1,111 @@
+#Mod Compatibility Settings
+[compatibility]
+	#Enable Mystical Agriculture compatibility
+	enable_mystical_agriculture = true
+	#Enable Mystical Agradditions compatibility
+	enable_mystical_agradditions = true
+	#Enable Farmer's Delight compatibility
+	enable_farmers_delight = true
+	#Enable Ars Nouveau compatibility
+	enable_ars_nouveau = true
+	#Enable Ars Elemental compatibility
+	enable_ars_elemental = true
+	#Enable Silent Gear compatibility
+	enable_silent_gear = true
+	#Enable Just Dire Things compatibility
+	enable_just_dire_things = true
+	#Enable Immersive Engineering compatibility
+	enable_immersive_engineering = true
+	#Enable EvilCraft compatibility
+	enable_evilcraft = true
+	#Enable Forbidden and Arcanus compatibility
+	enable_forbidden_arcanus = true
+	#Enable Integrated Dynamics compatibility
+	enable_integrated_dynamics = true
+	#Enable Occultism compatibility
+	enable_occultism = true
+	#Enable Pam's HarvestCraft - Crops compatibility
+	enable_pams_crops = true
+	#Enable Pam's HarvestCraft - Trees compatibility
+	enable_pams_trees = true
+	#Enable Croptopia compatibility
+	enable_croptopia = true
+	#Enable Cobblemon compatibility
+	enable_cobblemon = true
+	#Enable Actually Additions compatibility
+	enable_actually_additions = true
+
+#Fertilizer Configuration
+[fertilizers]
+	#Speed multiplier for Bone Meal
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	bone_meal_speed_multiplier = 1.2
+	#Yield multiplier for Bone Meal
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	bone_meal_yield_multiplier = 1.2
+	#Speed multiplier for Fertilized Essence
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	fertilized_essence_speed_multiplier = 1.3
+	#Yield multiplier for Fertilized Essence
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	fertilized_essence_yield_multiplier = 1.3
+	#Speed multiplier for Mystical Fertilizer
+	# Default: 1.6
+	# Range: 0.1 ~ 10.0
+	mystical_fertilizer_speed_multiplier = 1.6
+	#Yield multiplier for Mystical Fertilizer
+	# Default: 1.6
+	# Range: 0.1 ~ 10.0
+	mystical_fertilizer_yield_multiplier = 1.6
+	#Speed multiplier for Immersive Engineering Fertilizer
+	# Default: 1.4
+	# Range: 0.1 ~ 10.0
+	immersive_fertilizer_speed_multiplier = 1.4
+	#Yield multiplier for Immersive Engineering Fertilizer
+	# Default: 1.4
+	# Range: 0.1 ~ 10.0
+	immersive_fertilizer_yield_multiplier = 1.4
+	#Speed multiplier for Arcane Bone Meal
+	# Default: 1.5
+	# Range: 0.1 ~ 10.0
+	arcane_bone_meal_speed_multiplier = 1.5
+	#Yield multiplier for Arcane Bone Meal
+	# Default: 1.5
+	# Range: 0.1 ~ 10.0
+	arcane_bone_meal_yield_multiplier = 1.5
+
+#Machine Settings
+[machines]
+
+	#Planter Configuration
+	[machines.planter]
+		#Base processing time (ticks)
+		# Default: 1200
+		# Range: 1 ~ 72000
+		base_processing_time = 1200
+		#Speed multiplier applied when a cloche is attached to a planter
+		# Default: 1.15
+		# Range: 0.1 ~ 10.0
+		cloche_speed_multiplier = 1.15
+		#Yield multiplier applied when a cloche is attached to a planter
+		# Default: 1.1
+		# Range: 0.1 ~ 10.0
+		cloche_yield_multiplier = 1.1
+
+	#Raised Bed Configuration
+	[machines.raised_bed]
+		#Speed multiplier applied when the raised bed has sky access and it is daytime
+		# Default: 1.25
+		# Range: 0.1 ~ 10.0
+		sky_day_speed_multiplier = 1.25
+
+	#Basket Configuration
+	[machines.basket]
+		#How often (in ticks) the basket scans for nearby item entities
+		# Default: 20
+		# Range: 1 ~ 1200
+		pickup_interval_ticks = 20

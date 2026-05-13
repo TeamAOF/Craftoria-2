@@ -1,5 +1,14 @@
 [
   {"version":1},
+  {"ingredient":{"id":"logisticsnetworks:iron_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:name_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:mod_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:big_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:small_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:computer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:wrench"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:logistics_node"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"logisticsnetworks:gold_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"mcwpaths:cobbled_deepslate_basket_weave_paving"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:crafting_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

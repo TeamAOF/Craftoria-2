@@ -1,0 +1,23 @@
+# Compostable Items Override Configuration
+# This file allows you to add custom compostable items without modifying the core configuration.
+# Any entries here will be ADDED to the existing configurations.
+
+# How to use:
+# 1. Add items to the [compostable] section using the format: item_name = "mod:item_id"
+# 2. Save the file and restart your game
+
+# IMPORTANT: Make sure to verify the exact item IDs from your mods
+# Incorrect IDs will be skipped with a warning message in the log
+# The mod uses resource location format (e.g., "minecraft:wheat" not just "wheat")
+# The easiest way to check IDs is with F3+H enabled (shows tooltip IDs) or via JEI/REI
+
+# Example compostable items (organic materials for the Composter):
+[compostable]
+# clay = "minecraft:clay"
+# custom_crop = "examplemod:corn"
+# organic_waste = "examplemod:organic_matter"
+
+# Notes:
+# - All vanilla organic items are already included by default
+# - Major mod compatibility (Mystical Agriculture, Farmer's Delight, etc.) is automatic
+# - This file is only for adding items from mods that aren't automatically supported

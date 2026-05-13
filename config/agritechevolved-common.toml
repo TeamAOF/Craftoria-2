@@ -1,0 +1,272 @@
+#Mod Compatibility Settings
+[compatibility]
+	#Enable Mystical Agriculture compatibility
+	enable_mystical_agriculture = true
+	#Enable Mystical Agradditions compatibility
+	enable_mystical_agradditions = true
+	#Enable Farmer's Delight compatibility
+	enable_farmers_delight = true
+	#Enable Ars Nouveau compatibility
+	enable_ars_nouveau = true
+	#Enable Ars Elemental compatibility
+	enable_ars_elemental = true
+	#Enable Silent Gear compatibility
+	enable_silent_gear = true
+	#Enable Just Dire Things compatibility
+	enable_just_dire_things = true
+	#Enable Immersive Engineering compatibility
+	enable_immersive_engineering = true
+	#Enable EvilCraft compatibility
+	enable_evilcraft = true
+	#Enable Forbidden and Arcanus compatibility
+	enable_forbidden_arcanus = true
+	#Enable Integrated Dynamics compatibility
+	enable_integrated_dynamics = true
+	#Enable Occultism compatibility
+	enable_occultism = true
+	#Enable Pam's HarvestCraft - Crops compatibility
+	enable_pams_crops = true
+	#Enable Pam's HarvestCraft - Trees compatibility
+	enable_pams_trees = true
+	#Enable Croptopia compatibility
+	enable_croptopia = true
+	#Enable Cobblemon compatibility
+	enable_cobblemon = true
+	#Enable Actually Additions compatibility
+	enable_actually_additions = true
+
+#Module Effectiveness Settings
+[modules]
+
+	#Speed Module Configuration
+	[modules.speed_modules]
+		#Speed multiplier for SM-MK1 module
+		# Default: 1.1
+		# Range: 0.1 ~ 10.0
+		mk1_speed_multiplier = 1.1
+		#Power consumption multiplier for SM-MK1 module
+		# Default: 1.1
+		# Range: 0.1 ~ 10.0
+		mk1_power_multiplier = 1.1
+		#Speed multiplier for SM-MK2 module
+		# Default: 1.25
+		# Range: 0.1 ~ 10.0
+		mk2_speed_multiplier = 1.25
+		#Power consumption multiplier for SM-MK2 module
+		# Default: 1.25
+		# Range: 0.1 ~ 10.0
+		mk2_power_multiplier = 1.25
+		#Speed multiplier for SM-MK3 module
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		mk3_speed_multiplier = 1.5
+		#Power consumption multiplier for SM-MK3 module
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		mk3_power_multiplier = 1.5
+
+	#Yield Module Configuration
+	[modules.yield_modules]
+		#Yield multiplier for YM-MK1 module
+		# Default: 1.1
+		# Range: 0.1 ~ 10.0
+		mk1_yield_multiplier = 1.1
+		#Speed penalty for YM-MK1 module (multiplier)
+		# Default: 0.95
+		# Range: 0.1 ~ 1.0
+		mk1_speed_penalty = 0.95
+		#Yield multiplier for YM-MK2 module
+		# Default: 1.25
+		# Range: 0.1 ~ 10.0
+		mk2_yield_multiplier = 1.25
+		#Speed penalty for YM-MK2 module (multiplier)
+		# Default: 0.85
+		# Range: 0.1 ~ 1.0
+		mk2_speed_penalty = 0.85
+		#Yield multiplier for YM-MK3 module
+		# Default: 1.5
+		# Range: 0.1 ~ 10.0
+		mk3_yield_multiplier = 1.5
+		#Speed penalty for YM-MK3 module (multiplier)
+		# Default: 0.75
+		# Range: 0.1 ~ 1.0
+		mk3_speed_penalty = 0.75
+
+#Fertilizer Configuration
+[fertilizers]
+	#Speed multiplier for Bone Meal
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	bone_meal_speed_multiplier = 1.2
+	#Yield multiplier for Bone Meal
+	# Default: 1.2
+	# Range: 0.1 ~ 10.0
+	bone_meal_yield_multiplier = 1.2
+	#Speed multiplier for Biomass fertilizer
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	biomass_speed_multiplier = 1.3
+	#Yield multiplier for Biomass fertilizer
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	biomass_yield_multiplier = 1.3
+	#Speed multiplier for Compacted Biomass fertilizer
+	# Default: 1.8
+	# Range: 0.1 ~ 10.0
+	compacted_biomass_speed_multiplier = 1.8
+	#Yield multiplier for Compacted Biomass fertilizer
+	# Default: 1.8
+	# Range: 0.1 ~ 10.0
+	compacted_biomass_yield_multiplier = 1.8
+	#Speed multiplier for Fertilized Essence
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	fertilized_essence_speed_multiplier = 1.3
+	#Yield multiplier for Fertilized Essence
+	# Default: 1.3
+	# Range: 0.1 ~ 10.0
+	fertilized_essence_yield_multiplier = 1.3
+	#Speed multiplier for Mystical Fertilizer
+	# Default: 1.6
+	# Range: 0.1 ~ 10.0
+	mystical_fertilizer_speed_multiplier = 1.6
+	#Yield multiplier for Mystical Fertilizer
+	# Default: 1.6
+	# Range: 0.1 ~ 10.0
+	mystical_fertilizer_yield_multiplier = 1.6
+	#Speed multiplier for Immersive Engineering Fertilizer
+	# Default: 1.4
+	# Range: 0.1 ~ 10.0
+	immersive_fertilizer_speed_multiplier = 1.4
+	#Yield multiplier for Immersive Engineering Fertilizer
+	# Default: 1.4
+	# Range: 0.1 ~ 10.0
+	immersive_fertilizer_yield_multiplier = 1.4
+	#Speed multiplier for Arcane Bone Meal
+	# Default: 1.5
+	# Range: 0.1 ~ 10.0
+	arcane_bone_meal_speed_multiplier = 1.5
+	#Yield multiplier for Arcane Bone Meal
+	# Default: 1.5
+	# Range: 0.1 ~ 10.0
+	arcane_bone_meal_yield_multiplier = 1.5
+
+#Machine Settings
+[machines]
+
+	#Advanced Planter Configuration
+	[machines.advanced_planter]
+		#Base power consumption for Advanced Planter (RF/t)
+		# Default: 128
+		# Range: 1 ~ 100000
+		base_power_consumption = 128
+		#Base processing time for Planters (ticks)
+		# Default: 1200
+		# Range: 1 ~ 72000
+		base_processing_time = 1200
+		#Energy buffer capacity for Advanced Planter (RF)
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		energy_buffer = 100000
+		#Speed multiplier applied when a cloche is attached to a planter
+		# Default: 1.15
+		# Range: 0.1 ~ 10.0
+		cloche_speed_multiplier = 1.15
+		#Yield multiplier applied when a cloche is attached to a planter
+		# Default: 1.1
+		# Range: 0.1 ~ 10.0
+		cloche_yield_multiplier = 1.1
+
+	#Composter Configuration
+	[machines.composter]
+		#Base power consumption for Composter (RF/t)
+		# Default: 128
+		# Range: 1 ~ 100000
+		base_power_consumption = 128
+		#Base processing time for Composter (ticks)
+		# Default: 600
+		# Range: 1 ~ 72000
+		base_processing_time = 600
+		#Energy buffer capacity for Composter (RF)
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		energy_buffer = 100000
+		#Number of organic items required per biomass
+		# Default: 32
+		# Range: 1 ~ 256
+		items_per_biomass = 32
+
+	#Burner Configuration
+	[machines.burner]
+		#Energy buffer capacity for Burner (RF)
+		# Default: 100000
+		# Range: 1000 ~ 10000000
+		energy_buffer = 100000
+		#RF generated per biomass item
+		# Default: 2500
+		# Range: 100 ~ 100000
+		biomass_rf_value = 2500
+		#Burn duration for biomass in ticks (20 ticks = 1 second)
+		# Default: 100
+		# Range: 20 ~ 72000
+		biomass_burn_duration = 100
+		#RF generated per compacted biomass item
+		# Default: 22500
+		# Range: 1000 ~ 1000000
+		compacted_biomass_rf_value = 22500
+		#Burn duration for compacted biomass in ticks (20 ticks = 1 second)
+		# Default: 180
+		# Range: 20 ~ 72000
+		compacted_biomass_burn_duration = 180
+		#RF generated per compacted biomass block
+		# Default: 225000
+		# Range: 1000 ~ 1000000
+		compacted_biomass_block_rf_value = 225000
+		#Burn duration for compacted biomass block in ticks (20 ticks = 1 second)
+		# Default: 1800
+		# Range: 20 ~ 72000
+		compacted_biomass_block_burn_duration = 1800
+		#RF generated per crude biomass item
+		# Default: 250
+		# Range: 50 ~ 50000
+		crude_biomass_rf_value = 250
+		#Burn duration for crude biomass in ticks (20 ticks = 1 second)
+		# Default: 50
+		# Range: 20 ~ 72000
+		crude_biomass_burn_duration = 50
+
+	#Capacitor Configuration
+	[machines.capacitors]
+
+		#Tier 1 Capacitor
+		[machines.capacitors.tier_1]
+			#Energy buffer capacity for T1 Capacitor (RF)
+			# Default: 500000
+			# Range: 10000 ~ 100000000
+			buffer_capacity = 500000
+			#Energy transfer rate for T1 Capacitor (RF/t)
+			# Default: 512
+			# Range: 1 ~ 100000
+			transfer_rate = 512
+
+		#Tier 2 Capacitor
+		[machines.capacitors.tier_2]
+			#Energy buffer capacity for T2 Capacitor (RF)
+			# Default: 1000000
+			# Range: 10000 ~ 100000000
+			buffer_capacity = 1000000
+			#Energy transfer rate for T2 Capacitor (RF/t)
+			# Default: 2048
+			# Range: 1 ~ 100000
+			transfer_rate = 2048
+
+		#Tier 3 Capacitor
+		[machines.capacitors.tier_3]
+			#Energy buffer capacity for T3 Capacitor (RF)
+			# Default: 4000000
+			# Range: 10000 ~ 100000000
+			buffer_capacity = 4000000
+			#Energy transfer rate for T3 Capacitor (RF/t)
+			# Default: 8192
+			# Range: 1 ~ 100000
+			transfer_rate = 8192

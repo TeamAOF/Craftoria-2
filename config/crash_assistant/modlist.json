@@ -1,9 +1,9 @@
 {
-  "neoforge-26.1.2.43-beta (modloader)": {
-    "jarName": "neoforge-26.1.2.43-beta (modloader)",
+  "neoforge-26.1.2.48-beta (modloader)": {
+    "jarName": "neoforge-26.1.2.48-beta (modloader)",
     "modId": "neoforge",
     "name": "neoforge",
-    "version": "neoforge-26.1.2.43-beta"
+    "version": "neoforge-26.1.2.48-beta"
   },
   "accelerated-decay-neoforge-26.1.2.4.jar": {
     "jarName": "accelerated-decay-neoforge-26.1.2.4.jar",
@@ -28,6 +28,22 @@
     "version": "26.1.2-2.0.0",
     "curseForgeHash": 854049533,
     "modrinthHash": "304160aaa3e3f0eaa0d98eb383eb4cc0af5cd2e6"
+  },
+  "agritechevolved-2.0.13.2+neoforge-mc26.1.2.jar": {
+    "jarName": "agritechevolved-2.0.13.2+neoforge-mc26.1.2.jar",
+    "modId": "agritechevolved",
+    "name": "Agritech: Evolved",
+    "version": "2.0.13.2+neoforge-mc26.1.2",
+    "curseForgeHash": 4078836777,
+    "modrinthHash": "2051ee1c5c8defb4aa297189d20857b732325eaa"
+  },
+  "agritechtwo-1.1.4.2+neoforge-mc-26.1.2.jar": {
+    "jarName": "agritechtwo-1.1.4.2+neoforge-mc-26.1.2.jar",
+    "modId": "agritechtwo",
+    "name": "Agritech",
+    "version": "1.1.4.2+neoforge-mc-26.1.2",
+    "curseForgeHash": 1320298705,
+    "modrinthHash": "13d7887927c8172717defdb61f2363382833e10d"
   },
   "AI-Improvements-26.1.1-0.5.4.jar": {
     "jarName": "AI-Improvements-26.1.1-0.5.4.jar",
@@ -586,6 +602,14 @@
     "curseForgeHash": 2833145442,
     "modrinthHash": "2152a1d15254fc9a08c67d7f3cf967b9b901e5c8"
   },
+  "logisticsnetworks-26.1.2-1.3.1.jar": {
+    "jarName": "logisticsnetworks-26.1.2-1.3.1.jar",
+    "modId": "logisticsnetworks",
+    "name": "LogisticsNetworks",
+    "version": "1.3.1",
+    "curseForgeHash": 446442654,
+    "modrinthHash": "9879f11d6c54cdee0a91ef7357057eb8864c51b5"
+  },
   "lootr-neoforge-26.1.2-1.22.36.109.jar": {
     "jarName": "lootr-neoforge-26.1.2-1.22.36.109.jar",
     "modId": "lootr",
@@ -746,6 +770,14 @@
     "curseForgeHash": 2754968166,
     "modrinthHash": "8d2031dc058d71434b712b10b058fc08518ca378"
   },
+  "onlyflax-26.1.2-neoforge-1.0.4.jar": {
+    "jarName": "onlyflax-26.1.2-neoforge-1.0.4.jar",
+    "modId": "onlyflax",
+    "name": "Only Flax",
+    "version": "26.1.2-neoforge-1.0.4",
+    "curseForgeHash": 940467519,
+    "modrinthHash": "3addc25c5ffd40592871b6d95e0e2edc69bcae2c"
+  },
   "open-parties-and-claims-neoforge-26.1.2-0.26.2.jar": {
     "jarName": "open-parties-and-claims-neoforge-26.1.2-0.26.2.jar",
     "modId": "openpartiesandclaims",
@@ -769,6 +801,14 @@
     "version": "26.1.1",
     "curseForgeHash": 3608660904,
     "modrinthHash": "ccfc30fb125afd10cb3d30815010d560c179c94b"
+  },
+  "PingHUD-5.0.jar": {
+    "jarName": "PingHUD-5.0.jar",
+    "modId": "pinghud",
+    "name": "PingHUD",
+    "version": "5.0",
+    "curseForgeHash": 1250615776,
+    "modrinthHash": "708e0eef23452d6cafbacd7d90c7f8f20f6a317b"
   },
   "PrickleMC-neoforge-MC26.1.2-26.1.2.2.jar": {
     "jarName": "PrickleMC-neoforge-MC26.1.2-26.1.2.2.jar",
