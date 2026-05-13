@@ -1,0 +1,13 @@
+name = "Only Flax"
+filename = "onlyflax-26.1.2-neoforge-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3addc25c5ffd40592871b6d95e0e2edc69bcae2c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8050473
+project-id = 1290912
