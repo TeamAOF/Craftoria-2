@@ -10,7 +10,7 @@ useDefaultLevelingSettings = true
 # Base level for all entities
 startingLevel = 1
 # Maximum level cap (0 for unlimited)
-maxLevel = 0
+maxLevel = 100
 # Random bonus levels added to entities (0-value)
 randomLevelBonus = 0
 # Additional experience multiplier per level
@@ -88,13 +88,13 @@ blacklistedMobs = [  ]
 whitelistedMobs = [  ]
 # --- Level-Up Items ---
 # Maximum level that Potion of Growth can raise an entity to
-potionOfGrowthMaxLevel = 20
+potionOfGrowthMaxLevel = 10
 # Maximum level that Elixir of Nurturing can raise an entity to
-elixirOfNurturingMaxLevel = 40
+elixirOfNurturingMaxLevel = 20
 # Maximum level that Draught of Ascension can raise an entity to
-draughtOfAscensionMaxLevel = 60
+draughtOfAscensionMaxLevel = 50
 # Maximum level that Essence of Vitality can raise an entity to
-essenceOfVitalityMaxLevel = 80
+essenceOfVitalityMaxLevel = 70
 # Maximum level that Crystal of Awakening can raise an entity to
 crystalOfAwakeningMaxLevel = 100
 # --- Level-Based Drops ---
@@ -114,7 +114,7 @@ enableLevelBasedDrops = true
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "minecraft:attack_damage"
 # Amount added per entity level
-bonusPerLevel = 0.25
+bonusPerLevel = 0.2
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -122,7 +122,7 @@ operation = "ADD_VALUE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "minecraft:armor"
 # Amount added per entity level
-bonusPerLevel = 0.2
+bonusPerLevel = 0.15
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -138,7 +138,7 @@ operation = "ADD_MULTIPLIED_BASE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:projectile_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.25
+bonusPerLevel = 0.2
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -146,7 +146,7 @@ operation = "ADD_VALUE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:magic_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.25
+bonusPerLevel = 0.2
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
