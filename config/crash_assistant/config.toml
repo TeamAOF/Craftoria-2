@@ -343,7 +343,7 @@
 	#Path to a modpack logo to display in the top of the GUI.
 	#Path is relative to the Minecraft instance folder. Leave empty to disable.
 	#WARNING: use only '/' path separator. '\' will corrupt config!
-	modpack_logo_path = "config/fancymenu/assets/logo.png"
+	modpack_logo_path = ""
 	#If true, the logo will be larger, Replacing a some of `don't send screenshot` notice.
 	#If false, it will be smaller and logo will be end right where the `don't send screenshot` notice starts.
 	#You should try both, but most likely:
