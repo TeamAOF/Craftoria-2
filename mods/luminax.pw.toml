@@ -1,13 +1,13 @@
 name = "Luminax"
-filename = "luminax-2.0.0+26.1.2.jar"
+filename = "luminax-2.0.1+26.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "745802e05bc386a3a200a3ebb241beffc413b6f3"
+hash = "f8111b5c3d6d14fbff80ca83ab6594bedf9b8e4f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8072404
+file-id = 8087216
 project-id = 1165932

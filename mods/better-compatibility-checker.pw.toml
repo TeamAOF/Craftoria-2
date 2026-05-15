@@ -1,0 +1,13 @@
+name = "Better Compatibility Checker"
+filename = "better-compatability-checker-neoforge-26.1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "953fedde3b3910c97a9d65a23678bfd4588ce932"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7905240
+project-id = 551894

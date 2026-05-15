@@ -1,13 +1,13 @@
 name = "Occultism"
-filename = "occultism-26.1.2-neoforge-1.227.0.jar"
+filename = "occultism-26.1.2-neoforge-1.227.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8d2031dc058d71434b712b10b058fc08518ca378"
+hash = "c8dbc7c2b8a9f68058045b7b616600b8d4c90250"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8067342
+file-id = 8087915
 project-id = 361026

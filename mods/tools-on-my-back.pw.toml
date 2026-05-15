@@ -1,0 +1,13 @@
+name = "Tools On My Back (TOMB)"
+filename = "ToolsOnMyBack-1.0.2+26.1+neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44617cbc7348df0ca6b4eaf48f1a37608d7f5430"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7967307
+project-id = 1377938
