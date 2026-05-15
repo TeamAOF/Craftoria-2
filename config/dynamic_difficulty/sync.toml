@@ -114,7 +114,7 @@ enableLevelBasedDrops = true
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "minecraft:attack_damage"
 # Amount added per entity level
-bonusPerLevel = 0.2
+bonusPerLevel = 0.15
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -138,7 +138,7 @@ operation = "ADD_MULTIPLIED_BASE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:projectile_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.2
+bonusPerLevel = 0.15
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -146,7 +146,7 @@ operation = "ADD_VALUE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:magic_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.2
+bonusPerLevel = 0.15
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
 
@@ -154,6 +154,6 @@ operation = "ADD_VALUE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:explosion_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.25
+bonusPerLevel = 0.20
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
