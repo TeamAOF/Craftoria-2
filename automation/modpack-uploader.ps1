@@ -410,13 +410,13 @@ function Update-VersionFiles {
     }
 
     # Update bcc-common.toml
-    $bccConfigPath = "$INSTANCE_ROOT/config/bcc-common.toml"
+    $bccConfigPath = "$INSTANCE_ROOT/config/bcc-common.json"
     if (Test-Path $bccConfigPath) {
         $bccContent = Get-Content $bccConfigPath -Raw
         $bccContent = $bccContent -replace '(?m)^(\s*)modpackName\s*=\s*".*"', "`$1modpackName = `"$MODPACK_NAME`""
         $bccContent = $bccContent -replace '(?m)^(\s*)modpackVersion\s*=\s*".*"', "`$1modpackVersion = `"$MODPACK_VERSION`""
         [System.IO.File]::WriteAllText($bccConfigPath, $bccContent)
-        Write-Host "Updated bcc-common.toml: modpackName = `"$MODPACK_NAME`", modpackVersion = `"$MODPACK_VERSION`"" -ForegroundColor Green
+        Write-Host "Updated bcc-common.json: modpackName = `"$MODPACK_NAME`", modpackVersion = `"$MODPACK_VERSION`"" -ForegroundColor Green
     }
 
     # Update FancyMenu craftoria.txt
