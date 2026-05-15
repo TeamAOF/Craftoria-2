@@ -1,3 +1,34 @@
+# Craftoria | v0.5.0
+
+_Neoforge_ 26.1.2.48-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.5.0.md)_
+
+### Changes/Improvements ⭐
+
+* Nerfed mob damage per level (0.2 > 0.15) `AK`
+* Moved ftb ultimine overlay to stop overlapping with seasons `AK`
+* Allow graves to be interacted with in claims `AK`
+* Suppress ender io warning, what could possibly go wrong `AK`
+* Added europe official server `AK`
+* Add custom gui textures for curios, backpacks, waystones & trade cycling `AK`
+* Allow lootr entries to be opened in claims `AK`
+
+### Added Mods ✅
+
+* [Better Compatibility Checker](https://curseforge.com/projects/551894)
+* [Chisel 3](https://curseforge.com/projects/225236)
+* [Spice of Life: Carrot Edition](https://curseforge.com/projects/277616)
+* [Tools On My Back (TOMB)](https://curseforge.com/projects/1377938)
+* [Utilitarian](https://curseforge.com/projects/929559)
+
+### Removed Mods ❌
+
+* [AgriTech](https://curseforge.com/projects/1485550)
+* [AgriTech: Evolved](https://curseforge.com/projects/1287394)
+
+### Bug Fixes 🪲
+
+* Incorrect anchor for mc/pack version text on main menu `AK`
+---
 # Craftoria | v0.4.0
 
 _Neoforge_ 26.1.2.48-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.4.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.4.0.md)_

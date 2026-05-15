@@ -8,3 +8,7 @@ maxRenderedNodes = 200
 maxVisibleNodes = 500
 #GUI theme for logistics node screens: light, dark, redstone, nebula, glass, terminal, pastel, brutalist
 theme = "dark"
+#Whether newly placed nodes should be visible by default.
+defaultNodeVisibility = true
+#Render logistics nodes as connected textures when neighboring nodes are visible.
+connectedNodeTextures = true

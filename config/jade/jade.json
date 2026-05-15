@@ -165,6 +165,9 @@
     "theurgy": {
       "mercury_flux": true
     },
+    "enderio": {
+      "soul_bound": true
+    },
     "agritechevolved": {
       "planter_info": true
     },

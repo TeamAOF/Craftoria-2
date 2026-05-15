@@ -1,0 +1,11 @@
+pinning_enabled = true
+show_advancement_id_in_debug_tooltip = true
+#Allowed Values: ALWAYS, DEBUG_TOOLTIPS_ENABLED, NEVER
+show_debug_info = "DEBUG_TOOLTIPS_ENABLED"
+max_criterion_entries = 2
+fade_out_on_advancement_hover = true
+save_last_selected_tab = true
+pinned_tabs = []
+last_selected_tab = ""
+spacing_between_horizontal_tabs = 4
+spacing_between_pinned_tabs = 2

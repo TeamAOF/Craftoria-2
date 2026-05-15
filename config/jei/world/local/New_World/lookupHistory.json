@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"croptopia:lettuce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"logisticsnetworks:iron_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"logisticsnetworks:name_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"logisticsnetworks:mod_filter"},"type":"item_stack","bookmarkType":"INGREDIENT"},
