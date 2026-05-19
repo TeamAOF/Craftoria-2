@@ -7,7 +7,7 @@
 	enableItemHUD = true
 	#True to enable the in-world HUD when looking at supported machine blocks, false to disable it.
 	#Disable this if you use another overlay mod such as Jade and want it to provide the in-world block information instead.
-	enableInWorldHUD = true
+	enableInWorldHUD = false
 	#True to enable held-stack fit outlines on supported apparatuses, false to disable them.
 	enableHeldStackFitOutline = true
 	#Controls whether held-stack fit outlines show only green for accepted items or also red for non-accepted items.
