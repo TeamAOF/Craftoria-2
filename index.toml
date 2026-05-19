@@ -674,7 +674,7 @@ hash = "273aa1c70694dbd1b9c6f03b2644ffdda8ceba5afe2b4125e35a3294abeaeb41"
 
 [[files]]
 file = "config/fancymenu/customization/craftoria.txt"
-hash = "1212c7dd83ec1e7c7972eb72b45224e8027f6938b63afded40a8fd4402e8c38c"
+hash = "255a3aab8e950597c6410f271cff5126e2954a7999ffee8eb64850fed2fd57a8"
 
 [[files]]
 file = "config/fancymenu/customization/create_world_screen_layout.txt"
@@ -1484,7 +1484,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "6847ed1b996da586f66db96f75b087d222807f6008e3a4f168d987dfe252cc3a"
+hash = "5c2d986788ec926b6f17c55c86b5003656476223f2d34ec9e414b02c2630646b"
 metafile = true
 
 [[files]]
@@ -1989,7 +1989,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "9eab99fdd3469b187e26e16b74bdd79c2acb294ba9bcdbd8c44a9f8bd752f93e"
+hash = "863b2960137464011319cc1c35ecbf3ec61234e5ff87f9ae55bf0aaf805425b6"
 metafile = true
 
 [[files]]
@@ -2174,4 +2174,4 @@ metafile = true
 
 [[files]]
 file = "version_info.json"
-hash = "56aa4e0d494ac1a8d03d426b9cd967f8c10fa83e5765a7d7e798277f177c8280"
+hash = "d128dc0f8bd97762c269de0e6fa0e08c2cc0265a727f26a7870aa66626dfc403"

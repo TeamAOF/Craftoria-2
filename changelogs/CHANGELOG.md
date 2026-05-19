@@ -1,3 +1,11 @@
+# Craftoria | v0.6.1
+
+_Neoforge_ 26.1.2.55-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.6.1.md)_
+
+### Bug Fixes 🪲
+
+* Foliage placement in BOP biomes `AK`
+---
 # Craftoria | v0.6.0
 
 _Neoforge_ 26.1.2.55-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.6.0.md)_
