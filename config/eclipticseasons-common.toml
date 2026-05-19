@@ -206,11 +206,6 @@
 	ModsWithoutSereneSeasonBasedHumidity = []
 	#Intercepts raw biome precipitation queries to ensure small biomes (like rivers) do not disrupt large-scale weather logic.
 	FixBiomePrecipitation = true
-	#Determines global weather state based on player locations when external mods bypass our API.
-	#This represents the weighted threshold required to trigger a specific weather condition.
-	# Default: 0.5
-	# Range: 0.0 ~ 1.0
-	WeatherVotePercent = 0.5
 
 [Debug]
 	#Force using server synchronized config when joining a multiplayer server.

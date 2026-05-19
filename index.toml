@@ -410,7 +410,7 @@ hash = "53c3f3d71a520b42cf78d1bb4bb7efc2cbb7330c37d5400bf193c86ab0b21644"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "6d0f20f23e16f16261689bb6cbe4de9d23d064a246a0300eaa06050f30713fad"
+hash = "c8b70163da1f1c2bb98ab216ade617ea402faf843d75614541fa77420689da1a"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -443,6 +443,30 @@ hash = "de7b2c20171712fb50a7cce9481430d68a847bf669566ac8ac8957d32010e003"
 [[files]]
 file = "config/cristellib/built_in_packs.json5"
 hash = "76120cb769b1303ffdbd30a197e01e69692a9c111eb818a3b5a5272925343364"
+
+[[files]]
+file = "config/cristellib/ecologics/structure_placement_config.json5"
+hash = "2dffabe9cf24e5a80a6a36ab8a192e53260957401950ffbfd906952ee7b30236"
+
+[[files]]
+file = "config/cristellib/ecologics/structure_toggle_config.json5"
+hash = "c3895d398dd1dc46e1abc5f22257d23b96fb5de50e129113514c0f75d35a6612"
+
+[[files]]
+file = "config/cristellib/eternalnether/structure_placement_config.json5"
+hash = "83ebfdaa2f886834117a3a80d9afc4ac2a2f715a69019a8c2b23f53ef5326e1a"
+
+[[files]]
+file = "config/cristellib/eternalnether/structure_toggle_config.json5"
+hash = "b6acc0060d7903a0054e04ca02aa449a906e521c9cbe1fb5e8d8ff105076159a"
+
+[[files]]
+file = "config/cristellib/illagerinvasion/structure_placement_config.json5"
+hash = "c3bb98e518d7a3a13e30314c50aa6dd9a7016475448be3b327ff1227e4dc9092"
+
+[[files]]
+file = "config/cristellib/illagerinvasion/structure_toggle_config.json5"
+hash = "2bbcd60442d138a9441f3eaab4081f2a6c410fc74b6d1d4e3ee51e1d2749711d"
 
 [[files]]
 file = "config/crystalix/crystalix-client.toml"
@@ -498,15 +522,15 @@ hash = "bad2c622803fe7dc742ef2be258dd5732b3127ea2a2f4af91f3e26afa35120b6"
 
 [[files]]
 file = "config/dynamic_difficulty/sync.toml"
-hash = "458cb7b85aab6e9ded4d53c19e43808b2e5c577b2a5b4686567248ca9f20c2e8"
+hash = "075e8fce1aa9e86b6833fd6902d41ab17dc9750eab3b6a735977964f6070a1b5"
 
 [[files]]
 file = "config/eclipticseasons-client.toml"
-hash = "e75013d13b6defb945cec8a81f44e709bfe400da6fcc1598b7de639a17c35e89"
+hash = "2fd6bc819dde8d742212914f986c5ee4a1dfbdcb0951e7fe5be7be217842f4fd"
 
 [[files]]
 file = "config/eclipticseasons-common.toml"
-hash = "ba87bf41e977688dbcd9203bf9b7d735fdb9bb6d17cb726438ce0a5a935e3764"
+hash = "7da5be1ee5158821ccf87d393748e1b1e0bbdd3984bdfcbb530371d149c3ce6b"
 
 [[files]]
 file = "config/eclipticseasons-mixins.toml"
@@ -515,6 +539,10 @@ hash = "84b4821ab96453a1aa813bc3b904233b61f0bc7c3917a24a55f573e19311ad78"
 [[files]]
 file = "config/eclipticseasons-startup.toml"
 hash = "564e3cbbd044bfcc8c3d58700efeaec8355b8b815777e679dd80e201c1721d92"
+
+[[files]]
+file = "config/ecologics-common.toml"
+hash = "7a196d3e3e6435eca30e8f76b03f16a5cc938cabfa20155612824fc5690d4c0a"
 
 [[files]]
 file = "config/elevatorid-server.toml"
@@ -646,7 +674,7 @@ hash = "273aa1c70694dbd1b9c6f03b2644ffdda8ceba5afe2b4125e35a3294abeaeb41"
 
 [[files]]
 file = "config/fancymenu/customization/craftoria.txt"
-hash = "8b2e40cb1dbc57db0c87215b364c8aef61a6cc6e943f608f2c261c8a6787980d"
+hash = "1212c7dd83ec1e7c7972eb72b45224e8027f6938b63afded40a8fd4402e8c38c"
 
 [[files]]
 file = "config/fancymenu/customization/create_world_screen_layout.txt"
@@ -881,6 +909,10 @@ file = "config/guideme.toml"
 hash = "e4f58ced20ccf200592141f4afcad54a0d33faa6b672a90e58781c1a8183a036"
 
 [[files]]
+file = "config/illagerinvasion-server.toml"
+hash = "341c39e253f95ff21cb87a7be861fa887d9b3ca03419004c55a3c7a8301579dd"
+
+[[files]]
 file = "config/immediatelyfast.json"
 hash = "d16232b7570268b51768ef5410f605117a0be072bf621cccde34d5a5098be566"
 
@@ -930,7 +962,7 @@ hash = "050d938dabbf94286caef792fa8920e036b20b791d978ede10ca2725fc99f587"
 
 [[files]]
 file = "config/jei-server.toml"
-hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
+hash = "649247aaef7a04cecbd963645245fd55ce0fb1467c885b058c8603654a3ab772"
 
 [[files]]
 file = "config/jei/blacklist.json"
@@ -938,7 +970,7 @@ hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "084d6baad1ef4a732392a8cbf41323ead44f2eec34a710f8efd6f95b0be7bcad"
+hash = "abdd31418e49b7cda3c94741c344e02c16cf844d9fcbe4503c29c930c1e3a15b"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -962,7 +994,7 @@ hash = "a03d4ae7af9dd6b7fede411e1922a01daa120a3f7c5c5fe99e7b6ca6d0f7071c"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "9d405fbe7791620cfe2ecca2a261f6789d2298658676a9322e59ab5f8635c79f"
+hash = "a3ec182e4f011e92bee6230e3a66ac8287c4bfa3c5b9259f63abf64ff91e01e6"
 
 [[files]]
 file = "config/jei/world/local/Development/lookupHistory.json"
@@ -970,7 +1002,7 @@ hash = "c7d1aa084d6a3b41a16d3574bb37c05fc7be3f29ea07dfdf909b2b07eafe475e"
 
 [[files]]
 file = "config/jei/world/local/New_World/lookupHistory.json"
-hash = "804a2420dac95b3ba8e25e7866aeef34bd550dc301535e5c7eeb62090da2e07a"
+hash = "66f72c54eea225f6453f5e30bf67b92fae3ffda36c4ade82c55460c87ef98e60"
 
 [[files]]
 file = "config/jumpboat-server.toml"
@@ -1038,7 +1070,7 @@ hash = "02f9f0d557a2c41c4a407816ee65a32d89fd8fdf4172762688e29331986585f7"
 
 [[files]]
 file = "config/modernfix-mixins.properties"
-hash = "749f07ffe80a279f5fde5005bba34e45a17e4a31bb9f07386905119724cc185a"
+hash = "d0609ff3ccfb492d527c2cd818d8e4bdd4ce9404f4730f3bee8ce81e94b4e4be"
 
 [[files]]
 file = "config/modonomicon-client.toml"
@@ -1103,6 +1135,10 @@ hash = "3faf193a3c58f9e1f9d87a997326e84b5cc3837934ecc6deb6404ce0ed7d7751"
 [[files]]
 file = "config/pickupnotifier-server.toml"
 hash = "f307605d2e9622fcb9290a02a28c37febfe87676faebe600899c339c1f9453e4"
+
+[[files]]
+file = "config/pipe-connector.toml"
+hash = "c36b7e130c1da5220772445cefff01ea1bca7b0ce41f27aab9abee3fc6f7065c"
 
 [[files]]
 file = "config/professions/professions.conf"
@@ -1198,7 +1234,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "6468ef438951118c9f48b316157f5a574bc7309d5492c1e2a2ea4be36257709e"
+hash = "02375bcb41fb6ec5e9a4c09bfcc008c8f410b46f421a93e53a93fedc7f2859ac"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -1242,7 +1278,7 @@ hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
 
 [[files]]
 file = "config/theurgy-client.toml"
-hash = "ae6943a8b302b1982cdb0d0ae940149e6a58372ef41490aaee99d54ffc5704ab"
+hash = "f3503063a7abb8ef3369c5ab2ff6c058327e1e569f2a8d01e9a1254ccc41b764"
 
 [[files]]
 file = "config/theurgy-server.toml"
@@ -1462,6 +1498,11 @@ hash = "5e63f44ba5113b18ee66c51f06c5e7a56112784130aa9051d9bedaaf64654933"
 metafile = true
 
 [[files]]
+file = "mods/c2me.pw.toml"
+hash = "f72aa3c3bba62ed3886ac84a5b03d22cd19e1a26469787fb5e62990943bf81cb"
+metafile = true
+
+[[files]]
 file = "mods/catalogue.pw.toml"
 hash = "9d0efd6c932f83817311fa9ab30f4207cb0e13acf843d4a14adbe2ec338b67c3"
 metafile = true
@@ -1477,13 +1518,8 @@ hash = "ff337663febd8e06ca13004ff39a56fd58ded2e601bfa9268c8464be728457c2"
 metafile = true
 
 [[files]]
-file = "mods/cherished-worlds.pw.toml"
-hash = "eda727a99012199ebdd41e4338cbf6cb6205c792c5a7056d589b0ed8442354fd"
-metafile = true
-
-[[files]]
 file = "mods/chisel-3.pw.toml"
-hash = "30ccb34f498cff3e26b7f815001eafdc57db5ed3225684ac29ff7ed925aeeaf5"
+hash = "2928565726aab62ed6754f561f96111fc1a5f61d394f828619bdf514518d3d81"
 metafile = true
 
 [[files]]
@@ -1557,13 +1593,13 @@ hash = "846eeddc670230ddaeaeb145d03735d94ec4fa611dce9f02cda4eb6f9b78a68a"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-difficulty-mod.pw.toml"
-hash = "8a44126bca762181701575d0d2c06ee4203b5bcd756b2f4c2376bc18377c0c24"
+file = "mods/ecliptic-seasons.pw.toml"
+hash = "605b72f6176ea5b18cc97acad58134591d27c56d787862d82ca6250f8089141f"
 metafile = true
 
 [[files]]
-file = "mods/ecliptic-seasons.pw.toml"
-hash = "32c1ee2ac90c5aa7856f64580f7876c584203f6ea43988620e03821d3b35aa82"
+file = "mods/ecologics.pw.toml"
+hash = "ce497121548a912060e0f8e980bbdf647119d000fd827be2b4ffe4a72032f01e"
 metafile = true
 
 [[files]]
@@ -1602,13 +1638,18 @@ hash = "56dbb60e93ad8a0dca5778bc69d549096858bfddaf905a9afcbd2ee13475b4eb"
 metafile = true
 
 [[files]]
+file = "mods/eternal-nether.pw.toml"
+hash = "f56faf1a12dca7aef3af00058c5e90567f7fcdfb39cb5262499a98b0369b6cec"
+metafile = true
+
+[[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "dae5c756a77911c18cba191b9844a3b9c20bcdd3dd55de13fc57cf9fe3b79bbe"
 metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "39dd2be72c29ed324cb8ee5637aeb61ca0dd9303ff51f7c5a5641d79524b0165"
+hash = "e14e3435093d4897e05491a2cb85d7eaaea0f4c0e9976bb8f8df1330a31e61f4"
 metafile = true
 
 [[files]]
@@ -1652,11 +1693,6 @@ hash = "7f10703621f1883aa0c69e3f0d4700543e2d37328d77703fdceeb5fcd05b1047"
 metafile = true
 
 [[files]]
-file = "mods/fzzy-config.pw.toml"
-hash = "e4982e4a76ff29da07d697778a5fba505b856d6408cab5a2513ca7fc3e573a05"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "4bbc6f3876d40c2b1decb3512cb692dd8b8fa06acc6609ce5fad23d51269a7cb"
 metafile = true
@@ -1677,6 +1713,11 @@ hash = "1de9e29893256369f9c3d532968ce2a67cbf40647b31959999ddc85baab8815b"
 metafile = true
 
 [[files]]
+file = "mods/illager-invasion.pw.toml"
+hash = "16c1d86aca511c310e9e37e98ce3650b907ccee9860076c8f01d08acc566b72e"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "08d38953de29d76cf938cc1b7cfc077de9b32a2ec66f97e7a82549f333fb8be5"
 metafile = true
@@ -1692,13 +1733,18 @@ hash = "0012f1147e0e3abe56854c0b4cb985a4e7fbe3ce1df0f4038286f6c13b91171c"
 metafile = true
 
 [[files]]
+file = "mods/itempeek.pw.toml"
+hash = "f4863eca42ef12d3571bcd2b1f55587530229dfe6127088c4a58a23d7c60e369"
+metafile = true
+
+[[files]]
 file = "mods/jade.pw.toml"
 hash = "d1dedbb5df797ba0ce61664f8b24403086b737c8c90d8860c069f0e4ad59839e"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "3f4df3aead1cae991416719621fba372b67d7dc06ae6783c616dc4311f966e92"
+hash = "8f5359a415552a24f1e87359784ce30eeee08075bf1df9ecd237460dc18f2a6f"
 metafile = true
 
 [[files]]
@@ -1748,7 +1794,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithostitched.pw.toml"
-hash = "ee2c0ca154dfe93c18f92af6719c43c595cca40db197af94ec3c1a6bc25e5f2d"
+hash = "1be2823c652638d77b079818089d9248dfc702c446109fbfbf9bc5359b8657f1"
 metafile = true
 
 [[files]]
@@ -1818,7 +1864,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "0fb522f867911351ee38c14fc494b6528693108ab3edbe39d09c1bcfe66a96f2"
+hash = "6c82ab9d2e353ed288892c650d6c454cae3ae27521d106b444f5adcc0362ad66"
 metafile = true
 
 [[files]]
@@ -1863,7 +1909,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "ff77b73673d3f1900512929f39bfd924a0c656f5b92bc9f3f41c63d3f513df23"
+hash = "66605c6c6e48f3bda6d74d83ba7ec9c4fb4b58919809ddd65766c14556fc37b3"
 metafile = true
 
 [[files]]
@@ -1892,13 +1938,18 @@ hash = "af659bc8a09789634fecf70e4ef2f94794141b9cf2e10b1934079bd5cfadd684"
 metafile = true
 
 [[files]]
+file = "mods/pipe-connector.pw.toml"
+hash = "e1ef74a54c2bdeded9d1b619a62edcca7bdbda432d6cd4af3a551e690b2fda3e"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 hash = "a109f18f3a966bd457c0252a3b110a1167f9f80d5f90f6c8a678f5de7b1cdc14"
 metafile = true
 
 [[files]]
 file = "mods/punchy.pw.toml"
-hash = "c0d02f8d2e5977098c0e60c96ca8e998a613c90738e4edc6da8bbca662ecdbe6"
+hash = "b71cd5058736cafc1614da180851c544403e55724bc868739f04ecf37b95f383"
 metafile = true
 
 [[files]]
@@ -1914,6 +1965,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "c602aed92ad4eca1926720b043e18f030f898917214e2127a9055f7c494c609b"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons-api-stub-ecliptic-seasons-bridge.pw.toml"
+hash = "dccbe38278d2a96d02010fda1d3befa3ecae73b2bcb23c91ae9cc269532ae225"
 metafile = true
 
 [[files]]
@@ -1988,7 +2044,7 @@ metafile = true
 
 [[files]]
 file = "mods/theurgy.pw.toml"
-hash = "ede4945ef7625a9fdd165e004950165f3ab447167aa7d9077c4855c179db1ebe"
+hash = "33793465e43108b02502bc3a6ff061c93bba39717bc563764d0a9630a73e5f0f"
 metafile = true
 
 [[files]]
@@ -2023,7 +2079,7 @@ metafile = true
 
 [[files]]
 file = "mods/waystones.pw.toml"
-hash = "4695fa8b26c6acad1d2cc9c71c2321e18c771d2da6a38e06a8a3916ebe9c9498"
+hash = "23e301187b18cfb2db6cdc3e0bd24248a0665ac51c55bd968e3de70c087fe175"
 metafile = true
 
 [[files]]
@@ -2118,4 +2174,4 @@ metafile = true
 
 [[files]]
 file = "version_info.json"
-hash = "0656439fd2a02a40f26853df5a658ce7fa58c5c7b9c8a66bcbc356ef537e3f1a"
+hash = "56aa4e0d494ac1a8d03d426b9cd967f8c10fa83e5765a7d7e798277f177c8280"

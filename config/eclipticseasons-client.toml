@@ -13,8 +13,6 @@
 	FrozenWaterBreakable = true
 	#Prevents the visual frozen water effect in areas with high light levels.
 	FrozenWaterCheckLight = true
-	#Experimental: Adds a cinematic fog effect during rainfall.
-	FoggyWeather = false
 
 [GUI]
 	#Show tooltips for ideal seasons and humidity levels on crop items.
@@ -118,18 +116,6 @@
 	SeasonGreenhouseParticleSpawnCount = 30
 	#Breaking snow-covered leaves will release a burst of snow particles.
 	SnowLeafParticles = true
-
-[Weather]
-	#The radius (in blocks) used to sample and blend weather patterns for smooth transitions.
-	# Default: 6
-	# Range: 1 ~ 80
-	WeatherBufferDistance = 6
-	#How quickly local weather conditions change. Higher values mean faster shifts.
-	# Default: 0.008
-	# Range: 8.0E-4 ~ 0.08
-	WeatherTransitionSpeed = 0.008
-	#Prioritize weather sampling in the direction the player is currently facing.
-	WeatherFrontBias = true
 
 	[Compat.Iris]
 		#Harmonizes shading parameters for all snow-covered surfaces when using shaders.

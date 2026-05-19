@@ -1,3 +1,27 @@
+# Craftoria | v0.6.0
+
+_Neoforge_ 26.1.2.55-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.6.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.6.0.md)_
+
+### Changes/Improvements ⭐
+
+* Disabled theurgy in world hud `AK`
+
+### Added Mods ✅
+
+* [Concurrent Chunk Management Engine](https://curseforge.com/projects/533097)
+* [Ecologics](https://curseforge.com/projects/570463)
+* [Eternal Nether](https://curseforge.com/projects/1252482)
+* [Illager Invasion](https://curseforge.com/projects/891324)
+* [ItemPeek](https://curseforge.com/projects/1467647)
+* [Pipe Connector](https://curseforge.com/projects/846168)
+* [Serene Seasons API Stub (Ecliptic Seasons Bridge)](https://curseforge.com/projects/1476693)
+
+### Removed Mods ❌
+
+* [Cherished Worlds](https://curseforge.com/projects/308240)
+* [Dynamic Difficulty (Neoforge/Fabric)](https://curseforge.com/projects/1272655)
+* [Fzzy Config](https://curseforge.com/projects/1005914)
+---
 # Craftoria | v0.5.0
 
 _Neoforge_ 26.1.2.48-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.5.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.5.0.md)_

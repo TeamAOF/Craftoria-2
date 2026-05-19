@@ -154,6 +154,6 @@ operation = "ADD_VALUE"
 # Attribute resource location (e.g. minecraft:attack_damage)
 attribute = "dynamic_difficulty:explosion_damage_bonus"
 # Amount added per entity level
-bonusPerLevel = 0.20
+bonusPerLevel = 0.2
 # add_value (flat), add_multiplied_base (% of base), add_multiplied_total (% of final)
 operation = "ADD_VALUE"
