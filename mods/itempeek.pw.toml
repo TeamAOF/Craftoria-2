@@ -1,0 +1,13 @@
+name = "ItemPeek"
+filename = "itempeek-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "70390a6eaa96c015476ac5622e3d2b71699ba982"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8102905
+project-id = 1467647

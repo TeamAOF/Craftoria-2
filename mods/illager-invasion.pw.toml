@@ -1,0 +1,13 @@
+name = "Illager Invasion"
+filename = "IllagerInvasion-v26.1.0-mc26.1.x-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "91874008c3f9e1e466fa3cb80070b8058ddfc84b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8031805
+project-id = 891324

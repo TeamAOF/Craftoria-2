@@ -1,13 +1,13 @@
 name = "Chisel 3"
-filename = "chisel-3.0.9.jar"
+filename = "chisel-3.0.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "99fc57da95f53bc606fff7e85814575015eb8cbe"
+hash = "fbeac3be78e38eadb6c24f3a882fd296c2c3d9b9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8003091
+file-id = 8096350
 project-id = 225236
