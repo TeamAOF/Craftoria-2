@@ -409,15 +409,17 @@ function Update-VersionFiles {
         Write-Host "Updated version_info.json: version = `"$MODPACK_VERSION`"" -ForegroundColor Green
     }
 
-    # Update bcc-common.toml
+    # Update bcc-common.json
     $bccConfigPath = "$INSTANCE_ROOT/config/bcc-common.json"
     if (Test-Path $bccConfigPath) {
-        $bccContent = Get-Content $bccConfigPath -Raw
-        $bccContent = $bccContent -replace '(?m)^(\s*)modpackName\s*=\s*".*"', "`$1modpackName = `"$MODPACK_NAME`""
-        $bccContent = $bccContent -replace '(?m)^(\s*)modpackVersion\s*=\s*".*"', "`$1modpackVersion = `"$MODPACK_VERSION`""
-        [System.IO.File]::WriteAllText($bccConfigPath, $bccContent)
-        Write-Host "Updated bcc-common.json: modpackName = `"$MODPACK_NAME`", modpackVersion = `"$MODPACK_VERSION`"" -ForegroundColor Green
-    }
+    $bccContent = Get-Content $bccConfigPath -Raw
+    # Update modpackName.value
+    $bccContent = $bccContent -replace '("modpackName"\s*:\s*\{\s*"value"\s*:\s*")[^"]*(")', "`$1$MODPACK_NAME`$2"
+    # Update modpackVersion.value
+    $bccContent = $bccContent -replace '("modpackVersion"\s*:\s*\{\s*"value"\s*:\s*")[^"]*(")', "`$1$MODPACK_VERSION`$2"
+    [System.IO.File]::WriteAllText($bccConfigPath, $bccContent)
+    Write-Host "Updated bcc-common.json: modpackName = `"$MODPACK_NAME`", modpackVersion = `"$MODPACK_VERSION`"" -ForegroundColor Green
+}
 
     # Update FancyMenu craftoria.txt
     $fancyMenuPath = "$INSTANCE_ROOT/config/fancymenu/customization/craftoria.txt"
