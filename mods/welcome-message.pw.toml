@@ -1,0 +1,13 @@
+name = "Welcome Message"
+filename = "welcomemessage-26.1.2-2.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc3248c4b26d341a83049dde8fdc73e30cecf8ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7901785
+project-id = 551215

@@ -1,0 +1,13 @@
+name = "Jobs+"
+filename = "jobsplus-neoforge-20.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c29a8c4bc583921699fa76e73cb31d648f935430"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8006319
+project-id = 916985

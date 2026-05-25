@@ -1,0 +1,13 @@
+name = "Arc Lib"
+filename = "arc-neoforge-20.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6bc23aedb385224f4e95f6b95a50f773d63b4f36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8001751
+project-id = 883593

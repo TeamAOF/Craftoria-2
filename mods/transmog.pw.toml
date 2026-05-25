@@ -1,0 +1,13 @@
+name = "Transmog"
+filename = "transmog-neoforge-1.8.0+26.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6f8a27ec8bb1694c0359c9bcc77a1587fb4878dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8125263
+project-id = 848032
