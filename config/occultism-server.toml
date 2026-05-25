@@ -350,7 +350,7 @@
 	blacksmithFamiliarRepairChance = 0.33
 	#The amount of iron required for a blacksmith familiar to upgrade another familiar.
 	# Default: 18
-	# Range: > 0
+	# Range: > 1
 	blacksmithFamiliarUpgradeCost = 18
 	#The cooldown for a blacksmith familiar to upgrade another familiar.
 	# Default: 400
@@ -405,7 +405,7 @@
 	# Range: > 1
 	butcherLifeMultiplier = 20
 	#Chance per level of the Fracture Soul enchantment to drop a Shattered Soul.
-	# Default: 0.17000000178813934
+	# Default: 0.10000000149011612
 	# Range: 0.0 ~ 1.0
 	shatteredSoulChance = 0.17000000178813934
 	#Don't damage chalks on use

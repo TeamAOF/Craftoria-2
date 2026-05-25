@@ -1,0 +1,72 @@
+jobs:
+  amount_of_free_jobs:
+    #the amount of free jobs a player can have
+    #Minimum value: 0, Maximum value: 1000, Default value: 2
+    2
+  max_jobs:
+    #the maximum amount of jobs a player can have
+    #Minimum value: 0, Maximum value: 1000, Default value: 1000
+    1000
+  excluded_jobs:
+    #A list of job IDs to exclude from the game. Example: ['jobsplus:miner', 'jobsplus:digger']
+    #Default value: []
+    []
+  experience_formula:
+    #The formula used to calculate experience required for the next level.
+    #Available variables: 'level'
+    #Supported operators: +, -, *, /, ^, (, )
+    #Default value: '100 + level * level * 0.5791'
+    100 + level * level * 0.75
+  max_level:
+    #the maximum level a player can reach in a job
+    #Minimum value: 1, Maximum value: 100000, Default value: 10000
+    10000
+  job_price_multiplier:
+    #A global multiplier for all job prices.
+    #Minimum value: 0.0, Maximum value: 100.0, Default value: 1.0
+    1.0
+  powerups:
+    powerup_price_multiplier:
+      #A global multiplier for all powerup prices.
+      #Minimum value: 0.0, Maximum value: 100.0, Default value: 1.0
+      1.0
+    excluded_powerups:
+      #A list of powerup IDs to exclude from the game. Example: ['jobsplus:miner/double_drops_iii', 'jobsplus:digger/shovel_efficiency_v']
+      #Default value: []
+      []
+  coins:
+    coins_per_level_up:
+      #the amount of coins a player gets when they level up a job
+      #Minimum value: 0, Maximum value: 1000, Default value: 1
+      1
+  experience:
+    experience_multiplier:
+      #A global multiplier for all job experience gained.
+      #Minimum value: 0.0, Maximum value: 100.0, Default value: 1.0
+      1.0
+    lose_exp_on_death:
+      #If true, players will lose a percentage of their job experience upon death.
+      #Default value: false
+      false
+    exp_loss_percentage:
+      #The percentage of experience lost on death (0.25 = 25%).
+      #Minimum value: 0.0, Maximum value: 1.0, Default value: 0.25
+      0.25
+display:
+  coin_format:
+    #The format used to display coins.
+    #Uses DecimalFormat patterns.
+    #Examples: '#,##0.00', '0.0a', '##0‰'
+    #Minimum length: 1, Maximum length: 32, Default value: '#,###.#'
+    '#,###.#'
+  exp_format:
+    #The format used to display experience.
+    #Uses DecimalFormat patterns.
+    #Examples: '#,##0.00', '0.0a', '##0‰'
+    #Minimum length: 1, Maximum length: 32, Default value: '#,###.#'
+    '#,###.#'
+messages:
+  send_job_level_up_messages:
+    #If true, players will receive a message in chat when they level up a job.
+    #Default value: true
+    true

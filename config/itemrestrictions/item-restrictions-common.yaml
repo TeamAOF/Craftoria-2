@@ -1,0 +1,5 @@
+restrictions:
+  excluded_restrictions:
+    #A list of restriction IDs to exclude from the game. Example: ['<namespace>:<restriction_id>']
+    #Default value: []
+    []

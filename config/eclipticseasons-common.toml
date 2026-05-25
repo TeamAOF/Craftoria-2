@@ -136,6 +136,14 @@
 	# Default: 2.0
 	# Range: 1.0E-5 ~ 5000.0
 	SeasonalPrayerRitualTimeCost = 2.0
+	#Uses the classic chat-message display for the growth detector instead of the new in-world UI.
+	GrowthDetectorClassicMode = false
+	#Whether Wandering Traders can sell Seasonal Greenhouse Essence.
+	WanderingTraderSellsGreenhouseEssence = true
+	#The effective radius of the 'Humid Tank' block.
+	# Default: 4.5
+	# Range: 2.0 ~ 16.0
+	HumidityTankRange = 4.5
 
 [Animal]
 	#Limit animal breeding to their natural, compatible seasons.
@@ -231,7 +239,7 @@
 	RegionalSnowTime = true
 	#Enforces original Vanilla temperature and precipitation settings to prevent other mods from creating extreme environmental values.
 	VanillaBiomeClimateSettings = true
-	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
-	NotIgnoreRiver = false
 	#Spring brings life to grass and flowers, while autumn marks the fading.
 	SpringGrass = false
+	#When enabled, rivers are no longer treated as ignored climate zones. This reduces performance overhead but may result in less natural weather transitions near riverbanks.
+	IndependentRiverWeather = true

@@ -208,13 +208,12 @@ globalExecutorParallelism = "default"
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
 	enableExtRenderDistanceProtocol = "default"
-	# (Default: true) Whether to attempt to smooth out chunk sending rate
-	# 
-	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
-	# which can cause frame time stability if the server also delivers chunks in a bursty way
-	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
-	# 
-	smoothChunkSendingRate = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
+	# Setting this to 0 disables rate limiting
+	# 
+	# Defaults to 200, which is 200%
+	# 
+	chunkSendingSpeedMultiplierPercentage = "default"

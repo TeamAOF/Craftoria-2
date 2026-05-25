@@ -23,6 +23,7 @@
 	[common.entity]
 		MixinEntity = true
 		MixinLivingEntity = true
+		MixinWanderingTrader = true
 
 	[common.level]
 		MixinAttributeTrackSampler = true

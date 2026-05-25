@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:netherite_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone_axe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"illagerinvasion:hallowed_gem"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"croptopia:lettuce"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"logisticsnetworks:iron_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},

@@ -1,3 +1,28 @@
+# Craftoria | v0.7.0
+
+_Neoforge_ 26.1.2.60-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.7.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.7.0.md)_
+
+### Changes/Improvements ⭐
+
+* Added 3 second warmup to all teleportation commands `AK`
+* Increased max homes from 1 > 2 `AK`
+
+### Added Mods ✅
+
+* [AdvancedAE](https://curseforge.com/projects/1084104)
+* [Arc Lib](https://curseforge.com/projects/883593)
+* [Beautified Chat \[Server\]](https://curseforge.com/projects/514796)
+* [Collective](https://curseforge.com/projects/342584)
+* [Fancy Toasts | Better Advancements](https://curseforge.com/projects/1326436)
+* [FTB Ranks (NeoForge)](https://curseforge.com/projects/314905)
+* [Item Restrictions](https://curseforge.com/projects/887774)
+* [Jobs+](https://curseforge.com/projects/916985)
+* [Knot](https://curseforge.com/projects/1470052)
+* [Transmog](https://curseforge.com/projects/848032)
+* [UI Lib](https://curseforge.com/projects/933200)
+* [Welcome Message](https://curseforge.com/projects/551215)
+* [YAML Config](https://curseforge.com/projects/1128669)
+---
 # Craftoria | v0.6.1
 
 _Neoforge_ 26.1.2.55-beta | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.6.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.6.1.md)_

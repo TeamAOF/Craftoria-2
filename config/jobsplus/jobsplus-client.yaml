@@ -1,0 +1,89 @@
+status_bar:
+  jobs:
+    #The job status bars to display. Use job IDs.
+    #Default value: []
+    - jobsplus:lumberjack
+  x_offset:
+    #The x offset of the job status bars.
+    #Minimum value: -2147483648, Maximum value: 2147483647, Default value: 3
+    3
+  y_offset:
+    #The y offset of the job status bars.
+    #Minimum value: -2147483648, Maximum value: 2147483647, Default value: 3
+    3
+  horizontal_alignment:
+    #The x alignment of the job status bars. Options: LEFT, CENTER, RIGHT
+    #Allowed values: ['LEFT', 'CENTER', 'RIGHT'], Default value: RIGHT
+    RIGHT
+  vertical_alignment:
+    #The y alignment of the job status bars. Options: TOP, CENTER, BOTTOM
+    #Allowed values: ['TOP', 'CENTER', 'BOTTOM'], Default value: BOTTOM
+    BOTTOM
+  color:
+    #The color of the job status bars in decimal ARGB format.
+    #Minimum value: 0, Maximum value: 4294967295, Default value: 2868903935
+    '2868903935'
+  empty_color:
+    #The empty color of the job status bars in decimal ARGB format.
+    #Minimum value: 0, Maximum value: 4294967295, Default value: 2868903935
+    '2868903935'
+  width:
+    #The width of the job status bars.
+    #Minimum value: -2147483648, Maximum value: 2147483647, Default value: 120
+    120
+  detailed:
+    #If true, the job status bars will show detailed information.
+    #Default value: true
+    true
+  background:
+    enabled:
+      #If true, the job status bar background will be rendered.
+      #Default value: true
+      true
+    color:
+      #The color of the job status bar background in decimal ARGB format.
+      #Minimum value: 0, Maximum value: 4294967295, Default value: 2863311530
+      '2863311530'
+    border_color:
+      #The border color of the job status bar background in decimal ARGB format.
+      #Minimum value: 0, Maximum value: 4294967295, Default value: 2868903935
+      '2868903935'
+chat:
+  show_exp_above_hotbar:
+    #If true, experience gain messages will appear above the hotbar.
+    #Default value: true
+    true
+  show_your_level_up_chat_messages:
+    #If true, you will see a chat message when you level up.
+    #Default value: true
+    true
+  show_your_level_up_toast_messages:
+    #If true, you will see a toast message when you level up.
+    #Default value: true
+    true
+  show_players_level_up_chat_messages:
+    #If true, you will see a chat message when other players level up.
+    #Default value: true
+    true
+  show_restriction_unlock_toast_message:
+    #If true, a toast message will appear when you unlock a job restriction.
+    #Default value: true
+    true
+  show_powerup_unlock_toast_message:
+    #If true, a toast message will appear when you unlock a powerup.
+    #Default value: true
+    true
+sound:
+  play_level_up_sound:
+    #If true, a sound will play when you level up.
+    #Default value: true
+    true
+  sound_volume:
+    #The volume of the level up sound.
+    #Minimum value: 0.0, Maximum value: 1.0, Default value: 1.0
+    1.0
+tooltips:
+  show_job_restriction_tooltip:
+    #Adds a tooltip to items indicating which Job/Level is required to use them.
+    #Default value: true
+    true

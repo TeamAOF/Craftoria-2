@@ -4,9 +4,6 @@
 	showItemTagsInTooltip = false
 	#Disables holiday themed visual content such as familiar skins.
 	disableHolidayTheming = false
-	#When true occultism will continue using it's own Block Outline renderer, even if Theurgy is present.
-	#When false, only if Theurgy is present, it will use the more immersive Theurgy renderer that sends a particle to the target block.
-	dontUseTheurgyDivinationRodParticle = false
 	#The integer code of the color of the white chalk glyph in world.
 	#This is intended to allow people with color blindness to change the color of the glyph.
 	#For most types of color blindness it should not be necessary to change this.
@@ -103,6 +100,9 @@
 	# Default: 15961002
 	# Range: 0 ~ 16777215
 	pinkChalkGlyphColor = 15961002
+	#When true, the divination rod uses Occultism's old block outline renderer instead of the particle trail effect.
+	#When false, the divination rod sends a particle trail toward the target block.
+	useAlternativeDivinationRodRenderer = false
 
 #Misc Settings
 [misc]
@@ -114,9 +114,6 @@
 	# Default: 4
 	# Range: 1 ~ 9
 	storageRows = 4
-	#If true, divination rod will render all matching blocks with an outline. Disable if it causes lag.
-	#This setting will be unused, if Theurgy is installed alongside, as Occultism will use Theurgy's divination rod result rendering instead.
-	divinationRodHighlightAllResults = false
 	#The scan range in blocks for the divination rod. Too high might cause lags
 	# Default: 129
 	# Range: > 1

@@ -1,0 +1,10 @@
+actions:
+  excluded_actions:
+    #A list of action IDs to exclude from the game. Example: [`<namespace>:<action_id>`]
+    #Default value: []
+    []
+block:
+  max_block_pos_cache_size:
+    #The maximum size of the block pos cache, used to not drop double drops on placed blocks
+    #Minimum value: -2147483648, Maximum value: 2147483647, Default value: 10000
+    10000
