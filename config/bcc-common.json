@@ -1,12 +1,12 @@
 {
   "modpackName": {
-    "value": "Craforia 2",
+    "value": "Craforia 2: Worlds Beyond",
     "comments": [
       "The name of the modpack"
     ]
   },
   "modpackVersion": {
-    "value": "0.5.0",
+    "value": "0.6.1",
     "comments": [
       "The version of the modpack"
     ]
