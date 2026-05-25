@@ -409,16 +409,14 @@ function Update-VersionFiles {
         Write-Host "Updated version_info.json: version = `"$MODPACK_VERSION`"" -ForegroundColor Green
     }
 
-    # Update bcc-common.json
+  # Update bcc-common.json
     $bccConfigPath = "$INSTANCE_ROOT/config/bcc-common.json"
     if (Test-Path $bccConfigPath) {
-    $bccContent = Get-Content $bccConfigPath -Raw
-    # Update modpackName.value
-    $bccContent = $bccContent -replace '("modpackName"\s*:\s*\{\s*"value"\s*:\s*")[^"]*(")', "`$1$MODPACK_NAME`$2"
-    # Update modpackVersion.value
-    $bccContent = $bccContent -replace '("modpackVersion"\s*:\s*\{\s*"value"\s*:\s*")[^"]*(")', "`$1$MODPACK_VERSION`$2"
-    [System.IO.File]::WriteAllText($bccConfigPath, $bccContent)
-    Write-Host "Updated bcc-common.json: modpackName = `"$MODPACK_NAME`", modpackVersion = `"$MODPACK_VERSION`"" -ForegroundColor Green
+    $bccConfig = Get-Content $bccConfigPath -Raw | ConvertFrom-Json
+    $bccConfig.modpackName.value = $MODPACK_NAME
+    $bccConfig.modpackVersion.value = $MODPACK_VERSION
+    $bccConfig | ConvertTo-Json -Depth 10 | Set-Content $bccConfigPath -Encoding UTF8
+    Write-Host "Updated bcc-common.json successfully" -ForegroundColor Green
 }
 
     # Update FancyMenu craftoria.txt
