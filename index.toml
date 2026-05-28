@@ -1982,7 +1982,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "f89b719f555c6843fc04b26feedf0b86f46327d43e8ddeee62b16fa5f23d843d"
+hash = "4ba56a514e1b7bc9341f730719b78f7c23f18849329b18fd208e584a49c8375a"
 metafile = true
 
 [[files]]
@@ -2157,7 +2157,7 @@ metafile = true
 
 [[files]]
 file = "mods/theurgy.pw.toml"
-hash = "88b60e80fc9be45fb24762aa3b1b900149966a3b9e402d777a7b78e57ef4095f"
+hash = "13bc5094042924e54df77acb158457fcd3f33a4a51187b96f11c81f592b52620"
 metafile = true
 
 [[files]]
