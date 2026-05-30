@@ -5,8 +5,9 @@
       "The name of the modpack"
     ]
   },
-  $10.7.0",
-    "comments": [
+ "modpackVersion":  {
+    "value":  "0.7.0",
+    "comments":  [
       "The version of the modpack"
     ]
   },
