@@ -1,13 +1,13 @@
 name = "Epitaphs"
-filename = "epitaphs-2.1.0+26.1.2.jar"
+filename = "epitaphs-2.1.1+26.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "589206f0d483bbfd48ecabca58193e92f16dc427"
+hash = "34679de5e746b78580a60330c6f89d82629f657c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8129853
+file-id = 8182652
 project-id = 1325482

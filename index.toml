@@ -1722,7 +1722,7 @@ metafile = true
 
 [[files]]
 file = "mods/epitaphs.pw.toml"
-hash = "d64328e92d88310aa4a9a6601ed1a5f7ea1639cd97482a19e2adf3e9f0fbe4c5"
+hash = "d6e8e798d9e199609a93b8a9014cb96d71ce9e3e50be34945e17af8b7545d5b9"
 metafile = true
 
 [[files]]
