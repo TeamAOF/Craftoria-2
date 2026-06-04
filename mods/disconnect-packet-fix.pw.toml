@@ -1,0 +1,13 @@
+name = "Disconnect Packet Fix"
+filename = "disconnect-packet-fix-neoforge-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbaa93d92016fc43a335e2eecbe216d239701ca4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8173380
+project-id = 1173964

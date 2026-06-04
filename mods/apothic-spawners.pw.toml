@@ -1,0 +1,13 @@
+name = "Apothic Spawners"
+filename = "ApothicSpawners-26.1.2-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f644155560828c04246f17024b14a758eae0a494"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8171043
+project-id = 986583

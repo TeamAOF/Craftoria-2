@@ -1,0 +1,13 @@
+name = "Book of Familiars"
+filename = "bookoffamiliars-neoforge-26.1.2-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87d7cc410890c82f445e652d418586340c885454"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8143372
+project-id = 1532914
