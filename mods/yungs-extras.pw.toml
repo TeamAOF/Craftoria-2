@@ -1,0 +1,13 @@
+name = "YUNG's Extras (Forge/NeoForge)"
+filename = "YungsExtras-26.1.2-NeoForge-6.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f37261ebf49f07192d98f1040f8e9750cc50ffcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8313845
+project-id = 480006

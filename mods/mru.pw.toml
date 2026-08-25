@@ -1,13 +1,13 @@
-name = "M.R.U"
-filename = "mru-1.0.28+lts+26.1-neoforge.jar"
+name = "MRU"
+filename = "mru-1.0.33+26.1.2-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8f65ff9045c79f5e0da9563d3e162928de89eda7"
+hash = "367471d98bef54c9c26f12410c71861683399155"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7805937
+file-id = 8617114
 project-id = 669659

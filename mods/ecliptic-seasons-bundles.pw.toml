@@ -1,13 +1,13 @@
 name = "Ecliptic Seasons : Bundles"
-filename = "EclipticSeasons-Bundles-0.17.2.1.jar"
+filename = "EclipticSeasons-Bundles-0.18.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3e8bc57ed893ec6b1af26f21cfad54b53224130c"
+hash = "9672d3ca19522d9c8a708502378ca4993f69eac9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8226533
+file-id = 8350348
 project-id = 1449802

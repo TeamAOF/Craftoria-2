@@ -1,13 +1,13 @@
 name = "Enchantment Descriptions"
-filename = "EnchantmentDescriptions-neoforge-MC26.1.2-26.1.2.5.jar"
+filename = "EnchantmentDescriptions-neoforge-MC26.1.2-26.1.2.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "eef58146d2ec7fc1cd8b2ccb8c29938a11acdfc3"
+hash = "ccb1352eb8de6e1b5402aaa5768c5da212cb07b6"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8269760
+file-id = 8692947
 project-id = 250419

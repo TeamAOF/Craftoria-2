@@ -1,13 +1,13 @@
 name = "Sound​s"
-filename = "sounds-2.5.0+lts+26.1.2-neoforge.jar"
+filename = "sounds-2.5.1+lts+26.1.2-neoforge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "9cc1bab2709351dcf77c5efdf8f323afd4c50f90"
+hash = "1dbaafa95bdd6b3a18c5bbeacc219edc8c373bb2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8151890
+file-id = 8343036
 project-id = 925889

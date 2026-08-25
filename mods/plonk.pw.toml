@@ -1,0 +1,13 @@
+name = "Plonk"
+filename = "plonk-26.1.2-10.0.10-neo.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c8d57969618899ad01a7f182a680245070bcd7d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8572541
+project-id = 345779

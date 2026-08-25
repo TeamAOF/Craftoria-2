@@ -1,13 +1,13 @@
 name = "Ecliptic Seasons"
-filename = "EclipticSeasons-26.1.2-neoforge-0.13.8.2.jar"
+filename = "EclipticSeasons-26.1.2-neoforge-0.14.99-beta-2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a2c9ba811b162accfb851d1549281403a97aa18b"
+hash = "0169f1eff884d4387af1ec2648c8aa4e38f709b4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8291975
+file-id = 8690433
 project-id = 1118306

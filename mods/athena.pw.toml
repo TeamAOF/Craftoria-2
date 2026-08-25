@@ -1,0 +1,13 @@
+name = "Athena"
+filename = "athena-4.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2583e9a557cca800efb356a4ca17f5dce96f762a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7970442
+project-id = 841890

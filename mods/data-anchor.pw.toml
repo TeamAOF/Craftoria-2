@@ -1,0 +1,13 @@
+name = "Data Anchor"
+filename = "dataanchor-neoforge-26.1.2-4.0.0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2fb7650dc2f9b36b435b1e7bf13ca7822bf925ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8629343
+project-id = 1203668

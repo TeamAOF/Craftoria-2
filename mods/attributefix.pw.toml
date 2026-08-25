@@ -1,13 +1,13 @@
 name = "AttributeFix"
-filename = "AttributeFix-neoforge-MC26.1.2-26.1.2.2.jar"
+filename = "AttributeFix-neoforge-MC26.1.2-26.1.2.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "19d0186686c5376420dd27ce145a2015ce20dcf0"
+hash = "bba72608a77d6c046cb7edead875081cbe851694"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8269745
+file-id = 8383507
 project-id = 280510

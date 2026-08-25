@@ -1,13 +1,13 @@
 name = "Crafting on a stick"
-filename = "crafting_on_a_stick-neoforge-26.1-1.0.jar"
+filename = "crafting_on_a_stick-neoforge-26.1-1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "144c61f5a80a6013bbb8b472f151c0a10203742d"
+hash = "9ec42d0ca5c917ac6678bb33bd635c79b616944f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7895200
+file-id = 8381262
 project-id = 577850

@@ -1,0 +1,13 @@
+name = "Lighty"
+filename = "lighty-neoforge-4.0.1+26.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2eb5abdc49ec3951fc5598a0f6a091f4648b03e6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8118229
+project-id = 986380

@@ -1,0 +1,13 @@
+name = "YUNG's Better Desert Temples (Forge/NeoForge)"
+filename = "YungsBetterDesertTemples-26.1.2-NeoForge-5.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b774fec1a624d8c1d90c0bfdafbf744f0234ede"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8313776
+project-id = 631016

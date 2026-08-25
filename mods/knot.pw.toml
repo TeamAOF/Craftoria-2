@@ -1,13 +1,13 @@
 name = "Knot"
-filename = "knot-neoforge-core-20.1.7.jar"
+filename = "knot-neoforge-core-20.2.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d94a3b8850af48ab2dd0399d9f36a7d1614bf641"
+hash = "62cdecae97bd9d88131b7d511b6f213d31befc17"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8001630
+file-id = 8553438
 project-id = 1470052

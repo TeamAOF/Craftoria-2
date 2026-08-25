@@ -1,13 +1,13 @@
 name = "Simple Voice Chat"
-filename = "voicechat-neoforge-2.6.20+26.1.2.jar"
+filename = "voicechat-neoforge-2.6.22+26.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "652ecc3476941decc447898405c75e801bf27fe2"
+hash = "10fe776a2646ec8157791d364eea45d103780764"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8293295
+file-id = 8601510
 project-id = 416089

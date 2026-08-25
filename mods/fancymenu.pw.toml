@@ -1,13 +1,13 @@
 name = "FancyMenu"
-filename = "fancymenu_neoforge_3.9.1_MC_26.1.1-26.1.2.jar"
+filename = "fancymenu_neoforge_3.9.10_MC_26.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6690620c2c30eacc7adcdb13b3c5a61c8dce5821"
+hash = "3aaa6aea8d871d2b2016092e41baa5f7adee1520"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8089462
+file-id = 8652295
 project-id = 367706

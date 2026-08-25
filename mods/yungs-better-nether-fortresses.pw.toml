@@ -1,0 +1,13 @@
+name = "YUNG's Better Nether Fortresses (Forge/NeoForge)"
+filename = "YungsBetterNetherFortresses-26.1.2-NeoForge-4.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56ce1043a99b05880f03339fd142ec226255d74a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8313796
+project-id = 817651

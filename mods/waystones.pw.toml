@@ -1,13 +1,13 @@
 name = "Waystones"
-filename = "waystones-neoforge-26.1.2-26.1.2.6.jar"
+filename = "waystones-neoforge-26.1.2-26.1.2.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "49b9f86a06703a590f4f9efab0c25ce50b48abc8"
+hash = "782a33e705edbd7a3adc942b0ac3a0941f50aa3f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8286050
+file-id = 8646818
 project-id = 245755

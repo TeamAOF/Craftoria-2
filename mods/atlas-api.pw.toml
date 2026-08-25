@@ -1,0 +1,13 @@
+name = "Atlas API"
+filename = "atlas_api-26.1.2-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1cc3ae69add18d462e8d0a72a6bd195ccfa53f8b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8237338
+project-id = 1145462

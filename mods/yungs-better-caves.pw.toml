@@ -1,0 +1,13 @@
+name = "YUNG's Better Caves (Forge/NeoForge)"
+filename = "YungsBetterCaves-26.1.2-NeoForge-4.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9aa4769781b4448433c968b90951e5382b75e466"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8522499
+project-id = 340583

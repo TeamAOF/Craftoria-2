@@ -1,13 +1,13 @@
 name = "UI Lib"
-filename = "uilib-neoforge-20.1.3.jar"
+filename = "uilib-neoforge-20.1.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b22300d0ce4141d3a1c26cb61a6300631550c10a"
+hash = "0bee5ae86c0ecc7b76e0600c6190dea7665f2f7c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8044616
+file-id = 8371384
 project-id = 933200

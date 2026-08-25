@@ -1,0 +1,13 @@
+name = "JEI Biome"
+filename = "jei_biome-26.1.2-neoforge-1.6fix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2c63afb7b61b426334279021098803225f18e3a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8644772
+project-id = 1598029

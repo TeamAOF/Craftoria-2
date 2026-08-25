@@ -1,13 +1,13 @@
 name = "PolyLib"
-filename = "polylib-neoforge-26.1.2-2.0.8.jar"
+filename = "polylib-neoforge-26.1.2-2.0.11.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0f907bae8f4f5ac1f8f5905e84f414d69f22ff10"
+hash = "7edb8d0552d2007c0aeb73b8d91e1bbcfe15413c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8236724
+file-id = 8596523
 project-id = 576589
