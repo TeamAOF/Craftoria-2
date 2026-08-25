@@ -64,6 +64,11 @@
     "justdirethings:ferricore_leggings": ["defense:10"],
     "justdirethings:ferricore_boots": ["defense:10"],
 
+    "farmingforblockheads:green_fertilizer": ["farming:12"],
+    "farmingforblockheads:red_fertilizer": ["farming:12"],
+    "farmingforblockheads:watering_can": ["farming:12"],
+    "farmingforblockheads:yellow_fertilizer": ["farming:12"],
+
     "minecraft:diamond_sword": ["attack:15"],
     "minecraft:diamond_spear": ["attack:15"],
     "minecraft:diamond_shovel": ["gathering:15"],
