@@ -80,6 +80,7 @@
     "justhammers:diamond_reinforced_hammer": ["gathering:16"],
     "justhammers:diamond_reinforced_impact_hammer": ["gathering:16"],
     "justhammers:diamond_destructor_hammer": ["gathering:16"],
+    "enderio:dark_steel_sword": ["gathering:16", "attack:16"],
 
     "aquaculture:neptunium_pickaxe": ["mining:17"],
     "aquaculture:neptunium_sword": ["attack:17"],
