@@ -15,3 +15,16 @@ max_backups = 10
 # Default: 5
 # Range: > 1
 max_old_deaths = 5
+# List of dimensions to blacklist graves from spawning in
+# Default: []
+blacklisted_dimensions = []
+# Maximum distance at which a villager death will. 0 to disable
+# Default: 6
+# Default: 6
+# Range: > 0
+villager_death_distance = 6
+# Number of days to keep backups before permanently removing them. 0 to disable
+# Default: 0
+# Default: 0
+# Range: > 0
+backup_max_age_days = 0

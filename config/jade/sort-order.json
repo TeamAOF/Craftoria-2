@@ -19,6 +19,7 @@
   "apothic_enchanting:raven_stats": null,
   "apothic_spawners:spawner": null,
   "balm:jade": null,
+  "chisel:jade_plugin": null,
   "crystalix:crystalix": null,
   "dimstorage:dim_block_base": null,
   "dimstorage:dim_tank": null,
@@ -33,6 +34,8 @@
   "extendedae:tile_data": null,
   "framedblocks:framed_block_generic": null,
   "framedblocks:framed_item_frame": null,
+  "functionalstorage:armory": null,
+  "functionalstorage:drawer": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -101,5 +104,9 @@
   "neovitae:block_info": null,
   "occultism:foliot": null,
   "occultism:sacrificial": null,
+  "reliquary:altar": null,
+  "reliquary:cauldron": null,
+  "reliquary:mortar": null,
+  "reliquary:pedestal": null,
   "theurgy:mercury_flux": null
 }

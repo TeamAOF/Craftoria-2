@@ -2,3 +2,5 @@
 showHigherTierTintedVariants = true
 #Determines whether JEI and creative tab will show only single wood variant of storage item per tier. Makes creative tab and .
 showSingleWoodVariantOnly = false
+#Determines whether JEI and creative tab will show generic wood variants for copper and higher tiers. Can help with keeping these lists smaller when many compatible wood types are loaded.
+showHigherTierGenericWoodVariants = false

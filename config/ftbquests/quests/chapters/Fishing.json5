@@ -6,10 +6,14 @@
     id: "starcatcher:starcatcher_rod",
     count: 1,
   },
-  filename: "Fishing",
+  filename: "fishing",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "3F3C9A6F590496AD",
+  quest_enhance_decorative_lines: [
+  ],
+  quest_enhance_hidden_dependency_lines: [
+  ],
   quests: [
     {
       x: 1.5,
@@ -76,6 +80,7 @@
       dependencies: [
         "3295D859B01FA315",
       ],
+      size: 1.0,
       id: "00ABC6D5601DCD95",
       tasks: [
         {
@@ -113,6 +118,7 @@
       dependencies: [
         "3295D859B01FA315",
       ],
+      size: 1.0,
       id: "2C42A6E79A5242F0",
       tasks: [
         {
@@ -142,6 +148,7 @@
       dependencies: [
         "3295D859B01FA315",
       ],
+      size: 1.0,
       id: "5D0F6404B76F480E",
       tasks: [
         {

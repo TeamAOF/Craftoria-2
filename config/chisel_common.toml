@@ -1,0 +1,10 @@
+[general]
+	# Default: 512
+	# Range: > 0
+	iron_chisel_durability = 512
+	# Default: 5096
+	# Range: > 0
+	diamond_chisel_durability = 5096
+	# Default: 10048
+	# Range: > 0
+	obsidian_chisel_durability = 10048

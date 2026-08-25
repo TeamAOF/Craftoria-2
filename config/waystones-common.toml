@@ -16,7 +16,7 @@
 
 [worldGen]
 	#Set to 'default' to only generate the normally textured waystones. Set to 'mossy' or 'sandy' to generate all as that variant. Set to 'biome' to make the style depend on the biome it is generated in.
-	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, DEEPSLATE, END_STONE, BIOME
+	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, RED_NETHER_BRICKS, DEEPSLATE, END_STONE, PURPUR, PRISMARINE, MUD_BRICKS, BIOME
 	wildWaystoneStyle = "BIOME"
 	#Approximate chunk distance between wild waystones being generated. Set to 0 to disable generation.
 	chunksBetweenWildWaystones = 25
@@ -40,8 +40,8 @@
 	disableTextGlow = false
 
 [rules]
-	#Set to "global" to have newly placed or found waystones be global by default.
-	#Allowed Values: ACTIVATION, GLOBAL
+	#Set to "team" or "global" to have newly placed or found waystones use that visibility by default.
+	#Allowed Values: ACTIVATION, TEAM, GLOBAL
 	defaultVisibility = "ACTIVATION"
 	#Set to true to allow everyone to manage global waystones. Always true if `defaultVisibility` is `global`. Can be overridden by Shogi Rule `may_manage_global_waystones`.
 	allowEveryoneToManageGlobalWaystones = false
@@ -52,7 +52,7 @@
 	#Set to false to simply disable all cooldowns. See rules for more fine-grained control.
 	enableCooldowns = true
 	#List of warp requirements in Shogi format.
-	warpRequirements = ["$xp_points_cost = if(condition = is_interdimensional, then = 27, else = $distance * 0.01)", "source(is_warp_plate()), target(is_global()) -> $xp_points_cost = 0", "$xp_points_cost = clamp($xp_points_cost, 0, 27)", "is_warp_stone -> damage_item(80)", "is_inventory_button -> cooldown_cost('inventory_button', '300s')"]
+	warpRequirements = ["$uses_xp #= and(any(source(is_waystone), source(is_warp_stone)), not(target(is_fleeting_memorial)))", "$uses_xp -> $xp_points_cost = $distance * $xp_per_block", "$uses_xp + is_interdimensional -> $xp_points_cost = $interdimensional_xp_cost", "$uses_xp -> $xp_points_cost = clamp($xp_points_cost, 0, $max_xp_cost)", "is_warp_stone -> damage_item(80)", "is_inventory_button -> cooldown_cost('inventory_button', $inventory_button_cooldown)"]
 	#Set to "enabled" to have nearby pets teleport with you. Set to "same_dimension" to have nearby pets teleport with you only if you're not changing dimensions. Set to "disabled" to disable.
 	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
 	transportPets = "DISABLED"
@@ -63,6 +63,8 @@
 	entityDenyList = ["minecraft:wither"]
 	#Set to true to enable warp modifier items for applying status effects on teleports.
 	enableModifiers = true
+	#List of variables used in the warpRequirements configuration.
+	warpSettings = ["$xp_per_block = 0.01", "$min_xp_cost = 0", "$max_xp_cost = 27", "$interdimensional_xp_cost = 27", "$inventory_button_cooldown = '300s'"]
 
 [journeyMap]
 	#If enabled, JourneyMap waypoints will be created for each activated waystone.

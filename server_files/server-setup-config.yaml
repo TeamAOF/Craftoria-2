@@ -6,8 +6,8 @@ modpack:
 
 install:
   mcVersion:
-  loaderVersion: 26.1.2.76
-  modpackUrl: https://mediafilez.forgecdn.net/files/8300/740/Craftoria+2-0.10.1.zip
+  loaderVersion: 26.1.2.97
+  modpackUrl: https://mediafilez.forgecdn.net/files/8732/581/Craftoria+2-0.11.0.zip
   installerUrl: "https://maven.neoforged.net/releases/net/neoforged/neoforge/{{@loaderversion@}}/neoforge-{{@loaderversion@}}-installer.jar"
 
   ignoreFiles:

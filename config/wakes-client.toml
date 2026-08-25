@@ -1,0 +1,98 @@
+#Disable the mod functionality
+disableMod = false
+pickBoat = true
+#List of fluid IDs that can produce wakes
+fluidWhitelist = ["minecraft:water", "minecraft:flowing_water", "tfc:salt_water", "tfc:spring_water", "tfc:river_water"]
+#List of entity type IDs that should not produce wakes
+mobBlacklist = []
+#Allowed Values: EIGHT, SIXTEEN, THIRTYTWO
+wakeResolution = "SIXTEEN"
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+wakeOpacity = 1.0
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+blendStrength = 0.5
+firstPersonSplashPlane = false
+spawnParticles = true
+#Brightness of wakes while a shader pack is in use. Lighting itself comes from the shader pack, so 1.0 leaves it untouched
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+shaderLightPassthrough = 1.0
+#Extra height added on top of the wave height detected from the loaded shader pack, for packs whose water displacement cannot be detected
+# Default: 0.0
+# Range: 0.0 ~ 1.0
+shaderWaterHeightOffset = 0.0
+wakeColorIntervals = [0.05, 0.15, 0.2, 0.35, 0.52, 0.6, 0.7, 0.9]
+wakeColors = ["#00000000", "#289399a6", "#649ea5b0", "#b4c4cad1", "#00000000", "#b4c4cad1", "#ffffffff", "#b4c4cad1", "#649ea5b0"]
+debugColors = false
+drawDebugBoxes = false
+showDebugInfo = false
+# Default: 2
+# Range: 1 ~ 6
+floodFillDistance = 2
+# Default: 2
+# Range: 1 ~ 20
+floodFillTickDelay = 2
+#Allowed Values: AUTO, TRANSLUCENT_BLOCK, BEACON_BEAM_TRANSLUCENT
+renderType = "AUTO"
+
+#Spawning Rules
+[spawningRules]
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	boatSpawning = "SIMULATION_AND_PLANES"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	playerSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	otherPlayersSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	mobSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	itemSpawning = "ONLY_SIMULATION"
+	#Allowed Values: SIMULATION_AND_PLANES, ONLY_SIMULATION, ONLY_PLANES, DISABLED
+	fishingBobberSpawning = "ONLY_SIMULATION"
+
+#Wake Behavior
+[wakeBehavior]
+	# Default: 0.95
+	# Range: 0.0 ~ 1.0
+	wavePropagationFactor = 0.95
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	waveDecayFactor = 0.5
+	# Default: 20
+	# Range: > 0
+	initialStrength = 20
+	# Default: 100
+	# Range: > 0
+	paddleStrength = 100
+	# Default: 100
+	# Range: > 0
+	splashStrength = 100
+
+#Splash Plane Settings
+[splashPlane]
+	# Default: 2.0
+	# Range: -5.0 ~ 5.0
+	splashPlaneWidth = 2.0
+	# Default: 1.5
+	# Range: -5.0 ~ 5.0
+	splashPlaneHeight = 1.5
+	# Default: 3.0
+	# Range: -5.0 ~ 5.0
+	splashPlaneDepth = 3.0
+	# Default: 0.0
+	# Range: -5.0 ~ 5.0
+	splashPlaneOffset = 0.0
+	# Default: 1.0
+	# Range: -5.0 ~ 5.0
+	splashPlaneGap = 1.0
+	# Default: 5
+	# Range: 0 ~ 10
+	splashPlaneResolution = 5
+	# Default: 0.5
+	# Range: -5.0 ~ 5.0
+	maxSplashPlaneVelocity = 0.5
+	# Default: 0.8
+	# Range: -5.0 ~ 5.0
+	splashPlaneScale = 0.8

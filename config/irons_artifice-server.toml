@@ -1,0 +1,11 @@
+[illificer]
+	#Chance (0-1) for an Illificer to replace an Patrol Leader on natural patrol
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	replacePatrolLeader = 0.5
+
+[drowned-pirates]
+	#Chance (0-1) for Drowned Pirates to ambush various ocean chests
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	drownedPirateAmbush = 0.25

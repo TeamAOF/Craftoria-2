@@ -1,0 +1,37 @@
+[general]
+	#Master switch for Graveless death handling.
+	enabled = true
+	#Maximum death records retained per player. Oldest records are dropped first (backup files on disk are kept).
+	# Default: 30
+	# Range: 1 ~ 1000
+	max_records_per_player = 30
+	#Maximum archived grave backup files kept on disk per player. The oldest files are deleted once a new death pushes a player over the limit. -1 keeps every backup forever.
+	# Default: -1
+	# Range: -1 ~ 10000
+	max_backups_per_player = -1
+	#Distance in blocks at which grave ghosts are sent to nearby players and remain visible.
+	# Default: 256
+	# Range: 16 ~ 512
+	visibility_radius = 256
+	#Maximum distance in blocks from which a ghost can be claimed. The claim aim passes through blocks.
+	# Default: 16
+	# Range: 2 ~ 128
+	claim_range = 16
+	#Require an unobstructed line of sight to the ghost to claim it. When enabled, claims no longer work through walls.
+	require_line_of_sight = false
+
+[protection]
+	#Grant Spirit Ward (invisibility, night vision, mobs ignore you) when approaching your own grave.
+	protection_enabled = false
+	#Distance in blocks from your own grave at which Spirit Ward is granted.
+	# Default: 256
+	# Range: 8 ~ 512
+	protection_range = 256
+	#How long Spirit Ward lasts in seconds if the grave is not claimed.
+	# Default: 120
+	# Range: 5 ~ 600
+	protection_duration = 120
+	#How long Spirit Ward lingers in seconds after claiming the grave.
+	# Default: 1
+	# Range: 0 ~ 60
+	protection_linger = 1

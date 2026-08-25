@@ -10,6 +10,10 @@
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "78EDBDED3BFEC145",
+  quest_enhance_decorative_lines: [
+  ],
+  quest_enhance_hidden_dependency_lines: [
+  ],
   quests: [
     {
       icon: {
@@ -66,6 +70,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "2F9560A5281DCDFD",
       tasks: [
         {
@@ -87,6 +92,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "2BF835F8F73E8F06",
       tasks: [
         {
@@ -105,6 +111,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "54EDB1B00E985AD4",
       tasks: [
         {
@@ -123,6 +130,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "2CB005B413D2B889",
       tasks: [
         {
@@ -141,6 +149,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "35885A1220BB34FC",
       tasks: [
         {
@@ -169,6 +178,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "42F50CA00F913A46",
       tasks: [
         {
@@ -191,6 +201,7 @@
       dependencies: [
         "78EDBDED3BFEC145",
       ],
+      size: 1.0,
       id: "473F20C25AAAF017",
       tasks: [
         {

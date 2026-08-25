@@ -9,6 +9,23 @@
 	#Range: 0 ~ 100
 	lureLevelBonus = 1
 
+	[anglers_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_anglers_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time the wearer fishes an item
+		#Range: > 0
+		damagePerItemFished = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 320
+
 [antidote_vessel]
 	#Whether the Antidote Vessel reduces the duration of negative effects
 	#Allowed Values: true, false
@@ -20,6 +37,23 @@
 	#Range: 0 ~ 72000
 	maxEffectDuration = 5
 
+	[antidote_vessel.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_antidote_vessel item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 100
+
 [aqua_dashers]
 	#Whether the Aqua-Dashers allow the wearer to sprint on water
 	#Allowed Values: true, false
@@ -27,6 +61,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[aqua_dashers.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_aqua_dashers item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second when walking on water
+		#Range: > 0.0
+		damagePerSecondActive = 1.0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
 
 [bunny_hoppers]
 	#How much the Bunny Hoppers reduce or increase fall damage
@@ -47,6 +98,26 @@
 	#Range: -Infinity ~ Infinity
 	safeFallDistanceBonus = 10.0
 
+	[bunny_hoppers.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_bunny_hoppers item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost after falling for more than 3 blocks without taking damage
+		#Range: > 0
+		damagePerFallSurvived = 1
+		#The amount of durability lost per jump
+		#Range: > 0
+		damagePerJump = 0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 200
+
 [charm_of_shrinking]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -56,6 +127,23 @@
 	#Values above 0 increase the player's scale
 	#Range: -Infinity ~ Infinity
 	scaleModifier = -0.5
+
+	[charm_of_shrinking.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_charm_of_shrinking item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every second this item is toggled on
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
 
 [charm_of_sinking]
 	#Whether the Charm of Sinking removes the wearer's collision with water
@@ -70,6 +158,23 @@
 	#Whether it is possible to take fall damage underwater when wearing the Charm of Sinking
 	#Allowed Values: true, false
 	underwaterFallDamage = false
+
+	[charm_of_sinking.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_charm_of_sinking item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second spent underwater
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
 
 [chorus_totem]
 	#Whether the Chorus Totem prevents the wearer's death
@@ -102,6 +207,23 @@
 	#Range: > 0.0
 	sprintJumpVerticalVelocity = 0.25
 
+	[cloud_in_a_bottle.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_cloud_in_a_bottle item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every double jump
+		#Range: > 0
+		damagePerDoubleJump = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 120
+
 [cowboy_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -109,6 +231,23 @@
 	#How much the Cowboy Hat increases the speed of ridden mounts
 	#Range: -Infinity ~ Infinity
 	mountSpeedBonus = 0.4
+
+	[cowboy_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_cowboy_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second while controlling a mount
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
 
 [cross_necklace]
 	#The amount of extra ticks the player stays invincible for after taking damage while wearing the Cross Necklace
@@ -121,6 +260,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[cross_necklace.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_cross_necklace item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 500
+
 [crystal_heart]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -128,6 +284,23 @@
 	#The amount of extra health points that are granted by the Crystal Heart
 	#Range: -Infinity ~ Infinity
 	healthBonus = 10.0
+
+	[crystal_heart.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_crystal_heart item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time the wearer takes damage
+		#Range: > 0
+		damageWhenHurt = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 600
 
 [digging_claws]
 	#How much the Digging Claws increase the wearer's mining speed
@@ -140,6 +313,29 @@
 	#Allowed Values: none, wood, stone, iron, diamond, netherite
 	toolTier = "stone"
 
+	[digging_claws.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_digging_claws item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per block mined that would not be harvestable without the digging claws
+		#Range: > 0
+		damagePerBlockHarvested = 1
+		#The amount of durability lost per block mined
+		#Range: > 0
+		damagePerBlockMined = 0
+		#The amount of durability lost for every ore block mined
+		#Range: > 0
+		damagePerOreMined = 0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 500
+
 [eternal_steak]
 	#The duration in seconds the Eternal Steak goes on cooldown for after being eaten
 	#Range: 0 ~ 72000
@@ -147,6 +343,26 @@
 	#Whether the Eternal Steak can be eaten
 	#Allowed Values: true, false
 	enabled = true
+	#Whether this item can be found in structures or drop from entities
+	#Allowed Values: true, false
+	generateAsLoot = true
+
+	[eternal_steak.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_eternal_steak item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability that is lost when this item is consumed
+		#Range: > 0
+		damageWhenConsumed = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 320
 
 [everlasting_beef]
 	#The duration in seconds the Everlasting Beef goes on cooldown for after being eaten
@@ -162,6 +378,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[everlasting_beef.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_everlasting_beef item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability that is lost when this item is consumed
+		#Range: > 0
+		damageWhenConsumed = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 320
+
 [feral_claws]
 	#How much the Feral Claws increase the wearer's attack speed
 	#Range: -Infinity ~ Infinity
@@ -170,6 +403,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[feral_claws.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_feral_claws item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every melee attack performed while wearing this item
+		#Range: > 0
+		damagePerAttack = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1500
+
 [fire_gauntlet]
 	#How long an entity is set on fire for after being attacked by an entity wearing the Fire Gauntlet
 	#Range: -Infinity ~ Infinity
@@ -177,6 +427,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[fire_gauntlet.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_fire_gauntlet item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every melee attack performed while wearing this item
+		#Range: > 0
+		damagePerAttack = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1500
 
 [flame_pendant]
 	#The duration in seconds the Flame Pendant goes on cooldown for after setting an entity on fire
@@ -195,6 +462,23 @@
 	#Range: 0.0 ~ 1.0
 	strikeChance = 0.4
 
+	[flame_pendant.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_flame_pendant item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 120
+
 [flippers]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -203,6 +487,23 @@
 	#Range: -Infinity ~ Infinity
 	swimSpeedBonus = 0.7
 
+	[flippers.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_flippers item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second when swimming
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
+
 [golden_hook]
 	#The amount of extra experience dropped by entities that are killed by players wearing the Golden Hook
 	#Range: -Infinity ~ Infinity
@@ -210,6 +511,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[golden_hook.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_golden_hook item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every entity killed while wearing this item
+		#Range: > 0
+		damagePerKill = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 300
 
 [helium_flamingo]
 	#The duration in seconds the Helium Flamingo goes on cooldown for when stopping flight
@@ -225,6 +543,23 @@
 	#Range: 0 ~ 72000
 	rechargeDuration = 15
 
+	[helium_flamingo.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_helium_flamingo item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second while flying with the Helium Flamingo
+		#Range: > 0.0
+		damagePerSecondActive = 1.0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 800
+
 [kitty_slippers]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -239,6 +574,26 @@
 	#Allowed Values: true, false
 	repelPhantoms = true
 
+	[kitty_slippers.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_kitty_slippers item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per creeper killed while wearing the kitty slippers
+		#Range: > 0
+		damagePerCreeperScared = 1
+		#The amount of durability lost per phantom killed while wearing the kitty slippers
+		#Range: > 0
+		damagePerPhantomScared = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 120
+
 [lucky_scarf]
 	#The amount of extra levels of fortune that are granted by the Lucky Scarf
 	#Range: 0 ~ 100
@@ -247,6 +602,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[lucky_scarf.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_lucky_scarf item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every ore block mined
+		#Range: > 0
+		damagePerOreMined = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 256
+
 [night_vision_goggles]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -254,6 +626,23 @@
 	#The strength of the night vision effect applied by the Night Vision Goggles
 	#Range: 0.0 ~ 1.0
 	strength = 0.15
+
+	[night_vision_goggles.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_night_vision_goggles item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every second this item is toggled on
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
 
 [novelty_drinking_hat]
 	#How much the Novelty Drinking Hat increases the wearer's drinking speed
@@ -266,6 +655,26 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[novelty_drinking_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_novelty_drinking_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time an item is drunk
+		#Range: > 0
+		damagePerItemDrunk = 1
+		#The amount of durability lost every time an item is eaten
+		#Range: > 0
+		damagePerItemEaten = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 256
+
 [obsidian_skull]
 	#The amount of time in seconds the Obsidian Skull goes on cooldown for after taking fire damage
 	#Range: 0 ~ 72000
@@ -277,6 +686,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[obsidian_skull.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_obsidian_skull item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 60
+
 [onion_ring]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -287,6 +713,23 @@
 	#The level of the haste effect that is applied by the Onion Ring
 	#Range: 0 ~ 256
 	hasteLevel = 2
+
+	[onion_ring.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_onion_ring item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 640
 
 [panic_necklace]
 	#The duration in seconds the Panic Necklace goes on cooldown for after taking damage
@@ -302,6 +745,23 @@
 	#Range: 0 ~ 256
 	speedLevel = 1
 
+	[panic_necklace.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_panic_necklace item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 500
+
 [pickaxe_heater]
 	#Whether the Pickaxe Heater smelts mined ores
 	#Allowed Values: true, false
@@ -309,6 +769,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[pickaxe_heater.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_pickaxe_heater item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every ore block mined
+		#Range: > 0
+		damagePerOreMined = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 256
 
 [plastic_drinking_hat]
 	#How much the Plastic Drinking Hat increases the wearer's drinking speed
@@ -321,6 +798,26 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[plastic_drinking_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_plastic_drinking_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time an item is drunk
+		#Range: > 0
+		damagePerItemDrunk = 1
+		#The amount of durability lost every time an item is eaten
+		#Range: > 0
+		damagePerItemEaten = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 256
+
 [pocket_piston]
 	#The amount of extra knockback that is granted by the Pocket Piston
 	#Range: -Infinity ~ Infinity
@@ -329,6 +826,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[pocket_piston.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_pocket_piston item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every melee attack performed while wearing this item
+		#Range: > 0
+		damagePerAttack = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1500
+
 [power_glove]
 	#The amount of extra damage that is dealt by melee attacks from players wearing the Power Glove
 	#Range: -Infinity ~ Infinity
@@ -336,6 +850,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[power_glove.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_power_glove item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every melee attack performed while wearing this item
+		#Range: > 0
+		damagePerAttack = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1500
 
 [rooted_boots]
 	#Whether the Rooted Boots replenish hunger when standing on grass
@@ -351,6 +882,23 @@
 	#Range: 0 ~ 72000
 	hungerReplenishingDuration = 10
 
+	[rooted_boots.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_rooted_boots item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time the Rooted Boots restore a food point
+		#Range: > 0
+		damagePerFoodPoint = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 400
+
 [running_shoes]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -362,6 +910,23 @@
 	#Range: -Infinity ~ Infinity
 	sprintingStepHeightBonus = 0.5
 
+	[running_shoes.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_running_shoes item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second when sprinting
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
+
 [scarf_of_invisibility]
 	#Whether the Scarf of Invisibility makes players invisible
 	#Allowed Values: true, false
@@ -372,6 +937,26 @@
 	#Whether the Scarf of Invisibility is hidden when the wearer is invisible
 	#Allowed Values: true, false
 	hideWhenInvisible = false
+	#Whether the Scarf of Invisibility should prevent all status effects from spawning particles
+	#Allowed Values: true, false
+	hidesEffectParticles = false
+
+	[scarf_of_invisibility.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_scarf_of_invisibility item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every second this item is toggled on
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
 
 [shock_pendant]
 	#Whether the Shock Pendant cancels damage from lightning
@@ -387,6 +972,23 @@
 	#Range: 0.0 ~ 1.0
 	strikeChance = 0.25
 
+	[shock_pendant.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_shock_pendant item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 50
+
 [snorkel]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -397,6 +999,23 @@
 	#The duration of the water breathing effect that is applied by the Snorkel
 	#Range: 0 ~ 72000
 	waterBreathingDuration = 30
+
+	[snorkel.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_snorkel item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second while underwater
+		#Range: > 0.0
+		damagePerSecondActive = 0.2
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 900
 
 [snowshoes]
 	#Whether the Snowshoes allow the wearer to walk on powdered snow
@@ -409,6 +1028,23 @@
 	#Range: -Infinity ~ Infinity
 	movementSpeedOnSnowBonus = 0.3
 
+	[snowshoes.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_snowshoes item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second when walking on snow
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
+
 [steadfast_spikes]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -419,6 +1055,23 @@
 	#How much the Steadfast Spikes reduce the slipperiness of ice
 	#Range: -Infinity ~ Infinity
 	slipperinessReduction = 1.0
+
+	[steadfast_spikes.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_steadfast_spikes item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost when the wearer is attacked by an entity or player
+		#Range: > 0
+		damageWhenAttacked = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 800
 
 [strider_shoes]
 	#Whether the Strider Shoes make the wearer immune to hot floor damage
@@ -431,6 +1084,23 @@
 	#Allowed Values: true, false
 	generateAsLoot = true
 
+	[strider_shoes.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_strider_shoes item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per second when walking on lava
+		#Range: > 0.0
+		damagePerSecondActive = 1.0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
+
 [superstitious_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -438,6 +1108,23 @@
 	#The amount of extra levels of Looting that are granted by the Superstitious Hat
 	#Range: 0 ~ 100
 	lootingLevelBonus = 1
+
+	[superstitious_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_superstitious_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every entity killed while wearing this item
+		#Range: > 0
+		damagePerKill = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 300
 
 [thorn_pendant]
 	#The duration in seconds the Thorn Pendant goes on cooldown for after activating
@@ -456,6 +1143,23 @@
 	#Range: 0.0 ~ 1.0
 	strikeChance = 0.5
 
+	[thorn_pendant.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_thorn_pendant item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 150
+
 [umbrella]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -467,6 +1171,29 @@
 	#Allowed Values: true, false
 	isShield = true
 
+	[umbrella.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_umbrella item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for each attack performed with the umbrella
+		#Range: > 0
+		damagePerAttack = 1
+		#The constant amount of damage that should be applied to the umbrella when an attack is blocked
+		#Range: > 0
+		damagePerBlockedAttackBase = 1
+		#The fraction of the dealt damage that should be applied to the umbrella when an attack is blocked
+		#Range: > 0.0
+		damagePerBlockedAttackFactor = 1.0
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 672
+
 [universal_attractor]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -474,6 +1201,23 @@
 	#The level of the magnetism effect that is applied by the Universal Attractor
 	#Range: 0 ~ 256
 	magnetismLevel = 5
+
+	[universal_attractor.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_universal_attractor item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost for every second this item is toggled on
+		#Range: > 0.0
+		damagePerSecondActive = 0.1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 1800
 
 [vampiric_glove]
 	#The probability that damage is absorbed when attacking an entity with the Vampiric Gloves
@@ -489,6 +1233,23 @@
 	#Range: > 0
 	maxHealingPerHit = 6
 
+	[vampiric_glove.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_vampiric_glove item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 120
+
 [villager_hat]
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
@@ -496,6 +1257,23 @@
 	#The amount of extra reputation that is granted by the Villager Hat when trading with villagers
 	#Range: -Infinity ~ Infinity
 	reputationBonus = 75.0
+
+	[villager_hat.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_villager_hat item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost per trade completed with the Villager Hat
+		#Range: > 0
+		damagePerTrade = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 240
 
 [warp_drive]
 	#The duration Ender Pearls go on cooldown for after being thrown using the Warp Drive
@@ -514,6 +1292,23 @@
 	#Allowed Values: true, false
 	nullifyEnderPearlDamage = true
 
+	[warp_drive.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_warp_drive item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 128
+
 [whoopee_cushion]
 	#The probability that a fart sound plays when sneaking or double jumping while wearing the Whoopee Cushion
 	#Range: 0.0 ~ 1.0
@@ -521,6 +1316,23 @@
 	#Whether this item can be found in structures or drop from entities
 	#Allowed Values: true, false
 	generateAsLoot = true
+
+	[whoopee_cushion.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_whoopee_cushion item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 250
 
 [withered_bracelet]
 	#The duration the Withered Bracelet goes on cooldown for after inflicting wither on an entity
@@ -538,3 +1350,20 @@
 	#The level of the wither effect that is inflicted by the Withered Bracelet
 	#Range: 0 ~ 256
 	witherLevel = 2
+
+	[withered_bracelet.durability]
+		#Whether this item has a limited number of uses
+		#Allowed Values: true, false
+		canBeDamaged = false
+		#Whether this item can be repaired using items in the artifacts:repairs_withered_bracelet item tag
+		#Allowed Values: true, false
+		canBeRepaired = false
+		#The amount of durability lost every time this item's ability is triggered
+		#Range: > 0
+		damagePerActivation = 1
+		#Whether this item should remain intact and stop working when its durability reaches 1
+		#Allowed Values: true, false
+		indestructible = true
+		#The maximum amount of damage that this item can take before breaking
+		#Range: > 0
+		maxDamage = 450

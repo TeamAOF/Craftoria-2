@@ -1,0 +1,17 @@
+{
+	"archeology_sites": {
+		"salt": 990880770,
+		"separation": 16,
+		"spacing": 32
+	},
+	"fossil_sites": {
+		"salt": 990880771,
+		"separation": 12,
+		"spacing": 24
+	},
+	"underwater_ruins": {
+		"salt": 990880772,
+		"separation": 12,
+		"spacing": 16
+	}
+}

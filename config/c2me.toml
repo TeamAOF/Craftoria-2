@@ -79,6 +79,11 @@ globalExecutorParallelism = "default"
 	# (Default: true) Whether to enable StructureWeightSampler optimizations to accelerate world generation
 	# 
 	optimizeStructureWeightSampler = "default"
+	# (Default: true) Enables the built-in integrations with other worldgen mods in density function compiler.
+	# 
+	# Depends on vanillaWorldGenOptimizations.useDensityFunctionCompiler
+	# 
+	enableBuiltinDFCIntegrations = "default"
 
 	[vanillaWorldGenOptimizations.nativeAcceleration]
 		# (Default: false) Enable the use of AVX512 for native acceleration
@@ -95,7 +100,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		# Set to false for the following reasons: 
-		# Incompatible with iris@1.10.9+mc26.1.1 (<1.10.2) (defined in c2me) 
+		# Incompatible with iris@1.11.3+mc26.1.2 (<1.10.2) (defined in c2me) 
 		enabled = "default"
 		# (Default: 66) Max render distance allowed in game options
 		maxViewDistance = "default"
@@ -168,7 +173,7 @@ globalExecutorParallelism = "default"
 	# Only applies when useLegacyScheduling is disabled.
 	# 
 	lowMemoryMode = "default"
-	# (Default: false) Whether to delay full chunk events to after full chunk future have been completed
+	# (Default: true) Whether to delay full chunk events to after full chunk future have been completed
 	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
 	# 
 	# Enabling this will almost certainly break vanilla behavior, disabled by default on fabric

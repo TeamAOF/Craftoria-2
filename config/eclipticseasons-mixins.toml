@@ -54,6 +54,8 @@
 		MixinDefaultModelEmitter = true
 		MixinLevelSlice = true
 		MixinNeoForgeModelAccess = true
+		Mixin_FoliageColorSource = true
+		Mixin_ColorSource = true
 
 [data]
 	MixinsRegistriesDatapackGenerator = true

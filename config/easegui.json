@@ -1,0 +1,404 @@
+{
+  "schema_version": 3,
+  "global": {
+    "enabled": true,
+    "background_animation_duration": 300,
+    "blur_all_transparent_screens": true,
+    "background_dimming_intensity": 0.2,
+    "background_animation_easing": "ease_out_cubic",
+    "element_profiles": {
+      "button_like": {
+        "enabled": true,
+        "duration": 400,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "bottom_to_top"
+      },
+      "text": {
+        "enabled": true,
+        "duration": 300,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "linear",
+        "cascade_direction": "top_to_bottom"
+      },
+      "scrollable": {
+        "enabled": true,
+        "duration": 300,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "top_to_bottom"
+      },
+      "list_entry": {
+        "enabled": true,
+        "duration": 350,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 15.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
+      },
+      "containers": {
+        "enabled": true,
+        "duration": 250,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 20.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
+      }
+    }
+  },
+  "screens": {
+    "container": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "furnace": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "horse_inventory": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "book_edit": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "book_view": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "smithing": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "disconnected": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "loom": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "pack_selection": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "sign_edit": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "options": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "warning": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "stonecutter": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "survival_inventory": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "social_interactions": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "create_world": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "realms_main": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "creative_inventory": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "edit_game_rules": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "enchanting_table": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "command_block_edit": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "options_sub": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "pause": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "direct_join_server": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "grindstone": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "share_to_lan": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "beacon": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "crafting": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "server_selection": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "other_containers": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "cartography_table": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "other": {
+      "enabled": false,
+      "custom_profiles": {}
+    },
+    "death": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "anvil": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "experiments": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "jigsaw_block_edit": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "brewing_stand": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "server_reconfig": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "title": {
+      "enabled": true,
+      "custom_profiles": {},
+      "logo": {
+        "animate_whole_text": false,
+        "logo_profile": {
+          "enabled": true,
+          "duration": 400,
+          "initial_offset": {
+            "x": 0.0,
+            "y": 10.0
+          },
+          "initial_scale": {
+            "x": 0.8,
+            "y": 0.8
+          },
+          "initial_alpha": 0.0,
+          "cascade_delay": 60,
+          "pivot": "center",
+          "easing": "ease_out_back",
+          "cascade_direction": "left_to_right"
+        },
+        "edition_profile": {
+          "enabled": true,
+          "duration": 400,
+          "initial_offset": {
+            "x": 0.0,
+            "y": 5.0
+          },
+          "initial_scale": {
+            "x": 0.9,
+            "y": 0.9
+          },
+          "initial_alpha": 0.0,
+          "cascade_delay": 0,
+          "pivot": "center",
+          "easing": "ease_out_quad",
+          "cascade_direction": "top_to_bottom"
+        }
+      },
+      "splash": {
+        "enabled": true,
+        "splash_delay": 500,
+        "splash_duration": 500,
+        "splash_easing": "ease_out_back"
+      }
+    },
+    "dispenser": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "advancements": {
+      "enabled": true,
+      "custom_profiles": {},
+      "window_profile": {
+        "enabled": true,
+        "duration": 250,
+        "initial_offset": {
+          "x": 0.0,
+          "y": 0.0
+        },
+        "initial_scale": {
+          "x": 0.8,
+          "y": 0.8
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 0,
+        "pivot": "center",
+        "easing": "ease_out_cubic",
+        "cascade_direction": "top_to_bottom"
+      },
+      "tabs_profile": {
+        "enabled": true,
+        "duration": 400,
+        "initial_offset": {
+          "x": -40.0,
+          "y": 0.0
+        },
+        "initial_scale": {
+          "x": 1.0,
+          "y": 1.0
+        },
+        "initial_alpha": 0.0,
+        "cascade_delay": 45,
+        "pivot": "center",
+        "easing": "ease_out_back",
+        "cascade_direction": "left_to_right"
+      }
+    },
+    "lectern": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "credits": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "crafter": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "create_flat_world": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "world_selection": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "edit_world": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "structure_block_edit": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "world_options": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "confirm_link": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "shulker_box": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "edit_server": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "book_sign": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "connecting": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "hopper": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "statistics": {
+      "enabled": true,
+      "custom_profiles": {}
+    },
+    "ease_gui_config": {
+      "enabled": true,
+      "custom_profiles": {}
+    }
+  }
+}

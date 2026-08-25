@@ -56,3 +56,9 @@ entityEquipmentChance = 0.0015
 	#(Requires Curios or Trinkets, currently not compatible with Accessories)
 	#Allowed Values: true, false
 	removeSlotRestrictions = false
+
+[durability]
+	#Allows artifacts to be enchanted with mending and unbreaking when they have durability enabled
+	#For more fine-grained control, the vanilla minecraft:enchantable/durability item tag should be used
+	#Allowed Values: true, false
+	allowDurabilityEnchantments = false

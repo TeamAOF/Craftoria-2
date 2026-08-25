@@ -17,7 +17,7 @@ maximumLevel = 50
 #List of substitutions to perform in names in skill lock lists.
 #Useful if you're using a resource pack to change the names of skills, this config doesn't affect gameplay, just accepted values in other configs so it's easier to think about
 #Format: key=value
-#Valid values: attack, defense, mining, gathering, farming, building, agility, magic
+#Targets may use the IDs from built_in_skills.json or custom_skills.json.
 #Enable or disable skill leveling via GUI or selection. If disabled, skill levels must be granted by commands.
 enableSkillLeveling = true
 #Enable or disable the skill level-up message.
@@ -64,7 +64,7 @@ miningSpeedMultiplier = 0.15
 # Default: 0.25
 # Range: 0.0 ~ 1.0
 "Farming Bonus" = 0.15
-#Bonus XP multiplier per 5 levels of Gathering (e.g., 0.05 = +5% XP per step)
+#Bonus XP multiplier per Gathering perk step (default step is 5; e.g., 0.05 = +5% XP per step)
 # Default: 0.05
 # Range: 0.0 ~ 1.0
 "gathering Bonus" = 0.05
@@ -76,14 +76,14 @@ levelsPerHeart = 20
 # Default: 2.0
 # Range: 0.5 ~ 20.0
 healthPerHeart = 2.0
-#Skill gating rules. (all skills start at level 1 so add 8 to a total count)
+#Skill gating rules. TOTAL counts enabled skills only; each enabled skill starts at level 1.
 #Format: SKILL:MIN_CURRENT_LEVEL:REQS
 #Example: ATTACK:10:TOTAL=30,MINING=5,DEFENSE=5
 #New token: ADV=<namespace:path> (player must have completed the advancement)
 #You can include multiple: ADV=minecraft:story/mine_diamond,ADV=minecraft:nether/root
 #Tokens: TOTAL=<n>, OTHER_SKILL=<n>, ADV=<advancement_id>
 skill_level_gates = []
-#Enable a second skill page for up to 8 custom skills loaded from custom_skills.json.
+#Enable a second skill page for up to 8 additional skills loaded from custom_skills.json.
 enableSecondSkillPage = false
 #Where the built-in/custom page arrows should appear. Valid: TOP, BOTTOM, LEFT, RIGHT.
 subpageNavPosition = "BOTTOM"

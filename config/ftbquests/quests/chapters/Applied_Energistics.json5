@@ -6,9 +6,13 @@
     id: "ae2:mysterious_cube",
     count: 1,
   },
-  filename: "Applied_Energistics",
+  filename: "applied_energistics",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
+  quest_enhance_decorative_lines: [
+  ],
+  quest_enhance_hidden_dependency_lines: [
+  ],
   quests: [
     {
       x: 2.0,
@@ -16,6 +20,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "6ADBF1DFBDF45D7C",
       tasks: [
         {
@@ -42,6 +47,7 @@
       dependencies: [
         "6ADBF1DFBDF45D7C",
       ],
+      size: 1.0,
       id: "011E9553CDCAE218",
       tasks: [
         {
@@ -68,6 +74,7 @@
       dependencies: [
         "011E9553CDCAE218",
       ],
+      size: 1.0,
       id: "4E1B3935FC8A1170",
       tasks: [
         {
@@ -94,6 +101,7 @@
       dependencies: [
         "4E1B3935FC8A1170",
       ],
+      size: 1.0,
       id: "0FA3C7049E71EA4A",
       tasks: [
         {
@@ -120,6 +128,7 @@
       dependencies: [
         "0FA3C7049E71EA4A",
       ],
+      size: 1.0,
       id: "7C201074DDBAE831",
       tasks: [
         {
@@ -146,6 +155,7 @@
       dependencies: [
         "2190034B6F3E2768",
       ],
+      size: 1.0,
       id: "2F6C16939D136BF0",
       tasks: [
         {
@@ -180,6 +190,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "4F6FD689E65509BF",
       tasks: [
         {
@@ -206,6 +217,7 @@
       dependencies: [
         "4F6FD689E65509BF",
       ],
+      size: 1.0,
       id: "6716C1CE7B7FFA94",
       tasks: [
         {
@@ -256,6 +268,7 @@
       dependencies: [
         "7AC17F66BB030623",
       ],
+      size: 1.0,
       id: "20F99CBAD8D587DA",
       tasks: [
         {
@@ -283,6 +296,7 @@
         "06D66E791A9939DD",
         "20F99CBAD8D587DA",
       ],
+      size: 1.0,
       id: "5BB4989DC6C5DB7A",
       tasks: [
         {
@@ -306,6 +320,7 @@
     {
       x: -5.0,
       y: 0.0,
+      size: 1.0,
       id: "06D66E791A9939DD",
       tasks: [
         {
@@ -336,6 +351,7 @@
       dependencies: [
         "03E165961635B0C4",
       ],
+      size: 1.0,
       id: "7AC17F66BB030623",
       tasks: [
         {
@@ -358,6 +374,7 @@
       dependencies: [
         "5707197BA2F70A30",
       ],
+      size: 1.0,
       id: "063B54338B8D5823",
       tasks: [
         {
@@ -384,6 +401,7 @@
       dependencies: [
         "151E812270A52250",
       ],
+      size: 1.0,
       id: "7D57C6962950AA98",
       tasks: [
         {
@@ -410,6 +428,7 @@
       dependencies: [
         "19C33613F2811BAA",
       ],
+      size: 1.0,
       id: "3009C3939976FBD2",
       tasks: [
         {
@@ -436,6 +455,7 @@
       dependencies: [
         "6DFA92E319E7DA77",
       ],
+      size: 1.0,
       id: "151E812270A52250",
       tasks: [
         {
@@ -464,6 +484,7 @@
         "3009C3939976FBD2",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "24E5FA9129987168",
       tasks: [
         {
@@ -490,6 +511,7 @@
       dependencies: [
         "4CD943F9416FB352",
       ],
+      size: 1.0,
       id: "17E8751018E9E0F6",
       tasks: [
         {
@@ -516,6 +538,7 @@
       dependencies: [
         "5ECC7F4F5D2591D9",
       ],
+      size: 1.0,
       id: "263FE6D3550CD41C",
       tasks: [
         {
@@ -566,6 +589,7 @@
       dependencies: [
         "5B1D88BFEA39DBAE",
       ],
+      size: 1.0,
       id: "4CD943F9416FB352",
       tasks: [
         {
@@ -592,6 +616,7 @@
       dependencies: [
         "5BB4989DC6C5DB7A",
       ],
+      size: 1.0,
       id: "5B1D88BFEA39DBAE",
       tasks: [
         {
@@ -618,6 +643,7 @@
       dependencies: [
         "72481CA0AC8AFD6A",
       ],
+      size: 1.0,
       id: "746C3046F10DDD71",
       tasks: [
         {
@@ -644,6 +670,7 @@
       dependencies: [
         "1EEBC04FABD3B3F2",
       ],
+      size: 1.0,
       id: "222793DF035B167C",
       tasks: [
         {
@@ -670,6 +697,7 @@
       dependencies: [
         "222793DF035B167C",
       ],
+      size: 1.0,
       id: "72481CA0AC8AFD6A",
       tasks: [
         {
@@ -697,6 +725,7 @@
         "3A20D522302FE7B9",
         "26ABDCED83E2C40F",
       ],
+      size: 1.0,
       id: "2190034B6F3E2768",
       tasks: [
         {
@@ -731,6 +760,7 @@
       dependencies: [
         "00633D2B1E1DB778",
       ],
+      size: 1.0,
       id: "2F993B0F106DB883",
       tasks: [
         {
@@ -757,6 +787,7 @@
       dependencies: [
         "018956DB32D96ED2",
       ],
+      size: 1.0,
       id: "5619683321410B74",
       tasks: [
         {
@@ -783,6 +814,7 @@
       dependencies: [
         "2F993B0F106DB883",
       ],
+      size: 1.0,
       hide_details_until_startable: false,
       id: "3A20D522302FE7B9",
       tasks: [
@@ -826,6 +858,7 @@
       dependencies: [
         "5707197BA2F70A30",
       ],
+      size: 1.0,
       optional: true,
       id: "72DD0017AC3B1326",
       tasks: [
@@ -853,6 +886,7 @@
       dependencies: [
         "308640ACCC096431",
       ],
+      size: 1.0,
       id: "61340C2A12FEAA26",
       tasks: [
         {
@@ -879,6 +913,7 @@
       dependencies: [
         "23CC2667A1269C9C",
       ],
+      size: 1.0,
       id: "018956DB32D96ED2",
       tasks: [
         {
@@ -905,6 +940,7 @@
       dependencies: [
         "776B03520D87A3BF",
       ],
+      size: 1.0,
       id: "3D9DED933A80CAFA",
       tasks: [
         {
@@ -931,6 +967,7 @@
       dependencies: [
         "758291052A9F6573",
       ],
+      size: 1.0,
       id: "4047F3E2AD081915",
       tasks: [
         {
@@ -957,6 +994,7 @@
       dependencies: [
         "308640ACCC096431",
       ],
+      size: 1.0,
       id: "59128813386BFDB1",
       tasks: [
         {
@@ -984,6 +1022,7 @@
         "1E5B6884D751F618",
         "6DFA92E319E7DA77",
       ],
+      size: 1.0,
       id: "3973F425BD96668A",
       tasks: [
         {
@@ -1018,6 +1057,7 @@
       dependencies: [
         "2190034B6F3E2768",
       ],
+      size: 1.0,
       id: "6DFA92E319E7DA77",
       tasks: [
         {
@@ -1052,6 +1092,7 @@
       dependencies: [
         "75810CDFB362E0CB",
       ],
+      size: 1.0,
       id: "02E883FCCA2FB281",
       tasks: [
         {
@@ -1087,6 +1128,7 @@
       dependencies: [
         "5B1D88BFEA39DBAE",
       ],
+      size: 1.0,
       id: "1EEBC04FABD3B3F2",
       tasks: [
         {
@@ -1113,6 +1155,7 @@
       dependencies: [
         "20F99CBAD8D587DA",
       ],
+      size: 1.0,
       id: "00633D2B1E1DB778",
       tasks: [
         {
@@ -1139,6 +1182,7 @@
       dependencies: [
         "000237AB9C48C8A9",
       ],
+      size: 1.0,
       id: "75810CDFB362E0CB",
       tasks: [
         {
@@ -1165,6 +1209,7 @@
       dependencies: [
         "0B94435972292812",
       ],
+      size: 1.0,
       id: "23CC2667A1269C9C",
       tasks: [
         {
@@ -1191,6 +1236,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "0B94435972292812",
       tasks: [
         {
@@ -1217,6 +1263,7 @@
       dependencies: [
         "0B94435972292812",
       ],
+      size: 1.0,
       id: "6F7A998802C99AD4",
       tasks: [
         {
@@ -1243,6 +1290,7 @@
       dependencies: [
         "2190034B6F3E2768",
       ],
+      size: 1.0,
       id: "19C33613F2811BAA",
       tasks: [
         {
@@ -1269,6 +1317,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "308640ACCC096431",
       tasks: [
         {
@@ -1295,6 +1344,7 @@
       dependencies: [
         "222793DF035B167C",
       ],
+      size: 1.0,
       id: "3B82F8F19AF630D5",
       tasks: [
         {
@@ -1321,6 +1371,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "5ECC7F4F5D2591D9",
       tasks: [
         {
@@ -1348,6 +1399,7 @@
         "19C33613F2811BAA",
         "63327FF2199F01A3",
       ],
+      size: 1.0,
       id: "62FCB2F06126B622",
       tasks: [
         {
@@ -1451,6 +1503,7 @@
       dependencies: [
         "7AC17F66BB030623",
       ],
+      size: 1.0,
       id: "54BCC1A0203B2351",
       tasks: [
         {
@@ -1477,6 +1530,7 @@
       dependencies: [
         "151E812270A52250",
       ],
+      size: 1.0,
       id: "13600E981D85B79D",
       tasks: [
         {
@@ -1503,6 +1557,7 @@
       dependencies: [
         "13600E981D85B79D",
       ],
+      size: 1.0,
       invisible: true,
       id: "7FEBDFAE021B3C56",
       tasks: [
@@ -1533,6 +1588,7 @@
       dependencies: [
         "17E8751018E9E0F6",
       ],
+      size: 1.0,
       invisible: true,
       id: "150D032A0BE1BB76",
       tasks: [
@@ -1560,6 +1616,7 @@
     {
       x: -8.5,
       y: 7.5,
+      size: 1.0,
       invisible: true,
       id: "2805DA3A1F411588",
       tasks: [
@@ -1567,11 +1624,8 @@
           id: "0401C419BD7E0968",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:insulating_resin",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:insulating_resin",
-            },
           },
         },
       ],
@@ -1590,17 +1644,15 @@
       dependencies: [
         "2805DA3A1F411588",
       ],
+      size: 1.0,
       id: "33F695229D12C6FB",
       tasks: [
         {
           id: "7CADB7255707213E",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:harden_insulating_resin",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:harden_insulating_resin",
-            },
           },
         },
       ],
@@ -1616,6 +1668,7 @@
     {
       x: -5.0,
       y: -1.5,
+      size: 1.0,
       invisible: true,
       id: "5319FD97D5133E7A",
       tasks: [
@@ -1623,11 +1676,8 @@
           id: "271EED826A9E39D3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:redstone_crystal",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:redstone_crystal",
-            },
           },
         },
       ],
@@ -1646,6 +1696,7 @@
       dependencies: [
         "5319FD97D5133E7A",
       ],
+      size: 1.0,
       invisible: true,
       id: "53A07420D75804AB",
       tasks: [
@@ -1653,11 +1704,8 @@
           id: "7C7115013EF075C3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:charged_redstone",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:charged_redstone",
-            },
           },
         },
       ],
@@ -1676,6 +1724,7 @@
       dependencies: [
         "06D66E791A9939DD",
       ],
+      size: 1.0,
       invisible: true,
       id: "4DAFFFDC31A78665",
       tasks: [
@@ -1683,11 +1732,8 @@
           id: "65D9771CBEBCDBAF",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:energy_processor_press",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:energy_processor_press",
-            },
           },
         },
       ],
@@ -1706,6 +1752,7 @@
       dependencies: [
         "64483AE7888B1FDB",
       ],
+      size: 1.0,
       invisible: true,
       id: "0003C38C78609709",
       tasks: [
@@ -1736,6 +1783,7 @@
       dependencies: [
         "7A7A4553203B4A21",
       ],
+      size: 1.0,
       id: "1C7918099D5A55E2",
       tasks: [
         {
@@ -1764,6 +1812,7 @@
         "7EB363A3DBFB851F",
         "53A07420D75804AB",
       ],
+      size: 1.0,
       invisible: true,
       id: "09B10C121C7E9023",
       tasks: [
@@ -1771,11 +1820,8 @@
           id: "5FEECCD5C78A9DC8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:energy_processor",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:energy_processor",
-            },
           },
         },
       ],
@@ -1795,6 +1841,7 @@
         "1C7918099D5A55E2",
         "7EB363A3DBFB851F",
       ],
+      size: 1.0,
       id: "79F451F9C8D02A69",
       tasks: [
         {
@@ -1822,6 +1869,7 @@
         "0003C38C78609709",
         "7EB363A3DBFB851F",
       ],
+      size: 1.0,
       invisible: true,
       id: "1607D3C2384B6CFF",
       tasks: [
@@ -1852,6 +1900,7 @@
       dependencies: [
         "09B10C121C7E9023",
       ],
+      size: 1.0,
       invisible: true,
       id: "4D7F6656A6A38EE0",
       tasks: [
@@ -1859,11 +1908,8 @@
           id: "0756ED352853E6A8",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:flux_accessor",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:flux_accessor",
-            },
           },
         },
       ],
@@ -1882,6 +1928,7 @@
       dependencies: [
         "7D57C6962950AA98",
       ],
+      size: 1.0,
       invisible: true,
       id: "2AB5183A0BD8D387",
       tasks: [
@@ -1912,17 +1959,15 @@
       dependencies: [
         "33F695229D12C6FB",
       ],
+      size: 1.0,
       id: "002410CF49E1E14E",
       tasks: [
         {
           id: "2C860FAEA777277A",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:fe_cell_housing",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:fe_cell_housing",
-            },
           },
         },
       ],
@@ -1941,6 +1986,7 @@
       dependencies: [
         "1607D3C2384B6CFF",
       ],
+      size: 1.0,
       invisible: true,
       id: "2B2104D43D2AC913",
       tasks: [
@@ -1971,6 +2017,7 @@
       dependencies: [
         "2B2104D43D2AC913",
       ],
+      size: 1.0,
       invisible: true,
       id: "7214945A24412561",
       tasks: [
@@ -2001,6 +2048,7 @@
       dependencies: [
         "7214945A24412561",
       ],
+      size: 1.0,
       invisible: true,
       id: "0A6AD6B06F6DFC75",
       tasks: [
@@ -2031,6 +2079,7 @@
       dependencies: [
         "0A6AD6B06F6DFC75",
       ],
+      size: 1.0,
       invisible: true,
       id: "277F167EA7E9A759",
       tasks: [
@@ -2061,6 +2110,7 @@
       dependencies: [
         "277F167EA7E9A759",
       ],
+      size: 1.0,
       invisible: true,
       id: "1704E827B6D3E46A",
       tasks: [
@@ -2091,6 +2141,7 @@
       dependencies: [
         "09B10C121C7E9023",
       ],
+      size: 1.0,
       invisible: true,
       id: "20F66D987F15593E",
       tasks: [
@@ -2098,11 +2149,8 @@
           id: "4926D0AEBFE87248",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:core_1k",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:core_1k",
-            },
           },
         },
       ],
@@ -2118,6 +2166,7 @@
     {
       x: -10.5,
       y: 6.0,
+      size: 1.0,
       invisible: true,
       id: "67F060243167F8BF",
       tasks: [
@@ -2170,6 +2219,7 @@
       dependencies: [
         "67F060243167F8BF",
       ],
+      size: 1.0,
       id: "2BB266022C8BFC8C",
       tasks: [
         {
@@ -2222,6 +2272,7 @@
         "1BB254E1EB0BBFEC",
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       id: "05E7C7E41BA79426",
       tasks: [
         {
@@ -2248,6 +2299,7 @@
       dependencies: [
         "6D18BFC48A82E53E",
       ],
+      size: 1.0,
       id: "7A7A4553203B4A21",
       tasks: [
         {
@@ -2274,6 +2326,7 @@
       dependencies: [
         "000F7897FF9ED7DC",
       ],
+      size: 1.0,
       id: "6D18BFC48A82E53E",
       tasks: [
         {
@@ -2300,6 +2353,7 @@
       dependencies: [
         "000F7897FF9ED7DC",
       ],
+      size: 1.0,
       id: "0B98E8AC5CFB0FC2",
       tasks: [
         {
@@ -2326,6 +2380,7 @@
       dependencies: [
         "7277A0413086D71A",
       ],
+      size: 1.0,
       id: "000F7897FF9ED7DC",
       tasks: [
         {
@@ -2356,6 +2411,7 @@
       dependencies: [
         "6976592A2FB069AD",
       ],
+      size: 1.0,
       id: "7277A0413086D71A",
       tasks: [
         {
@@ -2378,6 +2434,7 @@
       dependencies: [
         "77978ED3AC1DFA26",
       ],
+      size: 1.0,
       id: "6976592A2FB069AD",
       tasks: [
         {
@@ -2401,6 +2458,7 @@
     {
       x: 1.0,
       y: 7.5,
+      size: 1.0,
       id: "77978ED3AC1DFA26",
       tasks: [
         {
@@ -2428,6 +2486,7 @@
         "7E61A32D2D2CABA9",
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       id: "237468FAB20906A8",
       tasks: [
         {
@@ -2456,6 +2515,7 @@
         "661CF3A337C32355",
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       id: "4EC894E7808440AC",
       tasks: [
         {
@@ -2491,6 +2551,7 @@
         "7EB363A3DBFB851F",
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       invisible: true,
       id: "01523A200F5E4361",
       tasks: [
@@ -2521,6 +2582,7 @@
       dependencies: [
         "7A7A4553203B4A21",
       ],
+      size: 1.0,
       id: "70EA0BAAB50E32BF",
       tasks: [
         {
@@ -2547,6 +2609,7 @@
       dependencies: [
         "61340C2A12FEAA26",
       ],
+      size: 1.0,
       id: "18D6860E893D80D2",
       tasks: [
         {
@@ -2573,6 +2636,7 @@
       dependencies: [
         "7A7A4553203B4A21",
       ],
+      size: 1.0,
       id: "511E7475AD64A32D",
       tasks: [
         {
@@ -2599,6 +2663,7 @@
       dependencies: [
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       id: "35134F538FC7F562",
       tasks: [
         {
@@ -2633,6 +2698,7 @@
       dependencies: [
         "2190034B6F3E2768",
       ],
+      size: 1.0,
       id: "6C8AB8E9A547D1C9",
       tasks: [
         {
@@ -2667,6 +2733,7 @@
       dependencies: [
         "3973F425BD96668A",
       ],
+      size: 1.0,
       id: "35CA9D458FD5D791",
       tasks: [
         {
@@ -2694,6 +2761,7 @@
         "2F6C16939D136BF0",
         "43333532F2C73DB3",
       ],
+      size: 1.0,
       id: "7290F8670BBBF12E",
       tasks: [
         {
@@ -2720,6 +2788,7 @@
       dependencies: [
         "0547229FF5334CF5",
       ],
+      size: 1.0,
       id: "1B1ED97DF0FE2E3C",
       tasks: [
         {
@@ -2770,6 +2839,7 @@
       dependencies: [
         "2190034B6F3E2768",
       ],
+      size: 1.0,
       id: "0547229FF5334CF5",
       tasks: [
         {
@@ -2797,6 +2867,7 @@
         "082DE0CA32524489",
         "79F451F9C8D02A69",
       ],
+      size: 1.0,
       id: "6BE08185BB44CEF8",
       tasks: [
         {
@@ -2831,6 +2902,7 @@
       dependencies: [
         "7A7A4553203B4A21",
       ],
+      size: 1.0,
       id: "54D178C57E788506",
       tasks: [
         {
@@ -2857,6 +2929,7 @@
       dependencies: [
         "5B1D88BFEA39DBAE",
       ],
+      size: 1.0,
       id: "000237AB9C48C8A9",
       tasks: [
         {
@@ -2883,6 +2956,7 @@
       dependencies: [
         "000237AB9C48C8A9",
       ],
+      size: 1.0,
       id: "3504BCE26041D225",
       tasks: [
         {
@@ -2909,6 +2983,7 @@
       dependencies: [
         "3973F425BD96668A",
       ],
+      size: 1.0,
       id: "2C92B957A5E8646F",
       tasks: [
         {
@@ -2935,6 +3010,7 @@
       dependencies: [
         "5C62B98FAA02C7BF",
       ],
+      size: 1.0,
       id: "6307E15FAAF30712",
       tasks: [
         {
@@ -2962,6 +3038,7 @@
         "43333532F2C73DB3",
         "6C8AB8E9A547D1C9",
       ],
+      size: 1.0,
       id: "6750F4584257BA75",
       tasks: [
         {
@@ -2993,6 +3070,7 @@
     {
       x: -2.0,
       y: -5.0,
+      size: 1.0,
       optional: true,
       id: "19A2B9A9862C59F2",
       tasks: [
@@ -3020,6 +3098,7 @@
       dependencies: [
         "02E883FCCA2FB281",
       ],
+      size: 1.0,
       invisible: true,
       id: "29CFD0E01542A93D",
       tasks: [
@@ -3051,6 +3130,7 @@
       dependencies: [
         "3A20D522302FE7B9",
       ],
+      size: 1.0,
       id: "63327FF2199F01A3",
       tasks: [
         {
@@ -3078,6 +3158,7 @@
         "470F9F5495948475",
         "4C018129EE4B8A8C",
       ],
+      size: 1.0,
       optional: true,
       id: "35A5048875097D66",
       tasks: [
@@ -3105,6 +3186,7 @@
       dependencies: [
         "6DFA92E319E7DA77",
       ],
+      size: 1.0,
       id: "5C62B98FAA02C7BF",
       tasks: [
         {
@@ -3131,6 +3213,7 @@
       dependencies: [
         "4D7F6656A6A38EE0",
       ],
+      size: 1.0,
       invisible: true,
       id: "3E41681892FA2E44",
       tasks: [
@@ -3138,11 +3221,8 @@
           id: "517FFDD881D7A526",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:induction_card",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:induction_card",
-            },
           },
         },
       ],
@@ -3161,6 +3241,7 @@
       dependencies: [
         "20F66D987F15593E",
       ],
+      size: 1.0,
       invisible: true,
       id: "0CED385F6DAF4B37",
       tasks: [
@@ -3168,11 +3249,8 @@
           id: "70E9A28AADB73B07",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:core_4k",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:core_4k",
-            },
           },
         },
       ],
@@ -3191,6 +3269,7 @@
       dependencies: [
         "0CED385F6DAF4B37",
       ],
+      size: 1.0,
       invisible: true,
       id: "087678FA1EE668FC",
       tasks: [
@@ -3198,11 +3277,8 @@
           id: "0B8F035FEF7691B3",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:core_16k",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:core_16k",
-            },
           },
         },
       ],
@@ -3221,6 +3297,7 @@
       dependencies: [
         "087678FA1EE668FC",
       ],
+      size: 1.0,
       invisible: true,
       id: "6C96F5D54545AD02",
       tasks: [
@@ -3228,11 +3305,8 @@
           id: "513EDECFC47337F0",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:core_64k",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:core_64k",
-            },
           },
         },
       ],
@@ -3251,6 +3325,7 @@
       dependencies: [
         "6C96F5D54545AD02",
       ],
+      size: 1.0,
       invisible: true,
       id: "3480351307F0DD04",
       tasks: [
@@ -3258,11 +3333,8 @@
           id: "148E46A05BF842A1",
           type: "item",
           item: {
-            id: "ftbquests:missing_item",
+            id: "appflux:core_256k",
             count: 1,
-            components: {
-              "ftbquests:missing_item": "appflux:core_256k",
-            },
           },
         },
       ],
@@ -3278,6 +3350,7 @@
     {
       x: -3.5,
       y: -6.0,
+      size: 1.0,
       optional: true,
       id: "15008EFBA92CC3DC",
       tasks: [
@@ -3301,6 +3374,7 @@
       dependencies: [
         "0418659818AD0712",
       ],
+      size: 1.0,
       id: "123F10122DCC72F9",
       tasks: [
         {
@@ -3341,6 +3415,7 @@
       dependencies: [
         "2B2104D43D2AC913",
       ],
+      size: 1.0,
       id: "0418659818AD0712",
       tasks: [
         {
@@ -3371,6 +3446,7 @@
         "1607D3C2384B6CFF",
       ],
       dependency_requirement: "one_completed",
+      size: 1.0,
       id: "4E33ED9C42F906F6",
       tasks: [
         {
@@ -3397,6 +3473,7 @@
     {
       x: 0.0,
       y: 6.0,
+      size: 1.0,
       id: "7C8EF2A739AAC1D7",
       tasks: [
         {
@@ -3431,6 +3508,7 @@
       dependencies: [
         "4EC894E7808440AC",
       ],
+      size: 1.0,
       id: "6618D7F353A6FFAD",
       tasks: [
         {
@@ -3493,6 +3571,7 @@
         "1607D3C2384B6CFF",
         "151E812270A52250",
       ],
+      size: 1.0,
       id: "4670BD132DF4A70E",
       tasks: [
         {
@@ -3559,6 +3638,7 @@
       dependencies: [
         "6C8AB8E9A547D1C9",
       ],
+      size: 1.0,
       id: "05B2AA73EAEDCCF4",
       tasks: [
         {

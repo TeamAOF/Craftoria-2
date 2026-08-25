@@ -1,0 +1,12 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"oritech:atomic_forge"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:super_ai_chip"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:heisenberg_compensator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:prometheum_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:promethium_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:silicon_wafer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:advanced_computing_engine"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:schrodingers_safe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"oritech:powered_furnace"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

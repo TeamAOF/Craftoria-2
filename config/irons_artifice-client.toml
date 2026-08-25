@@ -1,0 +1,56 @@
+[Ammo-Counter]
+	#Whether the ammo indicator HUD is shown when holding a gun
+	enabled = true
+	#Ammo Counter Screen Anchor
+	#Allowed Values: BOTTOM_RIGHT, BOTTOM_LEFT, TOP_RIGHT, TOP_LEFT, HOTBAR
+	anchor = "BOTTOM_RIGHT"
+	#Horizontal offset from the anchor edge (pixels)
+	# Default: 24
+	# Range: 0 ~ 512
+	offsetX = 24
+	#Vertical offset from the anchor edge (pixels)
+	# Default: 24
+	# Range: 0 ~ 512
+	offsetY = 24
+	#Show the bullet icon beside the ammo text
+	showIcon = true
+	#Show magazine capacity beside ammo count
+	showMagazine = true
+	#Show reserve ammo count from inventory
+	showReserve = true
+	#Scale of the loaded ammo digits
+	# Default: 2.0
+	# Range: 0.25 ~ 8.0
+	loadedScale = 2.0
+	#Bullet icon size in pixels
+	# Default: 16
+	# Range: 4 ~ 64
+	iconSize = 16
+	#Whether to draw drop shadow on ammo text
+	textShadow = true
+	#Text color at full magazine
+	colorFull = "#FFFFFF"
+	#Text color at low ammo
+	colorLow = "#FFAA00"
+	#Text color when magazine is empty
+	colorEmpty = "#FF5555"
+	#Reserve ammo text color
+	colorReserve = "#CCCCCC"
+	#Bullet icon tint
+	colorIcon = "#FFFFFF"
+	#Play a ghostly zero flash when the magazine empties
+	flashEnabled = true
+	#Empty-magazine flash duration in ticks
+	# Default: 30
+	# Range: 1 ~ 100
+	flashDurationTicks = 30
+	#Flash scale multiplier
+	# Default: 6.0
+	# Range: 1.0 ~ 16.0
+	flashScale = 6.0
+	#Percent of how far the flash drifts toward screen center (1.0 = reach center)
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	flashTravel = 0.4
+	#Empty-magazine flash color (hex, e.g. #FF5555)
+	colorFlash = "#FF5555"

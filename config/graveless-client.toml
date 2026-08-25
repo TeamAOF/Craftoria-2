@@ -1,0 +1,7 @@
+[general]
+	#Use the custom ghost shader (fresnel rim glow, shimmer). Disable to fall back to plain translucent rendering if the shader causes issues on your system.
+	use_shaders = true
+	#Render the vertical light beam above your grave.
+	show_beam = true
+	#Log extra client-side diagnostic information.
+	debug_logging = false

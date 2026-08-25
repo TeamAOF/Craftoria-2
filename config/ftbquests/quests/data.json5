@@ -30,4 +30,18 @@
   hide_excluded_quests: false,
   fallback_locale: "en_us",
   verify_on_load: false,
+  presets: {
+    normal: {
+      shape: "square",
+      size: 1.0,
+    },
+    goal: {
+      shape: "hexagon",
+      size: 2.0,
+    },
+    info: {
+      shape: "gear",
+      size: 1.0,
+    },
+  },
 }

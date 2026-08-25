@@ -1,0 +1,17 @@
+{
+	"skeleton_dungeons": {
+		"skeleton_dungeon": true
+	},
+	"small_dungeons": {
+		"small_dungeon": true
+	},
+	"small_nether_dungeons": {
+		"small_nether_dungeon": true
+	},
+	"spider_dungeons": {
+		"spider_dungeon": true
+	},
+	"zombie_dungeons": {
+		"zombie_dungeon": true
+	}
+}

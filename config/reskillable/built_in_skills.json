@@ -1,0 +1,92 @@
+{
+  "builtInSkills": [
+    {
+      "skill": "mining",
+      "id": "mining",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "gathering",
+      "id": "gathering",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "attack",
+      "id": "attack",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "defense",
+      "id": "defense",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "building",
+      "id": "building",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "farming",
+      "id": "farming",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "agility",
+      "id": "agility",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    },
+    {
+      "skill": "magic",
+      "id": "magic",
+      "displayName": "",
+      "enabled": true,
+      "icon": "",
+      "perkAttributes": null,
+      "perkOperation": null,
+      "perkAmountPerStep": null,
+      "perkStep": 5
+    }
+  ]
+}

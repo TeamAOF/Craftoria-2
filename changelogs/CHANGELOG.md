@@ -1,3 +1,66 @@
+# Craftoria | v0.11.0
+
+_Neoforge_ 26.1.2.76 | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.11.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.11.0.md)_
+
+### Changes/Improvements ⭐
+
+* Add skill requirements for fertilizers & watering can `AK`
+* Add skill requirement for Staff of Levity `AK`
+* Add skill requirement for The Ender sword `AK`
+* Add skill requirements for just hammers `AK`
+
+### Added Mods ✅
+
+* [Applied Flux](https://curseforge.com/projects/965012)
+* [Architectury API](https://curseforge.com/projects/419699)
+* [Athena](https://curseforge.com/projects/841890)
+* [Atlas API](https://curseforge.com/projects/1145462)
+* [Better Advanced Tooltips](https://curseforge.com/projects/1637623)
+* [Better Archeology](https://curseforge.com/projects/835687)
+* [Dark Mode Everywhere](https://curseforge.com/projects/574123)
+* [Data Anchor](https://curseforge.com/projects/1203668)
+* [Enhanced Celestials 2: Core](https://curseforge.com/projects/1621796)
+* [Enhanced Celestials 2: Default Lunar Events](https://curseforge.com/projects/1621820)
+* [Enhanced Celestials 2: Shader Support](https://curseforge.com/projects/1621851)
+* [Entity Culling Fabric/Forge](https://curseforge.com/projects/448233)
+* [FlickerFix](https://curseforge.com/projects/431430)
+* [FTB Quest Enhance](https://curseforge.com/projects/1610171)
+* [Functional Storage](https://curseforge.com/projects/556861)
+* [Graveless](https://curseforge.com/projects/1646227)
+* [Iron's Arms 'n Artifice](https://curseforge.com/projects/1650193)
+* [Iron's Gems 'n Jewelry](https://curseforge.com/projects/1101111)
+* [Iron's Lib](https://curseforge.com/projects/1492763)
+* [JEI Biome](https://curseforge.com/projects/1598029)
+* [Just Enough Archaeology](https://curseforge.com/projects/890755)
+* [Just Enough Resources (JER)](https://curseforge.com/projects/240630)
+* [Lighty](https://curseforge.com/projects/986380)
+* [Measurements](https://curseforge.com/projects/478559)
+* [Not Enough Recipe Book \[NERB\]](https://curseforge.com/projects/738663)
+* [Plonk](https://curseforge.com/projects/345779)
+* [Reliquary Reincarnations](https://curseforge.com/projects/241319)
+* [ShatterLib | OctoLib](https://curseforge.com/projects/916747)
+* [Titanium](https://curseforge.com/projects/287342)
+* [Wakes Reforged](https://curseforge.com/projects/1223529)
+* [YUNG's API (Forge/NeoForge)](https://curseforge.com/projects/421850)
+* [YUNG's Better Caves (Forge/NeoForge)](https://curseforge.com/projects/340583)
+* [YUNG's Better Desert Temples (Forge/NeoForge)](https://curseforge.com/projects/631016)
+* [YUNG's Better Dungeons (Forge/NeoForge)](https://curseforge.com/projects/510089)
+* [YUNG's Better End Island (Forge/NeoForge)](https://curseforge.com/projects/901344)
+* [YUNG's Better Jungle Temples (Forge/NeoForge)](https://curseforge.com/projects/897669)
+* [YUNG's Better Mineshafts (Forge/NeoForge)](https://curseforge.com/projects/389665)
+* [YUNG's Better Nether Fortresses (Forge/NeoForge)](https://curseforge.com/projects/817651)
+* [YUNG's Better Ocean Monuments (Forge/NeoForge)](https://curseforge.com/projects/689238)
+* [YUNG's Better Strongholds (Forge/NeoForge)](https://curseforge.com/projects/465575)
+* [YUNG's Better Witch Huts (Forge/NeoForge)](https://curseforge.com/projects/631401)
+* [YUNG's Bridges (Forge/NeoForge)](https://curseforge.com/projects/536660)
+* [YUNG's Cave Biomes (Forge/NeoForge)](https://curseforge.com/projects/1111586)
+* [YUNG's Extras (Forge/NeoForge)](https://curseforge.com/projects/480006)
+
+### Removed Mods ❌
+
+* [Advanced Loot Info](https://curseforge.com/projects/1205426)
+* [Epitaphs](https://curseforge.com/projects/1325482)
+---
 # Craftoria | v0.10.1
 
 _Neoforge_ 26.1.2.76 | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.10.1.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.10.1.md)_

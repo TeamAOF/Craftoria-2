@@ -144,6 +144,9 @@
     "apotheosis": {
       "adventure": true
     },
+    "chisel": {
+      "jade_plugin": true
+    },
     "extendedae": {
       "jade_chamber": true,
       "jade_wireless": true
@@ -157,6 +160,10 @@
     },
     "balm": {
       "jade": true
+    },
+    "functionalstorage": {
+      "armory": true,
+      "drawer": true
     },
     "ae2": {
       "part_icon": true,
@@ -189,6 +196,12 @@
     },
     "crystalix": {
       "crystalix": true
+    },
+    "reliquary": {
+      "pedestal": true,
+      "altar": true,
+      "mortar": true,
+      "cauldron": true
     },
     "dynamic_difficulty": {
       "level": true

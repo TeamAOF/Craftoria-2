@@ -27,6 +27,10 @@ evolution_upgrade_points = 300
 	# Default: 100.0
 	# Range: 1.0 ~ 10000.0
 	max_invictus = 100.0
+	#Spiritus a Spiritus Gem spends to capture a spawner or trial spawner via sneak + right-click
+	# Default: 200.0
+	# Range: 0.0 ~ 100000.0
+	spawner_capture_cost = 200.0
 
 #Spiritus Crystal Growth Configuration
 #These values control how spiritus crystals form and grow.
@@ -104,9 +108,6 @@ evolution_upgrade_points = 300
 	# Range: 0 ~ 100000
 	sanguine_ward_min_ev = 200
 
-#Torment Nexus Configuration
-#Controls the EV upkeep and EV-yield modifier for the Torment Nexus ritual,
-#which simulates kills from caged spawners and trial spawners in its area.
 [torment_nexus]
 	#EV cost charged per simulated mob kill (paid out of the network each kill).
 	# Default: 75
@@ -133,3 +134,27 @@ evolution_upgrade_points = 300
 	# Default: 5
 	# Range: 1 ~ 64
 	vertical_range = 5
+	#Maximum loot table rolls per spawner per ritual operation. When more kills than this
+	#occur in one operation, the sampled drops are scaled up to match the full kill count,
+	#so total loot stays the same while loot tables (and other mods' loot modifiers) run
+	#far less often. Higher values give more variety per operation at a performance cost.
+	# Default: 5
+	# Range: 1 ~ 1024
+	max_loot_rolls_per_spawner = 5
+
+#Torment Nexus Configuration
+#Controls the EV upkeep and EV-yield modifier for the Torment Nexus ritual,
+#which simulates kills from caged spawners and trial spawners in its area.
+#Array of Liquified Experience: moves experience between Tomes of Peritia
+#in the container below the array and an adjacent tank holding an experience fluid.
+[liquified_experience]
+	#Fluid the array reads and writes, as modid:fluid_id.
+	#Leave empty to use Neo Vitae's own Liquified Experience.
+	#Set this if another mod in your pack provides the experience fluid you would rather use,
+	#for example 'industrialforegoing:essence'. Unknown ids fall back to Neo Vitae's fluid.
+	preferred_fluid = ""
+	#Millibuckets of experience fluid produced per point of stored experience.
+	#Set this to match whichever mod provides the experience fluid.
+	# Default: 20
+	# Range: 1 ~ 10000
+	mb_per_point = 20

@@ -24,3 +24,9 @@ feedingTroughMaxAnimals = 24
 # Default: 1.0
 # Range: 0.0 ~ 1.0
 fertilizerBonusCropChance = 1.0
+#The chance to get a bonus growth on farmland hydrated by a Watering Can.
+# Default: 1.0
+# Range: 0.0 ~ 1.0
+hydrationBonusGrowthChance = 1.0
+#If true, farmland will not become moist from nearby water. Rain and Watering Cans still hydrate farmland.
+disableVanillaWatering = false

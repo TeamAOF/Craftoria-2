@@ -2,6 +2,10 @@
 dropNodeItem = true
 #Enable debug overlays and diagnostic logging.
 debugMode = false
+#Send June awareness message.
+juneAwarenessMessage = true
+#Whether logistics networks are processed each server tick. Disable to isolate network-related crashes for debugging.
+networkTickingEnabled = true
 
 [backoff]
 	#Maximum backoff ticks for item, fluid, chemical, and source transfers.

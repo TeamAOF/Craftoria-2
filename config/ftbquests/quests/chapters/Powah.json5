@@ -6,9 +6,13 @@
     id: "powah:thermo_generator_spirited",
     count: 1,
   },
-  filename: "Powah",
+  filename: "powah",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
+  quest_enhance_decorative_lines: [
+  ],
+  quest_enhance_hidden_dependency_lines: [
+  ],
   quests: [
     {
       icon: {
@@ -47,6 +51,7 @@
     {
       x: -1.5,
       y: -3.5,
+      size: 1.0,
       id: "292875386D7B9981",
       tasks: [
         {
@@ -66,6 +71,7 @@
       dependencies: [
         "5663A6C559490A29",
       ],
+      size: 1.0,
       id: "119752DA7C1B29B6",
       tasks: [
         {
@@ -220,6 +226,7 @@
       },
       x: -1.5,
       y: -2.5,
+      size: 1.0,
       id: "07EF829BFBBB4009",
       tasks: [
         {
@@ -259,6 +266,7 @@
       dependencies: [
         "07EF829BFBBB4009",
       ],
+      size: 1.0,
       id: "5663A6C559490A29",
       tasks: [
         {
@@ -281,6 +289,7 @@
       dependencies: [
         "292875386D7B9981",
       ],
+      size: 1.0,
       id: "06DED76B2F4AFD02",
       tasks: [
         {
@@ -300,6 +309,7 @@
       dependencies: [
         "06DED76B2F4AFD02",
       ],
+      size: 1.0,
       id: "001579E45AFFB837",
       tasks: [
         {

@@ -12,3 +12,11 @@ theme = "dark"
 defaultNodeVisibility = true
 #Render logistics nodes as connected textures when neighboring nodes are visible.
 connectedNodeTextures = true
+#Show resource transfer particles while holding a wrench.
+showTransferVisuals = true
+#Maximum simultaneous resource transfer paths.
+# Default: 100
+# Range: 1 ~ 1000
+maxTransferVisuals = 100
+#Use the classic green terminal look for the network computer instead of the selected GUI theme.
+computerClassicTheme = true
