@@ -32,6 +32,12 @@
     "ae2:certus_quartz_axe": ["gathering:5"],
     "ae2:certus_quartz_hoe": ["farming:5"],
 
+    "justhammers:iron_hammer": ["gathering:6"],
+    "justhammers:iron_impact_hammer": ["gathering:6"],
+    "justhammers:iron_reinforced_hammer": ["gathering:6"],
+    "justhammers:iron_reinforced_impact_hammer": ["gathering:6"],
+    "justhammers:iron_destructor_hammer": ["gathering:6"],
+
     "occultism:silver_sword": ["attack:8"],
     "occultism:silver_spear": ["attack:8"],
     "occultism:silver_shovel": ["gathering:8"],
@@ -69,6 +75,12 @@
     "minecraft:diamond_leggings": ["defense:15"],
     "minecraft:diamond_boots": ["defense:15"],
 
+    "justhammers:diamond_hammer": ["gathering:16"],
+    "justhammers:diamond_impact_hammer": ["gathering:16"],
+    "justhammers:diamond_reinforced_hammer": ["gathering:16"],
+    "justhammers:diamond_reinforced_impact_hammer": ["gathering:16"],
+    "justhammers:diamond_destructor_hammer": ["gathering:16"],
+
     "aquaculture:neptunium_pickaxe": ["mining:17"],
     "aquaculture:neptunium_sword": ["attack:17"],
     "aquaculture:neptunium_bow": ["attack:17"],
@@ -101,6 +113,13 @@
     "minecraft:netherite_chestplate": ["defense:30"],
     "minecraft:netherite_leggings": ["defense:30"],
     "minecraft:netherite_boots": ["defense:30"],
+    "reliquary:magicbane": ["magic: 30", "attack:30"],
+
+    "justhammers:netherite_hammer": ["gathering:31"],
+    "justhammers:netherite_impact_hammer": ["gathering:31"],
+    "justhammers:netherite_reinforced_hammer": ["gathering:31"],
+    "justhammers:netherite_reinforced_impact_hammer": ["gathering:31"],
+    "justhammers:netherite_destructor_hammer": ["gathering:31"],
 
     "neovitae:sentient_pickaxe": ["mining:33"],
     "neovitae:sentient_sword": ["attack:33"],
