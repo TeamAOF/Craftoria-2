@@ -10,10 +10,6 @@
   default_quest_shape: "hexagon",
   default_hide_dependency_lines: true,
   default_min_width: 192,
-  quest_enhance_decorative_lines: [
-  ],
-  quest_enhance_hidden_dependency_lines: [
-  ],
   quests: [
     {
       x: -7.25,

@@ -10,10 +10,6 @@
   default_quest_shape: "",
   default_hide_dependency_lines: false,
   autofocus_id: "3F3C9A6F590496AD",
-  quest_enhance_decorative_lines: [
-  ],
-  quest_enhance_hidden_dependency_lines: [
-  ],
   quests: [
     {
       x: 1.5,

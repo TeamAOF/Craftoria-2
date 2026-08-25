@@ -1394,14 +1394,6 @@
     "curseForgeHash": 1451565809,
     "modrinthHash": "300fbea445eaade33672511fb6ec20732f779fb6"
   },
-  "quest_enhance-26.1.2-neoforge-2.9.jar": {
-    "jarName": "quest_enhance-26.1.2-neoforge-2.9.jar",
-    "modId": "quest_enhance",
-    "name": "Quest Enhance",
-    "version": "26.1.2-neoforge-2.9",
-    "curseForgeHash": 3163967476,
-    "modrinthHash": "49f2788dd0c688d94e4be428781e457df3a92c97"
-  },
   "refurbished_furniture-neoforge-26.1.2-1.0.23.jar": {
     "jarName": "refurbished_furniture-neoforge-26.1.2-1.0.23.jar",
     "modId": "refurbished_furniture",

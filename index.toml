@@ -714,7 +714,7 @@ hash = "53c3f3d71a520b42cf78d1bb4bb7efc2cbb7330c37d5400bf193c86ab0b21644"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "cd508c9bfa43edb3e3f794f375a752a7a35df321db90e9b496b4bc71407872dd"
+hash = "20376454d7f848c826e283a5ab8bfea5e5619c29acf2b8f27728417bcc9c7936"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -954,7 +954,7 @@ hash = "564e3cbbd044bfcc8c3d58700efeaec8355b8b815777e679dd80e201c1721d92"
 
 [[files]]
 file = "config/eclipticseasons_bundles-common.toml"
-hash = "0530b2da558e9040123ed003bbb1f19b7329a6946312989f53fc5121a10fb3cd"
+hash = "a5f8e9e1a2c14802272c4065286fb8b5a4bfcb3db7fee9093c14ae70a856a648"
 
 [[files]]
 file = "config/ecologics-common.toml"
@@ -1254,7 +1254,7 @@ hash = "ab5bddd37e60b7fddaeace0dd62399929ad6f22a756295178d701fb351fa6f68"
 
 [[files]]
 file = "config/ftbquests-client.json5"
-hash = "db1df8b96c0c7a0aa76ede773247407eea7026ff095eb31725ba3a1ba55fc6df"
+hash = "80f8cbfae75f35291dca8a3c86dfea1f451e27afbb580bf000ebf5c558992e0e"
 
 [[files]]
 file = "config/ftbquests.zip"
@@ -1266,31 +1266,31 @@ hash = "0903d9dab4fa8b896dd7970cf005f3a45dadf425183f057d31a63c99f1a6d09b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.json5"
-hash = "77db02aff10e6e4e97310242d773f4078d5b5ce88f08ef9b758402ad7fdded93"
+hash = "1daeb290d5faf2253d6d0cf93a67963caf8f656ba3f04af86e949ee91b71c9fd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fishing.json5"
-hash = "00aaeed121b90c4429daf5d56295cae7eb16af5d569a3300561a2530a274a373"
+hash = "250c4e393c74de9e4eea33d5ed2613d995af9cb4e9d4af92fa51f372b322ca91"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.json5"
-hash = "cac90b9d6e20b1afa08a670461ec38da55b38054c8edf4cbe8b599d8d6c1d4ef"
+hash = "88163e1f81d7ef0a13893883c60d7680c97c4fa751f35525d073b0fa7d055584"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/justdirethings.json5"
-hash = "893758e3b3422ade0bf8b6ea0299f906432f44bfbf0d15cc131722942c2496b2"
+hash = "41398a95f0e8047f6e7a7a27d62d6d0c6d3f68c8c99c2290df23d07af54a05a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/occultism.json5"
-hash = "ed32b06bbcabab3d81ef45a8306bc78541c7431a0aa34de25c86e5fe54ae7783"
+hash = "2a51c8b9d3e6b7531c6cd1672b11289788291d024d5ac63fddd6a88888639990"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/powah.json5"
-hash = "448cb5a14cbf89ba7dadb522196b3e427ea5ccc47cd8f66a1e3c885ffdb1d6ff"
+hash = "e6b08aee34a3012006c8b2bde7f52070093e1b33da23f455a06d772d587b824b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/theurgy.json5"
-hash = "f02d938c33a16f038edc785dd9f936b90e3f0d23934e7bbb87e08c42d6dee8be"
+hash = "016f4fe7787914c213dbd1bdc43185b1f5a44f46810e139b9da4549c630f5a9f"
 
 [[files]]
 file = "config/ftbquests/quests/data.json5"
@@ -1626,7 +1626,7 @@ hash = "eff996076ce1a776af4239f3bc43e2d81d3be672f5497f8bcfd86063325fa2b6"
 
 [[files]]
 file = "config/jei_biome/biome_blocks.json"
-hash = "771cc92ba482940bb2d3961bf5cd077f9d78e2f8449c810c9493b5ee8689484b"
+hash = "bde7330e1a90facb161dc14922c23fbdfac510bb620a87cc498f01b79a2cc685"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -4487,11 +4487,6 @@ metafile = true
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "990fed4219a2279ce195ba10ed86e3ded7432b631380d3673e13e1b19c75f477"
-metafile = true
-
-[[files]]
-file = "mods/quest-enhance.pw.toml"
-hash = "a2c04e3dc2e71718b41a61aba59a6cd43c55b7dcde2366e5ebe04c203213090d"
 metafile = true
 
 [[files]]

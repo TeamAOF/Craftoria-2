@@ -24,7 +24,6 @@ _Neoforge_ 26.1.2.76 | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blo
 * [Enhanced Celestials 2: Shader Support](https://curseforge.com/projects/1621851)
 * [Entity Culling Fabric/Forge](https://curseforge.com/projects/448233)
 * [FlickerFix](https://curseforge.com/projects/431430)
-* [FTB Quest Enhance](https://curseforge.com/projects/1610171)
 * [Functional Storage](https://curseforge.com/projects/556861)
 * [Graveless](https://curseforge.com/projects/1646227)
 * [Iron's Arms 'n Artifice](https://curseforge.com/projects/1650193)

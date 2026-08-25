@@ -9,10 +9,6 @@
   filename: "occultism",
   default_quest_shape: "",
   default_hide_dependency_lines: false,
-  quest_enhance_decorative_lines: [
-  ],
-  quest_enhance_hidden_dependency_lines: [
-  ],
   quests: [
     {
       icon: {
