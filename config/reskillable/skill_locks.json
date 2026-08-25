@@ -74,6 +74,7 @@
     "minecraft:diamond_chestplate": ["defense:15"],
     "minecraft:diamond_leggings": ["defense:15"],
     "minecraft:diamond_boots": ["defense:15"],
+    "enderio:staff_of_levity": ["magic:15"],
 
     "justhammers:diamond_hammer": ["gathering:16"],
     "justhammers:diamond_impact_hammer": ["gathering:16"],
