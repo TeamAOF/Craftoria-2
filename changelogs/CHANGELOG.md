@@ -1,6 +1,6 @@
 # Craftoria | v0.11.0
 
-_Neoforge_ 26.1.2.76 | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.11.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.11.0.md)_
+_Neoforge_ 26.1.2.97 | _[Mod Updates](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/changelog_mods_0.11.0.md)_ | _[Modlist](https://github.com/TeamAOF/Craftoria-2/blob/main/changelogs/modlist_0.11.0.md)_
 
 ### Changes/Improvements ⭐
 
